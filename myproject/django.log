@@ -1,0 +1,1479 @@
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 10
+"GET /about/ HTTP/1.1" 200 10
+"GET / HTTP/1.1" 200 10
+D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir D:\Django\DZ\project\myproject\locale with glob **/*.mo.
+Watching dir D:\Django\DZ\project\myproject\dz1\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\renderers.py first seen with mtime 1695578518.50173
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\hashlib.py first seen with mtime 1660833691.4090316
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\version.py first seen with mtime 1695578518.570039
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\reprlib.py first seen with mtime 1660833691.968473
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1695578516.3234751
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\http\server.py first seen with mtime 1675886864.636837
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1695578518.4178877
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1695578518.439959
+File D:\Django\DZ\project\venv\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1695578518.5345566
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\contextvars.py first seen with mtime 1660833691.0636232
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\tempfile.py first seen with mtime 1660833693.2930489
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\hmac.py first seen with mtime 1660833691.4110281
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py first seen with mtime 1670420512.3082018
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\files.py first seen with mtime 1695578518.4198842
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1695578517.4270787
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\sre_constants.py first seen with mtime 1660833693.281368
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1695578518.4862876
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\backends\base.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1695578516.3067203
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\importlib\machinery.py first seen with mtime 1660833691.673705
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\locks.py first seen with mtime 1666372900.3920145
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\staggered.py first seen with mtime 1660833690.9902575
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_tzpath.py first seen with mtime 1660833693.461067
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1695578518.4209144
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\exceptions.py first seen with mtime 1695578518.4119017
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1695578517.2550392
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1695578518.4598384
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1695578516.3067203
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\cache.py first seen with mtime 1695578518.5582137
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\manager.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py first seen with mtime 1666372900.3940096
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\_os.py first seen with mtime 1695578518.5560777
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1695578517.4210358
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\_header_value_parser.py first seen with mtime 1660833691.1752155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\fractions.py first seen with mtime 1660833691.4020505
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1695578517.2540421
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\__init__.py first seen with mtime 1660833691.0533087
+File D:\Django\DZ\project\venv\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1695578518.533559
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1695578518.4598384
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1695578518.4538343
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1695578518.439959
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\posixpath.py first seen with mtime 1675886866.1110268
+File D:\Django\DZ\project\myproject\myproject\__init__.py first seen with mtime 1695578708.8194878
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\platform.py first seen with mtime 1670420512.3082018
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\sre_parse.py first seen with mtime 1660833693.2823648
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1695578518.4302657
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\socketserver.py first seen with mtime 1660833693.276334
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\signals.py first seen with mtime 1695578518.4129019
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1695578518.0498815
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\log.py first seen with mtime 1660833690.9836462
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1251.py first seen with mtime 1660833691.209063
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1695578517.4200363
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1695578516.9250853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1695578518.4198842
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1695578518.405393
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1695578516.9250853
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py first seen with mtime 1675886864.612438
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1695578518.581184
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1695578516.9402647
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\sqlite3\__init__.py first seen with mtime 1660833693.2775288
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\generator.py first seen with mtime 1660833691.1633146
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py first seen with mtime 1660833690.9850547
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1695578518.053892
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1695578517.575525
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\management\color.py first seen with mtime 1695578518.4302657
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\sysconfig.py first seen with mtime 1660833693.289346
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1695578517.4295826
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\threads.py first seen with mtime 1660833690.9919338
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\coroutines.py first seen with mtime 1660833690.9808226
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\mime\text.py first seen with mtime 1660833691.167585
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\select.pyd first seen with mtime 1680970060.5488276
+File D:\Django\DZ\project\venv\Lib\site-packages\django\http\cookie.py first seen with mtime 1695578518.5325596
+File D:\Django\DZ\project\myproject\dz1\views.py first seen with mtime 1696074213.1390133
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\contextlib.py first seen with mtime 1660833691.0636232
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1695578518.4063904
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\duration.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1695578518.5766747
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\__init__.py first seen with mtime 1695578518.5746806
+File D:\Django\DZ\project\venv\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1695578516.7570548
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1695578516.9402647
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1695578518.4168918
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\json\scanner.py first seen with mtime 1660833691.7132852
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\importlib\_abc.py first seen with mtime 1660833691.6912498
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\widgets.py first seen with mtime 1695578518.5027277
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_ssl.pyd first seen with mtime 1680970062.4770448
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\uuid.py first seen with mtime 1670420513.32359
+File D:\Django\DZ\project\venv\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1695578518.5355542
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1695578518.4897962
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\pathlib.py first seen with mtime 1660833691.9238853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\mail\message.py first seen with mtime 1695578518.4302657
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\io.py first seen with mtime 1660833691.7117233
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\__init__.py first seen with mtime 1695578518.5499198
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\__init__.py first seen with mtime 1695578516.7496958
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1695578518.3119302
+File D:\Django\DZ\project\venv\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1695578516.6231637
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1695578518.4862876
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py first seen with mtime 1660833691.8734927
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\formats.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\__init__.py first seen with mtime 1695578518.497671
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\fnmatch.py first seen with mtime 1660833691.401054
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1695578518.4598384
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\decimal.py first seen with mtime 1660833691.0881848
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\calendar.py first seen with mtime 1660833691.0434856
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1695578517.5754595
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\database.py first seen with mtime 1695578518.4188848
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1695578517.4270787
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1695578518.5786693
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\debug.py first seen with mtime 1695578518.5756774
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1695578517.426027
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\locks.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_subprocess.py first seen with mtime 1660833690.9796193
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1695578517.5699966
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\difflib.py first seen with mtime 1660833691.0881848
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1695578518.4598384
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1695578518.4538343
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1695578518.544914
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1695578518.4148962
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\generic\list.py first seen with mtime 1695578518.5821807
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1695578516.9250853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1695578518.4598384
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1695578518.4209144
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1695578516.3234751
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\_collections_abc.py first seen with mtime 1670420513.339211
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\models.py first seen with mtime 1695578518.5006938
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\mixins.py first seen with mtime 1660833690.9838345
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\conf\__init__.py first seen with mtime 1695578516.7570548
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\dates.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1695578518.5582137
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1695578516.9250853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\signing.py first seen with mtime 1695578518.4138997
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\move.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\asgiref\local.py first seen with mtime 1695578516.6231637
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_futures.py first seen with mtime 1660833690.9786198
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\site.py first seen with mtime 1660833693.2727144
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\tree.py first seen with mtime 1695578518.570039
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1695578518.4188848
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1695578518.581184
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1695578517.575525
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1695578517.260027
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1695578518.4188848
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\selectors.py first seen with mtime 1660833691.9704678
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\wsgiref\headers.py first seen with mtime 1660833693.4073436
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1695578516.9402647
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\keyword.py first seen with mtime 1660833691.7189755
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\fields.py first seen with mtime 1695578518.4986665
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\random.py first seen with mtime 1660833691.9674747
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\signal.py first seen with mtime 1660833691.9724612
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\encodings\utf_8.py first seen with mtime 1660833691.2482238
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\autoreload.py first seen with mtime 1695578518.5375485
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\engine.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\exceptions.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1695578517.256037
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py first seen with mtime 1666372902.5324957
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1695578518.4956768
+File D:\Django\DZ\project\venv\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1695578518.544914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\types.py first seen with mtime 1660833693.3586564
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\_parseaddr.py first seen with mtime 1660833691.1752155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py first seen with mtime 1660833691.052309
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1695578518.5776725
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\csrf.py first seen with mtime 1695578518.5746806
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\__init__.py first seen with mtime 1660833691.8781233
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\statistics.py first seen with mtime 1670420513.292347
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1695578516.3067203
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\warnings.py first seen with mtime 1660833693.405815
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\urllib\__init__.py first seen with mtime 1680970059.662926
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loader.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\base.py first seen with mtime 1695578518.5499198
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1695578517.575525
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\getpass.py first seen with mtime 1660833691.4050436
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\futures.py first seen with mtime 1666372900.3920145
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1695578518.4538343
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_ctypes.pyd first seen with mtime 1680970062.4571245
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1695578517.575525
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py first seen with mtime 1660833690.9936163
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1695578518.581184
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\wsgiref\__init__.py first seen with mtime 1660833693.4083312
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_zoneinfo.pyd first seen with mtime 1680970062.4810345
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1695578517.2600842
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1695578518.4219296
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1695578518.496672
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\validators.py first seen with mtime 1695578518.4138997
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1695578516.3234751
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1695578516.9402647
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\html.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\conf.py first seen with mtime 1695578518.5499198
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\linecache.py first seen with mtime 1660833691.835489
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1695578518.4798744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\traceback.py first seen with mtime 1660833693.329361
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\forms.py first seen with mtime 1695578518.4986665
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1695578518.4926841
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\hashable.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_queue.pyd first seen with mtime 1680970062.4730535
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\__init__.py first seen with mtime 1695578518.4109027
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1695578518.470272
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\http\cookies.py first seen with mtime 1660833691.4243605
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1695578518.544914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\collections\abc.py first seen with mtime 1660833691.0475
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\gzip.py first seen with mtime 1660833691.4090316
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1695578518.4862876
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1695578518.4158938
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1695578518.4862876
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1695578518.4098928
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1695578518.4168918
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\urllib\response.py first seen with mtime 1660833693.3838913
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1695578518.4598384
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\wsgi.py first seen with mtime 1695578518.4148962
+File D:\Django\DZ\project\venv\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1695578518.497671
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\_encoded_words.py first seen with mtime 1660833691.1742191
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1695578516.9402647
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\__init__.py first seen with mtime 1660833691.178208
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\dis.py first seen with mtime 1660833691.089319
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_uuid.pyd first seen with mtime 1680970062.4800348
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\utils.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1695578517.575525
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\timesince.py first seen with mtime 1695578518.570039
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_decimal.pyd first seen with mtime 1680970062.462083
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\abc.py first seen with mtime 1660833690.9707592
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\smartif.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1695578518.0498815
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1695578516.3222268
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\mime\base.py first seen with mtime 1660833691.1663587
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\html\__init__.py first seen with mtime 1680970064.7722466
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\mimetypes.py first seen with mtime 1660833691.850743
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\numbers.py first seen with mtime 1662461578.4367907
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1695578516.3234751
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\utils.py first seen with mtime 1695578518.5544343
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\http\__init__.py first seen with mtime 1695578518.5325596
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1695578517.2540421
+File D:\Django\DZ\project\venv\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1695578518.544914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\logging\config.py first seen with mtime 1662461578.423824
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\safestring.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\headerregistry.py first seen with mtime 1660833691.1645525
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\opcode.py first seen with mtime 1660833691.9209886
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py first seen with mtime 1660833691.047688
+File D:\Django\DZ\project\venv\Lib\site-packages\_distutils_hack\__init__.py first seen with mtime 1695578434.6057396
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1695578518.4198842
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ipaddress.py first seen with mtime 1660833691.711982
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\pickle.py first seen with mtime 1660833691.9248838
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1695578518.405393
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\utils.py first seen with mtime 1695578518.50173
+File D:\Django\DZ\project\venv\Lib\site-packages\django\middleware\cache.py first seen with mtime 1695578518.5345566
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py first seen with mtime 1680970062.4999812
+File D:\Django\DZ\project\venv\Lib\site-packages\django\shortcuts.py first seen with mtime 1695578516.7496958
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1695578518.404396
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1695578518.4148962
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\shutil.py first seen with mtime 1670420512.3394456
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\contentmanager.py first seen with mtime 1660833691.1622906
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1695578518.4926841
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\policy.py first seen with mtime 1660833691.1732197
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\heapq.py first seen with mtime 1660833691.4100294
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\query.py first seen with mtime 1695578518.4798744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py first seen with mtime 1666372902.5324957
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\inspect.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1695578518.572683
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\cli.py first seen with mtime 1695578516.3067203
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\text.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\_weakrefset.py first seen with mtime 1660833693.4739828
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\enum.py first seen with mtime 1660833691.4000561
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\sre_compile.py first seen with mtime 1660833693.281368
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\wsgiref\simple_server.py first seen with mtime 1660833693.4075816
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\converters.py first seen with mtime 1695578518.5544343
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\exceptions.py first seen with mtime 1660833690.9826167
+File D:\Django\DZ\project\venv\Lib\site-packages\django\http\response.py first seen with mtime 1695578518.5345566
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1695578518.4897962
+File D:\Django\DZ\project\myproject\myproject\urls.py first seen with mtime 1696073227.0537443
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1695578518.4897962
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\constants.py first seen with mtime 1660833690.9796193
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\base.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\timezone.py first seen with mtime 1695578518.570039
+File D:\Django\DZ\project\venv\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1695578516.7600484
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1695578518.5544343
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\nturl2path.py first seen with mtime 1660833691.9199913
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1695578518.4956768
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py first seen with mtime 1660833691.8713489
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_common.py first seen with mtime 1660833693.4600701
+File D:\Django\DZ\project\venv\Lib\site-packages\django\apps\registry.py first seen with mtime 1695578516.7560549
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py first seen with mtime 1660833691.0533087
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1695578517.2550392
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1695578518.5776725
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\temp.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1695578517.6902962
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\http.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1695578516.9250853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1695578518.4798744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py first seen with mtime 1660833691.6936913
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1695578518.4498265
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\os.py first seen with mtime 1666372902.5955195
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ctypes\wintypes.py first seen with mtime 1660833691.0725176
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1695578518.3119302
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1695578518.4538343
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\encoders.py first seen with mtime 1660833691.1622906
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1695578518.4798744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\encodings\aliases.py first seen with mtime 1660833691.2046146
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py first seen with mtime 1660833691.8652942
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\sqlite3\dbapi2.py first seen with mtime 1660833693.276334
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\glob.py first seen with mtime 1660833691.4070375
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1695578516.3234751
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\connection.py first seen with mtime 1695578518.5582137
+File D:\Django\DZ\project\venv\Lib\site-packages\django\templatetags\static.py first seen with mtime 1695578518.544914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\queue.py first seen with mtime 1660833691.9664774
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\urllib\error.py first seen with mtime 1680970070.2509527
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\context.py first seen with mtime 1695578518.538546
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1695578518.557079
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\quopri.py first seen with mtime 1660833691.9674747
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py first seen with mtime 1675886864.611461
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1695578517.574458
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\weakref.py first seen with mtime 1660833693.406308
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\genericpath.py first seen with mtime 1660833691.4040456
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1695578518.4916828
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1695578518.408386
+File D:\Django\DZ\project\venv\Lib\site-packages\django\apps\__init__.py first seen with mtime 1695578516.7496958
+File D:\Django\DZ\project\myproject\dz1\admin.py first seen with mtime 1696071145.1125548
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\token.py first seen with mtime 1660833693.328364
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1695578518.5776725
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\locale.py first seen with mtime 1660833691.8364873
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\utils.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1695578518.4302657
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1695578518.439959
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\__init__.py first seen with mtime 1695578518.5560777
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\dataclasses.py first seen with mtime 1680970062.5089579
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1695578518.4302657
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\base.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\topological_sort.py first seen with mtime 1695578518.570039
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1695578518.470272
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\_compat_pickle.py first seen with mtime 1660833693.4670012
+File D:\Django\DZ\project\venv\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1695578518.5544343
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1695578517.258032
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1695578518.4862876
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\crypto.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1695578517.2550392
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\subprocess.py first seen with mtime 1680970070.2447164
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\wsgiref\util.py first seen with mtime 1660833693.4078054
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1695578518.4946787
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\subprocess.py first seen with mtime 1660833690.9912553
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\argparse.py first seen with mtime 1680970062.4979866
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\utils.py first seen with mtime 1660833691.1742191
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\__init__.py first seen with mtime 1695578518.5375485
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\defaults.py first seen with mtime 1695578518.5756774
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1695578518.470272
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\secrets.py first seen with mtime 1660833691.9694695
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\library.py first seen with mtime 1695578518.5399005
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\uu.py first seen with mtime 1660833693.3928664
+File D:\Django\DZ\project\myproject\dz1\urls.py first seen with mtime 1695581274.6138651
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1695578516.3067203
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ssl.py first seen with mtime 1660833693.2833624
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1695578516.3067203
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1695578516.3067203
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1695578516.3234751
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1695578518.053892
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\copyreg.py first seen with mtime 1660833691.0646198
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1695578516.3234751
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1695578518.408386
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\stat.py first seen with mtime 1660833693.2843604
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1695578518.439959
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\lzma.py first seen with mtime 1660833691.8494697
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\bisect.py first seen with mtime 1660833691.041653
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\bz2.py first seen with mtime 1660833691.0418873
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1695578518.4798744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ast.py first seen with mtime 1670420511.433407
+File D:\Django\DZ\project\venv\Lib\site-packages\django\apps\config.py first seen with mtime 1695578516.7496958
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\__init__.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1695578518.4897962
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_overlapped.pyd first seen with mtime 1680970062.4700742
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1695578518.5801754
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\mime\multipart.py first seen with mtime 1660833691.167204
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\transports.py first seen with mtime 1660833690.9921463
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\inspect.py first seen with mtime 1675886866.10517
+File D:\Django\DZ\project\venv\Lib\site-packages\asgiref\__init__.py first seen with mtime 1695578516.6231637
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\logging\handlers.py first seen with mtime 1662461578.424822
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1695578518.2099512
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1695578518.4073877
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\_sitebuiltins.py first seen with mtime 1660833693.4729855
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py first seen with mtime 1675886864.611461
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1695578518.4148962
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\parser.py first seen with mtime 1660833691.1732197
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\response.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1695578518.0498815
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\wsgiref\handlers.py first seen with mtime 1660833693.4069924
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1695578518.2099512
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\re.py first seen with mtime 1660833691.9674747
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1695578517.4295826
+File D:\Django\DZ\project\venv\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1695578516.9250853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1695578517.4200363
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\codecs.py first seen with mtime 1670420511.4490273
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1695578518.0498815
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1695578516.9402647
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1695578518.4219296
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\encodings\__init__.py first seen with mtime 1660833691.2492208
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\html\parser.py first seen with mtime 1660833691.4120245
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\decorators.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\pprint.py first seen with mtime 1660833691.9336095
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py first seen with mtime 1660833690.9850547
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1695578517.4295826
+File D:\Django\DZ\project\venv\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1695578518.496672
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1695578517.4195328
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_lzma.pyd first seen with mtime 1680970062.4680674
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\static.py first seen with mtime 1695578518.5766747
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\urllib\parse.py first seen with mtime 1670420513.3079686
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1695578518.4219296
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\management\base.py first seen with mtime 1695578518.4302657
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_bz2.pyd first seen with mtime 1680970062.456128
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1695578518.439959
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_sqlite3.pyd first seen with mtime 1680970062.475049
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\base64.py first seen with mtime 1660833691.039141
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1695578518.4862876
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1695578518.4916828
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\quoprimime.py first seen with mtime 1660833691.1742191
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1695578516.939369
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\feedparser.py first seen with mtime 1660833691.1633146
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\functools.py first seen with mtime 1660833691.4030485
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1695578518.544914
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1695578518.2172072
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1695578518.439959
+File D:\Django\DZ\project\venv\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1695578518.544914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_hashlib.pyd first seen with mtime 1680970062.4660726
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\_policybase.py first seen with mtime 1660833691.178208
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1695578518.4498265
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py first seen with mtime 1666372908.4606535
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1695578518.5746806
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1695578518.4209144
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ntpath.py first seen with mtime 1675886866.110051
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1695578517.4270787
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\functional.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\base.py first seen with mtime 1695578518.538546
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\paginator.py first seen with mtime 1695578518.4119017
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py first seen with mtime 1666372902.5334928
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\mime\nonmultipart.py first seen with mtime 1660833691.1674137
+File D:\Django\DZ\project\venv\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1695578518.544914
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1695578518.544914
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\constants.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\sql.py first seen with mtime 1695578516.3067203
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1695578518.470272
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py first seen with mtime 1670420511.433407
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\struct.py first seen with mtime 1660833693.2873528
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\datetime.py first seen with mtime 1660833691.0831976
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1695578518.4227571
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\mime\message.py first seen with mtime 1660833691.1669674
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py first seen with mtime 1670420511.433407
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\threading.py first seen with mtime 1662461578.561457
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\protocols.py first seen with mtime 1660833690.9840555
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_asyncio.pyd first seen with mtime 1680970062.4551237
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\importlib\util.py first seen with mtime 1660833691.690492
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\socket.py first seen with mtime 1680970070.243719
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\__init__.py first seen with mtime 1660833690.9938638
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1695578518.4302657
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\transaction.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1695578518.544914
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\base64mime.py first seen with mtime 1660833691.1609492
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1695578516.9402647
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\generic\base.py first seen with mtime 1695578518.5801754
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_tasks.py first seen with mtime 1660833690.9796193
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\_socket.pyd first seen with mtime 1680970062.4740515
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1695578517.4210358
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\log.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\signals.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1695578518.4946787
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\header.py first seen with mtime 1660833691.1633146
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1695578516.9250853
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1695578518.4302657
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1695578518.408386
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\files\images.py first seen with mtime 1695578518.4227571
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1695578518.560218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\html\entities.py first seen with mtime 1660833691.4110281
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1695578518.439959
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ctypes\_endian.py first seen with mtime 1660833691.0725176
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\options.py first seen with mtime 1695578518.4798744
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1695578518.405393
+File D:\Django\DZ\project\venv\Lib\site-packages\django\http\request.py first seen with mtime 1695578518.533559
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\__init__.py first seen with mtime 1660833693.461067
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\utils.py first seen with mtime 1695578518.5399005
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1695578518.470272
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\errors.py first seen with mtime 1660833691.1622906
+File D:\Django\DZ\project\venv\Lib\site-packages\django\template\backends\django.py first seen with mtime 1695578518.5399005
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\copy.py first seen with mtime 1660833691.0636232
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\trsock.py first seen with mtime 1660833690.9924278
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\encoding.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\myproject\dz1\apps.py first seen with mtime 1696071145.128179
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\http\client.py first seen with mtime 1680970064.8056579
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\utils.py first seen with mtime 1695578516.3067203
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\format_helpers.py first seen with mtime 1660833690.9828255
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\http\__init__.py first seen with mtime 1660833691.427352
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs\unicodedata.pyd first seen with mtime 1680970062.45211
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\_compression.py first seen with mtime 1660833693.4679985
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\iterators.py first seen with mtime 1660833691.1645525
+File D:\Django\DZ\project\myproject\dz1\__init__.py first seen with mtime 1696071145.128179
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\tokenize.py first seen with mtime 1660833693.328364
+File D:\Django\DZ\project\venv\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1695578518.4302657
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1695578518.2099512
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\utils.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1695578517.4270787
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\ctypes\__init__.py first seen with mtime 1660833691.0735161
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\string.py first seen with mtime 1660833693.2853565
+File D:\Django\DZ\project\venv\Lib\site-packages\django\views\i18n.py first seen with mtime 1695578518.5756774
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\gettext.py first seen with mtime 1660833691.4060402
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1695578516.3234751
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\mime\__init__.py first seen with mtime 1680970059.5493088
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1695578516.3234751
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\pkgutil.py first seen with mtime 1660833691.9296207
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\message.py first seen with mtime 1660833691.1653466
+File D:\Django\DZ\project\myproject\myproject\settings.py first seen with mtime 1696074221.7640905
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\typing.py first seen with mtime 1675886866.2135072
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\enums.py first seen with mtime 1695578518.4798744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\asyncio\sslproto.py first seen with mtime 1660833690.986053
+File D:\Django\DZ\project\venv\Lib\site-packages\asgiref\sync.py first seen with mtime 1695578516.638171
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\operator.py first seen with mtime 1660833691.9219856
+File D:\Django\DZ\project\myproject\manage.py first seen with mtime 1695578708.7952323
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1695578518.3099174
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1695578518.4498265
+File D:\Django\DZ\project\venv\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1695578516.3234751
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\formsets.py first seen with mtime 1695578518.5001764
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1695578518.570039
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\concurrent\__init__.py first seen with mtime 1660833691.06063
+File D:\Django\DZ\project\myproject\dz1\models.py first seen with mtime 1696071145.128179
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1695578518.4598384
+File D:\Django\DZ\project\venv\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1695578518.4986665
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\email\charset.py first seen with mtime 1660833691.1609492
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1695578518.4936814
+File D:\Django\DZ\project\venv\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1695578518.560218
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1695578518.053892
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\_markupbase.py first seen with mtime 1660833693.4689963
+File D:\Django\DZ\project\venv\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1695578518.544914
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1695578518.0498815
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1695578518.2202258
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1695578517.4200363
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1695578518.3005195
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1695578518.2172072
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1695578518.2172072
+File D:\Django\DZ\project\venv\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1695578518.5355542
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1695578517.6902962
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1695578518.2099512
+File D:\Django\DZ\project\venv\Lib\site-packages\django\middleware\common.py first seen with mtime 1695578518.5355542
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\stringprep.py first seen with mtime 1660833693.2863557
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\myproject\dz1\migrations\__init__.py first seen with mtime 1696071145.1437712
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1695578517.1226969
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1695578517.1226969
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1695578518.2172072
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\Lib\encodings\idna.py first seen with mtime 1670420511.4490273
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1695578517.6902962
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1695578517.560934
+File D:\Django\DZ\project\venv\Lib\site-packages\django\middleware\security.py first seen with mtime 1695578518.5375485
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1695578518.470272
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1695578517.1226969
+File D:\Django\DZ\project\myproject\myproject\wsgi.py first seen with mtime 1695578708.8194878
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1695578517.5699966
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1695578517.1226969
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1695578517.5699966
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1695578517.5699966
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1695578518.3005195
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1695578517.5699966
+File D:\Django\DZ\project\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1695578517.6902962
+File D:\Django\DZ\project\myproject\myproject\settings.py previous mtime: 1696074221.7640905, current mtime: 1696074258.30505
+D:\Django\DZ\project\myproject\myproject\settings.py notified as changed. Signal results: [(<function template_changed at 0x000001E288B4F1C0>, None), (<function translation_file_changed at 0x000001E28A5E4B80>, None)].
+D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10
+"GET /about/ HTTP/1.1" 200 10
+D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 10
+D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-30 14:48:34,558 autoreload 13952 20112 Watching for file changes with StatReloader
+INFO 2023-09-30 14:57:50,001 autoreload 13952 20112 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 14:57:50,435 autoreload 14248 18824 Watching for file changes with StatReloader
+INFO 2023-09-30 14:58:15,105 autoreload 14248 18824 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 14:58:15,512 autoreload 9944 7020 Watching for file changes with StatReloader
+ERROR 2023-09-30 14:58:19,817 log 9944 2012 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 13, in about
+    return render(request, "templates/base.html", context = {"body": "<h1>'About page'</h1>"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+ERROR 2023-09-30 14:58:19,819 basehttp 9944 2012 "GET /about/ HTTP/1.1" 500 82692
+ERROR 2023-09-30 15:06:25,876 log 9944 156 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 13, in about
+    return render(request, "templates/base.html", context = {"body": "<h1>'About page'</h1>"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+ERROR 2023-09-30 15:06:25,878 basehttp 9944 156 "GET /about/ HTTP/1.1" 500 82692
+INFO 2023-09-30 15:07:08,242 autoreload 9944 7020 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 15:07:08,659 autoreload 13252 15096 Watching for file changes with StatReloader
+ERROR 2023-09-30 15:08:34,578 log 13252 20880 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "templates/base.html", context = {"body": "About page"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/base.html
+ERROR 2023-09-30 15:08:34,581 basehttp 13252 20880 "GET /about/ HTTP/1.1" 500 82564
+INFO 2023-09-30 15:09:53,965 autoreload 13252 15096 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 15:09:54,372 autoreload 20312 12936 Watching for file changes with StatReloader
+INFO 2023-09-30 15:09:56,999 basehttp 20312 15532 "GET /about/ HTTP/1.1" 200 856
+INFO 2023-09-30 15:09:58,704 basehttp 20312 15532 "GET / HTTP/1.1" 200 10
+INFO 2023-09-30 15:10:02,294 basehttp 20312 15532 "GET /about/ HTTP/1.1" 200 856
+INFO 2023-09-30 15:14:58,925 basehttp 20312 15532 "GET /about/ HTTP/1.1" 200 858
+INFO 2023-09-30 15:15:00,213 basehttp 20312 15532 "GET / HTTP/1.1" 200 10
+INFO 2023-09-30 15:15:43,840 autoreload 20312 12936 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 15:15:44,292 autoreload 4516 15952 Watching for file changes with StatReloader
+INFO 2023-09-30 15:24:45,660 basehttp 4516 4880 "GET /about/ HTTP/1.1" 200 1216
+INFO 2023-09-30 15:24:52,349 basehttp 4516 4880 "GET / HTTP/1.1" 200 1216
+INFO 2023-09-30 15:24:53,495 basehttp 4516 4880 "GET /about/ HTTP/1.1" 200 1216
+INFO 2023-09-30 15:24:54,789 basehttp 4516 4880 "GET / HTTP/1.1" 200 1216
+INFO 2023-09-30 15:26:00,599 basehttp 4516 4880 "GET / HTTP/1.1" 200 1216
+INFO 2023-09-30 15:26:01,933 basehttp 4516 4880 "GET / HTTP/1.1" 200 1245
+WARNING 2023-09-30 15:26:01,955 basehttp 4516 4880 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:26:41,994 basehttp 4516 2720 "GET / HTTP/1.1" 200 1219
+WARNING 2023-09-30 15:26:42,020 basehttp 4516 2720 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:26:56,700 basehttp 4516 17912 "GET / HTTP/1.1" 200 1219
+WARNING 2023-09-30 15:26:56,718 basehttp 4516 17912 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:26:57,767 basehttp 4516 14660 "GET / HTTP/1.1" 200 1250
+WARNING 2023-09-30 15:26:57,785 basehttp 4516 14660 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:28:16,717 basehttp 4516 18576 "GET / HTTP/1.1" 200 1269
+WARNING 2023-09-30 15:28:16,738 basehttp 4516 18576 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:29:10,680 basehttp 4516 3552 "GET / HTTP/1.1" 200 1262
+WARNING 2023-09-30 15:29:10,699 log 4516 3552 Not Found: /img/jack.jpeg
+WARNING 2023-09-30 15:29:10,700 basehttp 4516 3552 "GET /img/jack.jpeg HTTP/1.1" 404 2447
+INFO 2023-09-30 15:29:13,823 basehttp 4516 3552 "GET / HTTP/1.1" 200 1262
+WARNING 2023-09-30 15:29:13,841 log 4516 3552 Not Found: /img/jack.jpeg
+WARNING 2023-09-30 15:29:13,841 basehttp 4516 3552 "GET /img/jack.jpeg HTTP/1.1" 404 2447
+INFO 2023-09-30 15:29:29,001 basehttp 4516 3552 "GET / HTTP/1.1" 200 1269
+WARNING 2023-09-30 15:29:29,027 basehttp 4516 3552 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:32:34,461 basehttp 4516 9300 "GET / HTTP/1.1" 200 1281
+WARNING 2023-09-30 15:32:34,480 basehttp 4516 9300 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:32:35,804 basehttp 4516 1012 "GET /about/ HTTP/1.1" 200 1281
+WARNING 2023-09-30 15:32:35,828 basehttp 4516 1012 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:32:36,600 basehttp 4516 8188 "GET / HTTP/1.1" 200 1281
+WARNING 2023-09-30 15:32:36,625 basehttp 4516 8188 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:32:37,824 basehttp 4516 1608 "GET /about/ HTTP/1.1" 200 1281
+WARNING 2023-09-30 15:32:37,849 basehttp 4516 1608 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:32:38,795 basehttp 4516 19608 "GET / HTTP/1.1" 200 1281
+WARNING 2023-09-30 15:32:38,830 basehttp 4516 19608 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:33:25,683 basehttp 4516 484 "GET / HTTP/1.1" 200 1281
+WARNING 2023-09-30 15:33:25,700 basehttp 4516 484 "GET /static/img/jack.jpeg HTTP/1.1" 404 1798
+INFO 2023-09-30 15:33:26,085 autoreload 4516 15952 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 15:33:26,499 autoreload 16244 18532 Watching for file changes with StatReloader
+ERROR 2023-09-30 15:33:27,449 log 16244 18684 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'super()'
+ERROR 2023-09-30 15:33:27,455 basehttp 16244 18684 "GET /about/ HTTP/1.1" 500 169350
+ERROR 2023-09-30 15:33:50,871 log 16244 18684 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'super()'
+ERROR 2023-09-30 15:33:50,874 basehttp 16244 18684 "GET /about/ HTTP/1.1" 500 169024
+INFO 2023-09-30 15:35:54,758 autoreload 16244 18532 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 15:35:55,183 autoreload 1948 12608 Watching for file changes with StatReloader
+INFO 2023-09-30 15:36:27,100 basehttp 1948 15772 "GET / HTTP/1.1" 200 1276
+INFO 2023-09-30 15:36:27,202 basehttp 1948 15772 "GET /static/img/jack.jpeg HTTP/1.1" 200 75034
+INFO 2023-09-30 15:37:27,452 basehttp 1948 15772 "GET / HTTP/1.1" 200 1276
+INFO 2023-09-30 15:37:28,633 basehttp 1948 15772 "GET / HTTP/1.1" 200 1286
+ERROR 2023-09-30 15:44:08,198 log 1948 16472 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 10, in index
+    return render(request, "base.html", context = {"body": "index page", "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:44:08,202 basehttp 1948 16472 "GET / HTTP/1.1" 500 142085
+INFO 2023-09-30 15:45:41,275 basehttp 1948 16472 "GET / HTTP/1.1" 200 1360
+INFO 2023-09-30 15:45:41,298 basehttp 1948 16472 "GET /static/css/stylesheet.css HTTP/1.1" 200 45
+INFO 2023-09-30 15:45:41,303 basehttp 1948 16472 "GET /static/img/jack.jpeg HTTP/1.1" 304 0
+INFO 2023-09-30 15:45:45,937 basehttp 1948 16472 "GET / HTTP/1.1" 200 1360
+ERROR 2023-09-30 15:45:46,864 log 1948 16472 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'super()'
+ERROR 2023-09-30 15:45:46,869 basehttp 1948 16472 "GET /about/ HTTP/1.1" 500 169200
+INFO 2023-09-30 15:46:01,748 basehttp 1948 16472 "GET /about/ HTTP/1.1" 200 1211
+INFO 2023-09-30 15:46:01,768 basehttp 1948 16472 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2023-09-30 15:47:09,494 autoreload 1948 12608 D:\Django\DZ\project\myproject\dz1\views.py changed, reloading.
+INFO 2023-09-30 15:47:09,911 autoreload 7456 6864 Watching for file changes with StatReloader
+ERROR 2023-09-30 15:54:15,237 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:54:15,242 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 163460
+ERROR 2023-09-30 15:54:44,951 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:54:44,957 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 163460
+ERROR 2023-09-30 15:55:21,963 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+ERROR 2023-09-30 15:55:21,966 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 128766
+ERROR 2023-09-30 15:55:41,845 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:55:41,848 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 163456
+ERROR 2023-09-30 15:56:11,785 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:56:11,790 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 163319
+INFO 2023-09-30 15:56:15,055 basehttp 7456 19592 "GET / HTTP/1.1" 200 1360
+INFO 2023-09-30 15:56:15,081 basehttp 7456 19592 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2023-09-30 15:56:15,089 basehttp 7456 19592 "GET /static/img/jack.jpeg HTTP/1.1" 304 0
+ERROR 2023-09-30 15:56:26,615 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:56:26,619 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 163319
+ERROR 2023-09-30 15:58:51,857 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:58:51,861 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 168494
+ERROR 2023-09-30 15:58:54,457 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:58:54,460 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 168631
+ERROR 2023-09-30 15:59:24,297 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 15:59:24,300 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 168539
+ERROR 2023-09-30 16:00:18,850 log 7456 19592 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz1\views.py", line 14, in about
+    return render(request, "about.html", context = {"body": "about page", "title":"Страница обо мне"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-30 16:00:18,854 basehttp 7456 19592 "GET /about/ HTTP/1.1" 500 168760
+INFO 2023-09-30 16:02:19,311 basehttp 7456 19592 "GET /about/ HTTP/1.1" 200 1415
+INFO 2023-09-30 16:02:19,330 basehttp 7456 19592 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2023-09-30 16:02:19,543 basehttp 7456 18492 "GET /static/img/foto2.jpg HTTP/1.1" 200 130835
+INFO 2023-09-30 16:02:19,548 basehttp 7456 19592 "GET /static/img/foto1.jpg HTTP/1.1" 200 100657
+INFO 2023-09-30 16:02:19,557 basehttp 7456 4836 "GET /static/img/foto4.jpg HTTP/1.1" 200 48210
+INFO 2023-09-30 16:02:54,022 basehttp 7456 4836 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-09-30 16:03:00,721 basehttp 7456 4836 "GET / HTTP/1.1" 200 1360
+INFO 2023-09-30 16:03:00,748 basehttp 7456 4836 "GET /static/img/jack.jpeg HTTP/1.1" 304 0
+INFO 2023-09-30 16:03:06,476 basehttp 7456 4836 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-09-30 16:04:24,660 basehttp 7456 4836 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-09-30 16:04:24,678 basehttp 7456 19592 "GET /static/img/foto1.jpg HTTP/1.1" 304 0
+INFO 2023-09-30 16:04:24,683 basehttp 7456 4836 "GET /static/css/stylesheet.css HTTP/1.1" 200 99
+INFO 2023-09-30 16:04:24,692 basehttp 7456 4836 "GET /static/img/foto2.jpg HTTP/1.1" 304 0
+INFO 2023-09-30 16:04:24,692 basehttp 7456 19592 "GET /static/img/foto4.jpg HTTP/1.1" 304 0
+INFO 2023-09-30 16:04:41,149 basehttp 7456 19592 "GET / HTTP/1.1" 200 1360
+INFO 2023-09-30 16:04:41,173 basehttp 7456 19592 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2023-09-30 16:04:42,084 basehttp 7456 19592 "GET /about/ HTTP/1.1" 200 1406

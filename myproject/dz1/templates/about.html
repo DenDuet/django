@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block content %}
+  {% load static %}
+  <div class="row">
+    <p class="col-12 col-md-6">Вот примерно так я и живу:</p>
+  </div>
+  <img class="col-12 col-md-6 jack1" src="{% static 'img/foto1.jpg' %}" alt="это я" />
+  <img class="col-12 col-md-6 jack1" src="{% static 'img/foto2.jpg' %}" alt="это я" />
+  <p class="col-12 col-md-6">А так я реагирую, когда у меня отнимают еду:</p>
+  <img class="col-12 col-md-6 jack1" src="{% static 'img/foto4.jpg' %}" alt="это я" />
+{% endblock %}
