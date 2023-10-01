@@ -1477,3 +1477,2334 @@ INFO 2023-09-30 16:04:24,692 basehttp 7456 19592 "GET /static/img/foto4.jpg HTTP
 INFO 2023-09-30 16:04:41,149 basehttp 7456 19592 "GET / HTTP/1.1" 200 1360
 INFO 2023-09-30 16:04:41,173 basehttp 7456 19592 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
 INFO 2023-09-30 16:04:42,084 basehttp 7456 19592 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-10-01 11:54:10,604 autoreload 1756 17676 Watching for file changes with StatReloader
+INFO 2023-10-01 11:54:14,574 basehttp 1756 12472 "GET / HTTP/1.1" 200 1360
+INFO 2023-10-01 11:54:14,788 basehttp 1756 12472 "GET /static/css/stylesheet.css HTTP/1.1" 200 99
+INFO 2023-10-01 11:54:14,805 basehttp 1756 11348 "GET /static/img/jack.jpeg HTTP/1.1" 200 75034
+INFO 2023-10-01 11:54:19,138 basehttp 1756 11348 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-10-01 11:54:19,173 basehttp 1756 11348 "GET /static/img/foto1.jpg HTTP/1.1" 200 100657
+INFO 2023-10-01 11:54:19,174 basehttp 1756 12472 "GET /static/img/foto2.jpg HTTP/1.1" 200 130835
+INFO 2023-10-01 11:54:19,183 basehttp 1756 3608 "GET /static/img/foto4.jpg HTTP/1.1" 200 48210
+INFO 2023-10-01 13:28:20,078 autoreload 8100 8872 Watching for file changes with StatReloader
+INFO 2023-10-01 13:28:28,484 basehttp 8100 12304 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-10-01 13:28:32,259 basehttp 8100 12304 "GET /about/ HTTP/1.1" 200 1406
+INFO 2023-10-01 13:28:34,818 basehttp 8100 12304 "GET / HTTP/1.1" 200 1360
+INFO 2023-10-01 13:29:18,181 autoreload 8100 8872 D:\Django\DZ\project\myproject\dz1\urls.py changed, reloading.
+INFO 2023-10-01 13:29:18,604 autoreload 2012 19440 Watching for file changes with StatReloader
+INFO 2023-10-01 13:29:19,520 basehttp 2012 12820 "GET / HTTP/1.1" 200 1360
+INFO 2023-10-01 13:29:22,278 basehttp 2012 12820 "GET / HTTP/1.1" 200 1360
+INFO 2023-10-01 13:29:39,486 autoreload 2012 19440 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 13:29:39,923 autoreload 20568 15888 Watching for file changes with StatReloader
+WARNING 2023-10-01 13:29:41,643 log 20568 6520 Not Found: /
+WARNING 2023-10-01 13:29:41,643 basehttp 20568 6520 "GET / HTTP/1.1" 404 2744
+INFO 2023-10-01 13:29:49,105 basehttp 20568 6520 "GET /dz1 HTTP/1.1" 301 0
+INFO 2023-10-01 13:29:49,112 basehttp 20568 10624 "GET /dz1/ HTTP/1.1" 200 1360
+WARNING 2023-10-01 13:29:51,380 log 20568 10624 Not Found: /about/
+WARNING 2023-10-01 13:29:51,381 basehttp 20568 10624 "GET /about/ HTTP/1.1" 404 2780
+WARNING 2023-10-01 13:30:37,074 log 20568 10624 Not Found: /about/
+WARNING 2023-10-01 13:30:37,074 basehttp 20568 10624 "GET /about/ HTTP/1.1" 404 2780
+INFO 2023-10-01 13:30:46,437 basehttp 20568 10624 "GET /dz1/about/ HTTP/1.1" 200 1412
+WARNING 2023-10-01 13:30:49,103 log 20568 10624 Not Found: /dz1/about/dz1/
+WARNING 2023-10-01 13:30:49,104 basehttp 20568 10624 "GET /dz1/about/dz1/ HTTP/1.1" 404 2804
+WARNING 2023-10-01 13:31:21,465 log 20568 10624 Not Found: /dz1/about/dz1/
+WARNING 2023-10-01 13:31:21,466 basehttp 20568 10624 "GET /dz1/about/dz1/ HTTP/1.1" 404 2804
+INFO 2023-10-01 13:31:26,536 basehttp 20568 10624 "GET /dz1/ HTTP/1.1" 200 1366
+INFO 2023-10-01 13:34:08,454 autoreload 20568 15888 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-01 13:34:08,950 autoreload 13272 15996 Watching for file changes with StatReloader
+INFO 2023-10-01 13:34:17,454 autoreload 13272 15996 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 13:34:17,891 autoreload 9864 17720 Watching for file changes with StatReloader
+INFO 2023-10-01 13:34:31,774 basehttp 9864 13964 "GET /dz1/ HTTP/1.1" 200 1254
+WARNING 2023-10-01 13:34:34,846 log 9864 13964 Not Found: /init_bases/
+WARNING 2023-10-01 13:34:34,847 basehttp 9864 13964 "GET /init_bases/ HTTP/1.1" 404 2789
+INFO 2023-10-01 13:35:16,949 autoreload 9864 17720 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 13:35:17,382 autoreload 2076 16140 Watching for file changes with StatReloader
+WARNING 2023-10-01 13:35:21,149 log 2076 14064 Not Found: /init_bases/
+WARNING 2023-10-01 13:35:21,150 basehttp 2076 14064 "GET /init_bases/ HTTP/1.1" 404 2795
+WARNING 2023-10-01 13:35:30,754 log 2076 14064 Not Found: /init_bases/
+WARNING 2023-10-01 13:35:30,755 basehttp 2076 14064 "GET /init_bases/ HTTP/1.1" 404 2795
+WARNING 2023-10-01 13:36:31,975 log 2076 14064 Not Found: /init_bases/
+WARNING 2023-10-01 13:36:31,975 basehttp 2076 14064 "GET /init_bases/ HTTP/1.1" 404 2795
+WARNING 2023-10-01 13:36:36,578 log 2076 14064 Not Found: /
+WARNING 2023-10-01 13:36:36,578 basehttp 2076 14064 "GET / HTTP/1.1" 404 2744
+INFO 2023-10-01 13:36:49,442 autoreload 2076 16140 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-01 13:36:49,857 autoreload 16800 12020 Watching for file changes with StatReloader
+WARNING 2023-10-01 13:36:52,574 log 16800 17988 Not Found: /
+WARNING 2023-10-01 13:36:52,574 basehttp 16800 17988 "GET / HTTP/1.1" 404 2408
+WARNING 2023-10-01 13:38:10,080 log 16800 17988 Not Found: /
+WARNING 2023-10-01 13:38:10,081 basehttp 16800 17988 "GET / HTTP/1.1" 404 2408
+INFO 2023-10-01 13:38:28,119 autoreload 16800 12020 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 13:38:28,539 autoreload 8056 17020 Watching for file changes with StatReloader
+INFO 2023-10-01 13:38:29,658 basehttp 8056 2216 "GET / HTTP/1.1" 200 1253
+WARNING 2023-10-01 13:38:31,665 log 8056 2216 Not Found: /init_bases/
+WARNING 2023-10-01 13:38:31,665 basehttp 8056 2216 "GET /init_bases/ HTTP/1.1" 404 2458
+INFO 2023-10-01 13:38:37,026 autoreload 8056 17020 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 13:38:37,471 autoreload 18440 15888 Watching for file changes with StatReloader
+ERROR 2023-10-01 13:38:38,054 log 18440 5248 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 13, in init_bases
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 13:38:38,056 basehttp 18440 5248 "GET /init_bases/ HTTP/1.1" 500 74745
+INFO 2023-10-01 13:40:08,495 autoreload 18440 15888 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 13:40:08,912 autoreload 15412 17060 Watching for file changes with StatReloader
+INFO 2023-10-01 13:41:41,701 basehttp 15412 15920 "GET / HTTP/1.1" 200 1253
+INFO 2023-10-01 13:41:43,408 basehttp 15412 15920 "GET / HTTP/1.1" 200 1253
+WARNING 2023-10-01 13:41:45,238 log 15412 15920 Not Found: /users/
+WARNING 2023-10-01 13:41:45,239 basehttp 15412 15920 "GET /users/ HTTP/1.1" 404 2442
+WARNING 2023-10-01 13:41:47,708 log 15412 15920 Not Found: /goods/
+WARNING 2023-10-01 13:41:47,708 basehttp 15412 15920 "GET /goods/ HTTP/1.1" 404 2442
+ERROR 2023-10-01 13:41:49,556 log 15412 15920 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 14, in init_bases
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 13:41:49,558 basehttp 15412 15920 "GET /init_bases/ HTTP/1.1" 500 74572
+INFO 2023-10-01 13:48:07,333 autoreload 15412 17060 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 13:48:07,788 autoreload 5916 21284 Watching for file changes with StatReloader
+ERROR 2023-10-01 13:48:10,544 log 5916 10168 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 15, in init_bases
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 13:48:10,547 basehttp 5916 10168 "GET /init_bases/ HTTP/1.1" 500 74675
+INFO 2023-10-01 19:08:16,144 autoreload 5916 21284 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:08:16,678 autoreload 19796 10840 Watching for file changes with StatReloader
+INFO 2023-10-01 19:08:20,919 autoreload 19796 10840 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:08:21,380 autoreload 21064 8144 Watching for file changes with StatReloader
+INFO 2023-10-01 19:08:28,700 autoreload 21064 8144 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:08:29,130 autoreload 14204 1136 Watching for file changes with StatReloader
+INFO 2023-10-01 19:08:34,372 autoreload 14204 1136 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:08:34,811 autoreload 19648 21020 Watching for file changes with StatReloader
+INFO 2023-10-01 19:09:28,217 autoreload 19648 21020 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:09:28,660 autoreload 7344 14280 Watching for file changes with StatReloader
+INFO 2023-10-01 19:09:42,008 autoreload 7344 14280 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:09:42,429 autoreload 17488 9228 Watching for file changes with StatReloader
+INFO 2023-10-01 19:09:55,877 autoreload 17488 9228 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:09:56,328 autoreload 10156 2800 Watching for file changes with StatReloader
+INFO 2023-10-01 19:10:09,767 autoreload 10156 2800 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:10:10,193 autoreload 12372 11720 Watching for file changes with StatReloader
+INFO 2023-10-01 19:10:18,510 autoreload 12372 11720 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:10:18,910 autoreload 16064 15572 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:10:24,876 log 16064 2124 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 12, in init_bases
+    persons = {User(username="John",email="i@mail.ru",phone="123-45-67",address="Florida, st.", reg_date=datetime.datetime), User(username="Bony",email="g@mail.ru",phone="321-22-55",address="California", reg_date=datetime.datetime), User(username="Claid",email="c@mail.ru",phone="231-01-12",address="NewYork city", reg_date=datetime.datetime)}
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 605, in __hash__
+    raise TypeError("Model instances without primary key value are unhashable")
+TypeError: Model instances without primary key value are unhashable
+ERROR 2023-10-01 19:10:24,876 basehttp 16064 2124 "GET /init_bases/ HTTP/1.1" 500 74173
+INFO 2023-10-01 19:13:11,616 autoreload 16064 15572 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:13:12,055 autoreload 5676 21256 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:13:13,291 log 5676 7904 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 21, in init_bases
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 19:13:13,291 basehttp 5676 7904 "GET /init_bases/ HTTP/1.1" 500 74840
+INFO 2023-10-01 19:14:25,463 autoreload 5676 21256 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:14:25,876 autoreload 12088 19656 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:14:29,666 log 12088 2280 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 21, in init_bases
+    usr = User.objects.bulk_create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 781, in bulk_create
+    objs = list(objs)
+TypeError: 'User' object is not iterable
+ERROR 2023-10-01 19:14:29,681 basehttp 12088 2280 "GET /init_bases/ HTTP/1.1" 500 80198
+INFO 2023-10-01 19:14:50,943 autoreload 12088 19656 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:14:51,384 autoreload 18748 8768 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:14:54,798 log 18748 11064 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 22, in init_bases
+    print(f"ƒобавлен пользователь user = {usr}, {usr.id}")
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+  File "D:\Django\DZ\project\myproject\dz2\models.py", line 14, in __str__
+    return f'Username: {self.username}, email: {self.email}, age: {self.age}'
+AttributeError: 'User' object has no attribute 'age'
+ERROR 2023-10-01 19:14:54,798 basehttp 18748 11064 "GET /init_bases/ HTTP/1.1" 500 78002
+INFO 2023-10-01 19:15:31,853 autoreload 18748 8768 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:15:32,289 autoreload 1080 11356 Watching for file changes with StatReloader
+INFO 2023-10-01 19:16:02,405 autoreload 1080 11356 D:\Django\DZ\project\myproject\dz2\models.py changed, reloading.
+INFO 2023-10-01 19:16:02,873 autoreload 9288 12088 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:16:09,318 log 9288 11796 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 22, in init_bases
+    print(f"ƒобавлен пользователь user = {usr}, {usr.id}")
+AttributeError: 'list' object has no attribute 'id'
+ERROR 2023-10-01 19:16:09,318 basehttp 9288 11796 "GET /init_bases/ HTTP/1.1" 500 70977
+INFO 2023-10-01 19:16:23,710 autoreload 9288 12088 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:16:24,126 autoreload 10740 2380 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:16:30,800 log 10740 16736 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 27, in init_bases
+    prod = Goods.objects.create(good)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 19:16:30,800 basehttp 10740 16736 "GET /init_bases/ HTTP/1.1" 500 76358
+INFO 2023-10-01 19:17:02,445 autoreload 10740 2380 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:17:02,913 autoreload 11724 4768 Watching for file changes with StatReloader
+INFO 2023-10-01 19:17:21,486 autoreload 11724 4768 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:17:21,957 autoreload 12040 6384 Watching for file changes with StatReloader
+INFO 2023-10-01 19:17:40,525 autoreload 12040 6384 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:17:41,006 autoreload 18048 17176 Watching for file changes with StatReloader
+INFO 2023-10-01 19:17:58,545 autoreload 18048 17176 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:17:58,988 autoreload 12876 20584 Watching for file changes with StatReloader
+INFO 2023-10-01 19:18:51,370 autoreload 12876 20584 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:18:51,824 autoreload 8060 18732 Watching for file changes with StatReloader
+INFO 2023-10-01 19:18:57,237 autoreload 8060 18732 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:18:57,708 autoreload 5028 21304 Watching for file changes with StatReloader
+INFO 2023-10-01 19:19:02,927 autoreload 5028 21304 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:19:03,345 autoreload 12504 16460 Watching for file changes with StatReloader
+INFO 2023-10-01 19:19:08,575 autoreload 12504 16460 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:19:09,040 autoreload 1524 19488 Watching for file changes with StatReloader
+INFO 2023-10-01 19:19:27,574 autoreload 1524 19488 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:19:28,026 autoreload 14404 13792 Watching for file changes with StatReloader
+INFO 2023-10-01 19:19:47,790 autoreload 14404 13792 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:19:48,257 autoreload 196 18748 Watching for file changes with StatReloader
+INFO 2023-10-01 19:20:03,929 autoreload 196 18748 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:20:04,390 autoreload 10420 21204 Watching for file changes with StatReloader
+INFO 2023-10-01 19:20:45,754 autoreload 10420 21204 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:20:46,170 autoreload 19672 2348 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:20:50,001 log 19672 7468 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 30, in init_bases
+    orders = [Orders(customer=1, goods=2, total_price=200, date_ordered=datetime.datetime), Orders(customer=1, goods=4, total_price=250, date_ordered=datetime.datetime),Orders(customer=2, goods=1, total_price=210, date_ordered=datetime.datetime),Orders(customer=2, goods=4, total_price=300, date_ordered=datetime.datetime),Orders(customer=3, goods=1, total_price=215.50, date_ordered=datetime.datetime)]
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-01 19:20:50,001 basehttp 19672 7468 "GET /init_bases/ HTTP/1.1" 500 82606
+INFO 2023-10-01 19:23:27,244 autoreload 19672 2348 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:23:27,687 autoreload 7652 4220 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:23:29,666 log 7652 20164 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 30, in init_bases
+    orders = [Orders(customer=User.get(id=1), goods=2, total_price=200, date_ordered=datetime.datetime), Orders(customer=1, goods=4, total_price=250, date_ordered=datetime.datetime),Orders(customer=2, goods=1, total_price=210, date_ordered=datetime.datetime),Orders(customer=2, goods=4, total_price=300, date_ordered=datetime.datetime),Orders(customer=3, goods=1, total_price=215.50, date_ordered=datetime.datetime)]
+AttributeError: type object 'User' has no attribute 'get'
+ERROR 2023-10-01 19:23:29,666 basehttp 7652 20164 "GET /init_bases/ HTTP/1.1" 500 72274
+INFO 2023-10-01 19:25:06,934 autoreload 17440 8660 Watching for file changes with StatReloader
+INFO 2023-10-01 19:28:56,401 autoreload 17440 8660 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:28:56,859 autoreload 17876 20908 Watching for file changes with StatReloader
+INFO 2023-10-01 19:32:30,397 autoreload 17876 20908 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:32:30,813 autoreload 2684 14016 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:32:35,245 log 2684 14240 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 22, in init_bases
+    usr.save()
+AttributeError: 'list' object has no attribute 'save'
+ERROR 2023-10-01 19:32:35,245 basehttp 2684 14240 "GET /init_bases/ HTTP/1.1" 500 71038
+INFO 2023-10-01 19:34:25,964 autoreload 2684 14016 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:34:26,414 autoreload 3568 12176 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:34:29,713 log 3568 10716 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=2, total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=4, total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=1, total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=4, total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=1, total_price=215.50, date_ordered=datetime.datetime)]
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 626, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use goods.set() instead.
+ERROR 2023-10-01 19:34:29,713 basehttp 3568 10716 "GET /init_bases/ HTTP/1.1" 500 83208
+INFO 2023-10-01 19:48:13,010 autoreload 3568 12176 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:48:16,998 autoreload 5532 1204 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:48:17,751 log 5532 4152 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=Goods.objects.filter(pk=2), total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=Goods.objects.filter(pk=4), total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=1), total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=4), total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=Goods.objects.filter(pk=1), total_price=215.50, date_ordered=datetime.datetime)]
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 626, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use goods.set() instead.
+ERROR 2023-10-01 19:48:17,754 basehttp 5532 4152 "GET /init_bases/ HTTP/1.1" 500 83689
+INFO 2023-10-01 19:52:14,586 autoreload 5532 1204 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:52:15,010 autoreload 13516 8572 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:52:17,097 log 13516 19412 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=Goods.objects.set(pk=2), total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=Goods.objects.filter(pk=4), total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=1), total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=4), total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=Goods.objects.filter(pk=1), total_price=215.50, date_ordered=datetime.datetime)]
+AttributeError: 'Manager' object has no attribute 'set'
+ERROR 2023-10-01 19:52:17,097 basehttp 13516 19412 "GET /init_bases/ HTTP/1.1" 500 72711
+INFO 2023-10-01 19:52:26,649 autoreload 13516 8572 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:52:27,082 autoreload 10316 18904 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:52:29,334 log 10316 17364 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=Goods.set(pk=2), total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=Goods.objects.filter(pk=4), total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=1), total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=4), total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=Goods.objects.filter(pk=1), total_price=215.50, date_ordered=datetime.datetime)]
+AttributeError: type object 'Goods' has no attribute 'set'
+ERROR 2023-10-01 19:52:29,334 basehttp 10316 17364 "GET /init_bases/ HTTP/1.1" 500 72707
+INFO 2023-10-01 19:57:19,960 autoreload 10316 18904 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:57:20,398 autoreload 12536 7028 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:57:21,811 log 12536 7912 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=Goods.id.set(pk=2), total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=Goods.objects.filter(pk=4), total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=1), total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.objects.filter(pk=4), total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=Goods.objects.filter(pk=1), total_price=215.50, date_ordered=datetime.datetime)]
+AttributeError: 'DeferredAttribute' object has no attribute 'set'
+ERROR 2023-10-01 19:57:21,811 basehttp 12536 7912 "GET /init_bases/ HTTP/1.1" 500 72741
+INFO 2023-10-01 19:58:26,301 autoreload 12536 7028 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 19:58:26,717 autoreload 19388 11064 Watching for file changes with StatReloader
+ERROR 2023-10-01 19:58:27,074 log 19388 10876 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=Goods.id.set(pk=2), total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=Goods.id.set(pk=4), total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.id.set(pk=1), total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.id.set(pk=4), total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=Goods.id.set(pk=1), total_price=215.50, date_ordered=datetime.datetime)]
+AttributeError: 'DeferredAttribute' object has no attribute 'set'
+ERROR 2023-10-01 19:58:27,090 basehttp 19388 10876 "GET /init_bases/ HTTP/1.1" 500 72677
+INFO 2023-10-01 20:01:24,450 autoreload 19388 11064 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:01:24,919 autoreload 14392 5968 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:01:29,788 log 14392 11100 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 32, in init_bases
+    orders = [Orders(customer=User.objects.get(pk=1), goods=Goods.id.set().filter(pk=2), total_price=200, date_ordered=datetime.datetime), Orders(customer=User.objects.get(pk=1), goods=Goods.id.set().filter(pk=4), total_price=250, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.id.set().filter(pk=1), total_price=210, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=2), goods=Goods.id.set().filter(pk=4), total_price=300, date_ordered=datetime.datetime),Orders(customer=User.objects.get(pk=3), goods=Goods.id.set().filter(pk=1), total_price=215.50, date_ordered=datetime.datetime)]
+AttributeError: 'DeferredAttribute' object has no attribute 'set'
+ERROR 2023-10-01 20:01:29,788 basehttp 14392 11100 "GET /init_bases/ HTTP/1.1" 500 72767
+INFO 2023-10-01 20:02:25,885 autoreload 14392 5968 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:02:26,287 autoreload 21192 10140 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:02:30,593 log 21192 11204 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 33, in init_bases
+    Orders(customer=User.objects.get(pk=1), goods=Goods.set().filter(pk=2), total_price=200, date_ordered=datetime.datetime),
+AttributeError: type object 'Goods' has no attribute 'set'
+ERROR 2023-10-01 20:02:30,593 basehttp 21192 11204 "GET /init_bases/ HTTP/1.1" 500 71118
+INFO 2023-10-01 20:07:16,081 autoreload 21192 10140 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:07:16,495 autoreload 11044 16400 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:07:21,647 log 11044 10420 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 46, in init_bases
+    order = Orders.objects.create(orders)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 20:07:21,647 basehttp 11044 10420 "GET /init_bases/ HTTP/1.1" 500 75819
+INFO 2023-10-01 20:12:10,219 autoreload 11044 16400 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:12:10,645 autoreload 8036 20012 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:12:14,711 log 8036 2664 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    Orders(customer=User.objects.get(pk=1), goods=Goods.objects.get(pk=2).goods_set.all(), total_price=200, date_ordered=datetime.datetime),
+AttributeError: 'Goods' object has no attribute 'goods_set'
+ERROR 2023-10-01 20:12:14,726 basehttp 8036 2664 "GET /init_bases/ HTTP/1.1" 500 71816
+INFO 2023-10-01 20:12:35,612 autoreload 8036 20012 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:12:36,051 autoreload 9032 12176 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:12:36,522 log 9032 21032 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    Orders(customer=User.objects.get(pk=1), goods=Goods.objects.get(pk=2).all(), total_price=200, date_ordered=datetime.datetime),
+AttributeError: 'Goods' object has no attribute 'all'
+ERROR 2023-10-01 20:12:36,522 basehttp 9032 21032 "GET /init_bases/ HTTP/1.1" 500 71772
+INFO 2023-10-01 20:20:52,972 autoreload 9032 12176 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:20:53,411 autoreload 20340 18084 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:20:55,059 log 20340 16736 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    Orders(customer=User.objects.get(pk=1), goods=Goods.objects.filter(pk=2), total_price=200, date_ordered=datetime.datetime),
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 626, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use goods.set() instead.
+ERROR 2023-10-01 20:20:55,059 basehttp 20340 16736 "GET /init_bases/ HTTP/1.1" 500 82758
+INFO 2023-10-01 20:29:04,615 autoreload 20340 18084 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:29:05,016 autoreload 4540 15936 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:29:10,052 log 4540 19972 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 46, in init_bases
+    order = Orders.objects.create(orders)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 20:29:10,052 basehttp 4540 19972 "GET /init_bases/ HTTP/1.1" 500 75820
+INFO 2023-10-01 20:29:56,851 autoreload 4540 15936 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:29:57,282 autoreload 8128 16880 Watching for file changes with StatReloader
+INFO 2023-10-01 20:31:27,955 autoreload 8128 16880 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:31:28,364 autoreload 21364 16864 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:31:32,777 log 21364 13936 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 47, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime).create()
+AttributeError: 'Orders' object has no attribute 'create'
+ERROR 2023-10-01 20:31:32,779 basehttp 21364 13936 "GET /init_bases/ HTTP/1.1" 500 71249
+INFO 2023-10-01 20:34:38,828 autoreload 21364 16864 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:34:39,229 autoreload 16140 20880 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:34:42,381 log 16140 15580 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 48, in init_bases
+    order.goods.add(Goods.filter(pk=2))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Orders: Order of user: John, total: 200>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-10-01 20:34:42,384 basehttp 16140 15580 "GET /init_bases/ HTTP/1.1" 500 81334
+INFO 2023-10-01 20:38:47,764 autoreload 16140 20880 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:38:48,189 autoreload 8248 9108 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:38:49,935 log 8248 12208 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 48, in init_bases
+    order.goods.add(Goods.objects.filter(pk=2))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Orders: Order of user: John, total: 200>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-10-01 20:38:49,937 basehttp 8248 12208 "GET /init_bases/ HTTP/1.1" 500 81350
+INFO 2023-10-01 20:39:26,608 autoreload 8248 9108 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:39:27,050 autoreload 14112 612 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:39:29,740 log 14112 3236 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'QuerySet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 49, in init_bases
+    order.goods.add(Goods.objects.filter(pk=2))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1137, in add
+    self._add_items(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1397, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1331, in _get_target_ids
+    target_ids.add(target_field.get_prep_value(obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related.py", line 1135, in get_prep_value
+    return self.target_field.get_prep_value(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <QuerySet [<Goods: Product: TV_2, price: 300.00, quantity: 5.00>]>.
+ERROR 2023-10-01 20:39:29,744 basehttp 14112 3236 "GET /init_bases/ HTTP/1.1" 500 98096
+INFO 2023-10-01 20:40:28,910 autoreload 14112 612 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:40:29,379 autoreload 6828 18316 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:40:31,482 log 6828 10596 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'QuerySet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 49, in init_bases
+    order.goods.add(Goods.objects.filter(pk=2)).id
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1137, in add
+    self._add_items(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1397, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1331, in _get_target_ids
+    target_ids.add(target_field.get_prep_value(obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related.py", line 1135, in get_prep_value
+    return self.target_field.get_prep_value(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <QuerySet [<Goods: Product: TV_2, price: 300.00, quantity: 5.00>]>.
+ERROR 2023-10-01 20:40:31,486 basehttp 6828 10596 "GET /init_bases/ HTTP/1.1" 500 98102
+INFO 2023-10-01 20:41:22,077 autoreload 6828 18316 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:41:22,494 autoreload 6108 21228 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:41:25,166 log 6108 5328 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 49, in init_bases
+    order.goods.add(Goods.objects.id.filter(pk=2))
+AttributeError: 'Manager' object has no attribute 'id'
+ERROR 2023-10-01 20:41:25,168 basehttp 6108 5328 "GET /init_bases/ HTTP/1.1" 500 71265
+INFO 2023-10-01 20:43:14,749 autoreload 6108 21228 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:43:15,158 autoreload 14964 7904 Watching for file changes with StatReloader
+INFO 2023-10-01 20:46:01,682 autoreload 14964 7904 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:46:02,086 autoreload 10896 2228 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:46:05,144 log 10896 4360 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 50, in init_bases
+    order.goods[1].add()
+TypeError: 'ManyRelatedManager' object is not subscriptable
+ERROR 2023-10-01 20:46:05,146 basehttp 10896 4360 "GET /init_bases/ HTTP/1.1" 500 71127
+INFO 2023-10-01 20:46:26,121 autoreload 10896 2228 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:46:26,655 autoreload 1352 2264 Watching for file changes with StatReloader
+INFO 2023-10-01 20:46:28,219 basehttp 1352 5172 "GET /init_bases/ HTTP/1.1" 200 1253
+INFO 2023-10-01 20:46:29,835 basehttp 1352 5172 "GET /init_bases/ HTTP/1.1" 200 1253
+WARNING 2023-10-01 20:46:30,498 log 1352 5172 Not Found: /users/
+WARNING 2023-10-01 20:46:30,499 basehttp 1352 5172 "GET /users/ HTTP/1.1" 404 2442
+INFO 2023-10-01 20:52:22,134 autoreload 1352 2264 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:52:22,554 autoreload 7772 1640 Watching for file changes with StatReloader
+INFO 2023-10-01 20:52:59,685 autoreload 7772 1640 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:53:00,109 autoreload 11888 12388 Watching for file changes with StatReloader
+INFO 2023-10-01 20:53:05,013 basehttp 11888 1844 "GET /init_bases/ HTTP/1.1" 200 1253
+WARNING 2023-10-01 20:53:07,099 log 11888 1844 Not Found: /users/
+WARNING 2023-10-01 20:53:07,099 basehttp 11888 1844 "GET /users/ HTTP/1.1" 404 2442
+INFO 2023-10-01 20:53:59,064 autoreload 11888 12388 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 20:53:59,487 autoreload 20132 9448 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:54:02,002 log 20132 20344 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 66, in read_users
+    return render(request, "users.html", context = {"users": user, "title":"√лавна€ страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'super()'
+ERROR 2023-10-01 20:54:02,018 basehttp 20132 20344 "GET /users/ HTTP/1.1" 500 192008
+INFO 2023-10-01 20:54:26,769 basehttp 20132 20344 "GET /users/ HTTP/1.1" 200 51398
+WARNING 2023-10-01 20:54:46,353 log 20132 20344 Not Found: /users/create
+WARNING 2023-10-01 20:54:46,353 basehttp 20132 20344 "POST /users/create HTTP/1.1" 404 2638
+WARNING 2023-10-01 20:54:49,364 log 20132 20344 Not Found: /users/users/delete/87
+WARNING 2023-10-01 20:54:49,365 basehttp 20132 20344 "GET /users/users/delete/87 HTTP/1.1" 404 2664
+INFO 2023-10-01 20:56:26,669 autoreload 20132 9448 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 20:56:27,102 autoreload 5596 18224 Watching for file changes with StatReloader
+INFO 2023-10-01 20:57:38,952 autoreload 5596 18224 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:57:39,405 autoreload 12704 1324 Watching for file changes with StatReloader
+INFO 2023-10-01 20:57:51,088 basehttp 12704 1188 "GET /users/ HTTP/1.1" 200 51398
+INFO 2023-10-01 20:57:55,290 basehttp 12704 1188 "GET /goods/ HTTP/1.1" 200 60147
+WARNING 2023-10-01 20:58:03,246 log 12704 1188 Not Found: /orders/
+WARNING 2023-10-01 20:58:03,247 basehttp 12704 1188 "GET /orders/ HTTP/1.1" 404 2799
+INFO 2023-10-01 20:59:53,152 autoreload 12704 1324 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 20:59:53,572 autoreload 6712 4152 Watching for file changes with StatReloader
+INFO 2023-10-01 21:00:43,133 autoreload 6712 4152 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 21:00:43,579 autoreload 8552 9484 Watching for file changes with StatReloader
+ERROR 2023-10-01 21:00:46,018 log 8552 18060 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 74, in read_orders
+    orders = Orders.objects.join(User).join(Goods)
+AttributeError: 'Manager' object has no attribute 'join'
+ERROR 2023-10-01 21:00:46,018 basehttp 8552 18060 "GET /orders/ HTTP/1.1" 500 68819
+INFO 2023-10-01 21:01:15,673 autoreload 8552 9484 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 21:01:16,116 autoreload 14900 17960 Watching for file changes with StatReloader
+ERROR 2023-10-01 21:01:18,991 log 14900 20996 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 72, in read_orders
+    orders = Orders.objects.all().join(User).join(Goods)
+AttributeError: 'QuerySet' object has no attribute 'join'
+ERROR 2023-10-01 21:01:18,991 basehttp 14900 20996 "GET /orders/ HTTP/1.1" 500 68835
+ERROR 2023-10-01 21:58:44,806 log 14900 12500 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 72, in read_orders
+    orders = Orders.objects.all().join(User).join(Goods)
+AttributeError: 'QuerySet' object has no attribute 'join'
+ERROR 2023-10-01 21:58:44,808 basehttp 14900 12500 "GET /orders/ HTTP/1.1" 500 68835
+WARNING 2023-10-01 21:58:47,849 log 14900 12500 Not Found: /goods/goods/edit/1
+WARNING 2023-10-01 21:58:47,850 basehttp 14900 12500 "GET /goods/goods/edit/1 HTTP/1.1" 404 3011
+INFO 2023-10-01 22:01:07,412 autoreload 14900 17960 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:01:07,876 autoreload 6628 16196 Watching for file changes with StatReloader
+INFO 2023-10-01 22:01:20,210 autoreload 6628 16196 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:01:20,657 autoreload 12428 7656 Watching for file changes with StatReloader
+INFO 2023-10-01 22:01:31,147 autoreload 12428 7656 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:01:31,593 autoreload 13556 17908 Watching for file changes with StatReloader
+INFO 2023-10-01 22:01:43,116 autoreload 13556 17908 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:01:43,546 autoreload 18424 6396 Watching for file changes with StatReloader
+INFO 2023-10-01 22:03:35,390 autoreload 18424 6396 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:03:35,862 autoreload 7188 9880 Watching for file changes with StatReloader
+INFO 2023-10-01 22:04:04,826 autoreload 7188 9880 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:04:05,259 autoreload 10684 20156 Watching for file changes with StatReloader
+INFO 2023-10-01 22:07:20,338 autoreload 10684 20156 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:07:20,765 autoreload 16588 13212 Watching for file changes with StatReloader
+INFO 2023-10-01 22:16:12,016 basehttp 16588 5980 "GET /goods/ HTTP/1.1" 200 72835
+INFO 2023-10-01 22:16:20,064 basehttp 16588 5980 "GET /goods/ HTTP/1.1" 200 72835
+WARNING 2023-10-01 22:16:30,333 log 16588 5980 Not Found: /goods/create
+WARNING 2023-10-01 22:16:30,333 basehttp 16588 5980 "POST /goods/create HTTP/1.1" 404 2994
+INFO 2023-10-01 22:18:56,238 autoreload 16588 13212 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-01 22:18:56,659 autoreload 20156 19832 Watching for file changes with StatReloader
+INFO 2023-10-01 22:19:26,663 autoreload 20156 19832 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:19:27,091 autoreload 15396 4164 Watching for file changes with StatReloader
+INFO 2023-10-01 22:19:37,479 autoreload 15396 4164 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:19:37,890 autoreload 20996 7380 Watching for file changes with StatReloader
+INFO 2023-10-01 22:22:07,829 autoreload 20996 7380 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:22:08,226 autoreload 20924 1996 Watching for file changes with StatReloader
+WARNING 2023-10-01 22:22:13,923 log 20924 10916 Forbidden (CSRF cookie not set.): /goods/create
+WARNING 2023-10-01 22:22:13,923 basehttp 20924 10916 "POST /goods/create HTTP/1.1" 403 2870
+WARNING 2023-10-01 22:22:28,316 log 20924 10916 Forbidden (CSRF cookie not set.): /goods/create
+WARNING 2023-10-01 22:22:28,316 basehttp 20924 10916 "POST /goods/create HTTP/1.1" 403 2870
+INFO 2023-10-01 22:23:55,318 autoreload 20924 1996 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:23:55,727 autoreload 19184 1204 Watching for file changes with StatReloader
+INFO 2023-10-01 22:28:50,582 autoreload 19184 1204 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:28:50,990 autoreload 19420 5168 Watching for file changes with StatReloader
+INFO 2023-10-01 22:35:17,437 autoreload 19420 5168 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:35:17,875 autoreload 336 19808 Watching for file changes with StatReloader
+INFO 2023-10-01 22:36:20,736 autoreload 336 19808 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:36:21,143 autoreload 9484 5980 Watching for file changes with StatReloader
+WARNING 2023-10-01 22:36:27,059 log 9484 18956 Forbidden (CSRF cookie not set.): /goods/create
+WARNING 2023-10-01 22:36:27,059 basehttp 9484 18956 "POST /goods/create HTTP/1.1" 403 2870
+WARNING 2023-10-01 22:36:30,953 log 9484 18956 Forbidden (CSRF cookie not set.): /goods/create
+WARNING 2023-10-01 22:36:30,954 basehttp 9484 18956 "POST /goods/create HTTP/1.1" 403 2870
+INFO 2023-10-01 22:36:39,078 basehttp 9484 18956 "GET /goods/ HTTP/1.1" 200 72961
+INFO 2023-10-01 22:36:42,412 basehttp 9484 18956 "GET /users/ HTTP/1.1" 200 59291
+INFO 2023-10-01 22:36:47,459 basehttp 9484 18956 "GET /goods/ HTTP/1.1" 200 72961
+ERROR 2023-10-01 22:36:49,889 log 9484 18956 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 79, in read_orders
+    orders = Orders.objects.all().join(User).join(Goods)
+AttributeError: 'QuerySet' object has no attribute 'join'
+ERROR 2023-10-01 22:36:49,890 basehttp 9484 18956 "GET /orders/ HTTP/1.1" 500 69348
+ERROR 2023-10-01 22:37:31,640 log 9484 18956 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 79, in read_orders
+    orders = Orders.objects.all().join(User).join(Goods)
+AttributeError: 'QuerySet' object has no attribute 'join'
+ERROR 2023-10-01 22:37:31,640 basehttp 9484 18956 "GET /orders/ HTTP/1.1" 500 69348
+INFO 2023-10-01 22:38:02,226 autoreload 9484 5980 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:38:02,630 autoreload 8336 8992 Watching for file changes with StatReloader
+INFO 2023-10-01 22:38:07,008 basehttp 8336 3420 "GET /goods/ HTTP/1.1" 200 72961
+ERROR 2023-10-01 22:38:08,691 log 8336 3420 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 79, in read_orders
+    orders = Orders.objects.join(User).join(Goods)
+AttributeError: 'Manager' object has no attribute 'join'
+ERROR 2023-10-01 22:38:08,691 basehttp 8336 3420 "GET /orders/ HTTP/1.1" 500 69332
+INFO 2023-10-01 22:43:27,862 autoreload 8336 8992 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:43:28,409 autoreload 8140 8496 Watching for file changes with StatReloader
+INFO 2023-10-01 22:43:33,591 basehttp 8140 19208 "GET /goods/ HTTP/1.1" 200 72961
+ERROR 2023-10-01 22:43:34,898 log 8140 19208 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 58, in init_bases
+    order.goods_set.add(g)
+AttributeError: 'Orders' object has no attribute 'goods_set'
+ERROR 2023-10-01 22:43:34,899 basehttp 8140 19208 "GET /init_bases/ HTTP/1.1" 500 71490
+INFO 2023-10-01 22:44:40,818 autoreload 8140 8496 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:44:41,243 autoreload 336 15400 Watching for file changes with StatReloader
+INFO 2023-10-01 22:46:37,303 autoreload 336 15400 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:46:37,718 autoreload 21220 9924 Watching for file changes with StatReloader
+INFO 2023-10-01 22:46:50,347 autoreload 21220 9924 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:46:50,777 autoreload 9532 10964 Watching for file changes with StatReloader
+ERROR 2023-10-01 22:46:57,034 log 9532 18220 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 58, in init_bases
+    order.add(g.id)
+AttributeError: 'Orders' object has no attribute 'add'
+ERROR 2023-10-01 22:46:57,036 basehttp 9532 18220 "GET /init_bases/ HTTP/1.1" 500 71452
+INFO 2023-10-01 22:47:26,981 autoreload 9532 10964 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:47:27,425 autoreload 12500 17280 Watching for file changes with StatReloader
+ERROR 2023-10-01 22:47:29,908 log 12500 7116 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 58, in init_bases
+    order.objects.add(g.id)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via Orders instances
+ERROR 2023-10-01 22:47:29,910 basehttp 12500 7116 "GET /init_bases/ HTTP/1.1" 500 75548
+INFO 2023-10-01 22:51:27,025 autoreload 12500 17280 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:51:27,464 autoreload 16064 11736 Watching for file changes with StatReloader
+INFO 2023-10-01 22:51:30,307 basehttp 16064 20016 "GET /init_bases/ HTTP/1.1" 200 1253
+INFO 2023-10-01 22:51:33,959 basehttp 16064 20016 "GET /init_bases/ HTTP/1.1" 200 1253
+ERROR 2023-10-01 22:51:36,616 log 16064 20016 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 80, in read_orders
+    orders = Orders.objects.join(User).join(Goods)
+AttributeError: 'Manager' object has no attribute 'join'
+ERROR 2023-10-01 22:51:36,618 basehttp 16064 20016 "GET /orders/ HTTP/1.1" 500 69337
+INFO 2023-10-01 22:59:06,724 autoreload 16064 11736 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 22:59:07,141 autoreload 18092 7456 Watching for file changes with StatReloader
+INFO 2023-10-01 23:01:10,488 autoreload 18092 7456 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:01:10,901 autoreload 10316 7248 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:01:16,606 log 10316 2228 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 21, in init_bases
+    User.objects.clear()
+AttributeError: 'Manager' object has no attribute 'clear'
+ERROR 2023-10-01 23:01:16,606 basehttp 10316 2228 "GET /init_bases/ HTTP/1.1" 500 70444
+INFO 2023-10-01 23:05:36,209 autoreload 10316 7248 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:05:36,630 autoreload 20852 10484 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:05:42,820 log 20852 7608 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 31, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:05:42,820 basehttp 20852 7608 "GET /init_bases/ HTTP/1.1" 500 80331
+INFO 2023-10-01 23:07:22,772 autoreload 20852 10484 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:07:23,179 autoreload 3600 6280 Watching for file changes with StatReloader
+INFO 2023-10-01 23:07:29,461 basehttp 3600 612 "GET /goods/ HTTP/1.1" 200 90025
+ERROR 2023-10-01 23:07:30,968 log 3600 612 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 35, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:07:30,971 basehttp 3600 612 "GET /init_bases/ HTTP/1.1" 500 80331
+INFO 2023-10-01 23:07:51,517 basehttp 3600 612 "GET /users/ HTTP/1.1" 200 4083
+INFO 2023-10-01 23:07:56,292 basehttp 3600 612 "GET /goods/ HTTP/1.1" 200 5029
+ERROR 2023-10-01 23:07:58,725 log 3600 612 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 68, in read_orders
+    orders = Orders.objects.join(User).join(Goods)
+AttributeError: 'Manager' object has no attribute 'join'
+ERROR 2023-10-01 23:07:58,727 basehttp 3600 612 "GET /orders/ HTTP/1.1" 500 69332
+INFO 2023-10-01 23:09:36,933 autoreload 3600 6280 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:09:37,365 autoreload 4928 18428 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:09:38,505 log 4928 1608 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 68, in read_orders
+    orders = Orders.objects.all().join(User).join(Goods)
+AttributeError: 'QuerySet' object has no attribute 'join'
+ERROR 2023-10-01 23:09:38,505 basehttp 4928 1608 "GET /orders/ HTTP/1.1" 500 69485
+ERROR 2023-10-01 23:09:41,505 log 4928 1608 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 68, in read_orders
+    orders = Orders.objects.all().join(User).join(Goods)
+AttributeError: 'QuerySet' object has no attribute 'join'
+ERROR 2023-10-01 23:09:41,505 basehttp 4928 1608 "GET /orders/ HTTP/1.1" 500 69348
+INFO 2023-10-01 23:12:51,724 autoreload 4928 18428 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:12:52,160 autoreload 18752 11008 Watching for file changes with StatReloader
+INFO 2023-10-01 23:12:56,160 basehttp 18752 16072 "GET /orders/ HTTP/1.1" 200 2606
+INFO 2023-10-01 23:12:58,292 basehttp 18752 16072 "GET /orders/ HTTP/1.1" 200 2606
+ERROR 2023-10-01 23:13:56,808 log 18752 16072 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 35, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:13:56,808 basehttp 18752 16072 "GET /init_bases/ HTTP/1.1" 500 80332
+INFO 2023-10-01 23:18:10,847 autoreload 18752 11008 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:18:11,255 autoreload 7616 21172 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:18:16,294 log 7616 1188 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 35, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:18:16,294 basehttp 7616 1188 "GET /init_bases/ HTTP/1.1" 500 80469
+INFO 2023-10-01 23:18:20,021 basehttp 7616 1188 "GET /orders/ HTTP/1.1" 200 2606
+ERROR 2023-10-01 23:18:23,280 log 7616 1188 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 35, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:18:23,282 basehttp 7616 1188 "GET /init_bases/ HTTP/1.1" 500 80332
+INFO 2023-10-01 23:18:57,367 basehttp 7616 1188 "GET /orders/ HTTP/1.1" 200 2606
+INFO 2023-10-01 23:18:58,832 basehttp 7616 1188 "GET /goods/ HTTP/1.1" 200 5029
+INFO 2023-10-01 23:19:00,112 basehttp 7616 1188 "GET /users/ HTTP/1.1" 200 4083
+INFO 2023-10-01 23:19:01,811 basehttp 7616 1188 "GET /goods/ HTTP/1.1" 200 5029
+ERROR 2023-10-01 23:19:14,507 log 7616 1188 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 84, in create_good
+    Goods.objects.add(good)
+AttributeError: 'Manager' object has no attribute 'add'
+ERROR 2023-10-01 23:19:14,508 basehttp 7616 1188 "POST /goods/create HTTP/1.1" 500 72124
+INFO 2023-10-01 23:21:02,801 autoreload 7616 21172 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:21:03,209 autoreload 6824 13864 Watching for file changes with StatReloader
+INFO 2023-10-01 23:22:22,718 autoreload 6824 13864 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:22:23,165 autoreload 18364 17084 Watching for file changes with StatReloader
+INFO 2023-10-01 23:22:37,061 basehttp 18364 5012 "GET /goods/ HTTP/1.1" 200 5029
+ERROR 2023-10-01 23:22:38,497 log 18364 5012 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 35, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:22:38,499 basehttp 18364 5012 "GET /init_bases/ HTTP/1.1" 500 80331
+INFO 2023-10-01 23:24:24,949 autoreload 18364 17084 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:24:25,378 autoreload 7812 15652 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:24:28,103 log 7812 11832 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 37, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:24:28,103 basehttp 7812 11832 "GET /init_bases/ HTTP/1.1" 500 80421
+INFO 2023-10-01 23:25:49,992 autoreload 5284 11796 Watching for file changes with StatReloader
+INFO 2023-10-01 23:26:04,014 basehttp 5284 15760 "GET /goods/ HTTP/1.1" 200 5029
+INFO 2023-10-01 23:26:12,870 basehttp 5284 15760 "GET /users/ HTTP/1.1" 200 4083
+INFO 2023-10-01 23:26:16,277 basehttp 5284 15760 "GET /goods/ HTTP/1.1" 200 5029
+INFO 2023-10-01 23:26:16,956 basehttp 5284 15760 "GET /orders/ HTTP/1.1" 200 2606
+INFO 2023-10-01 23:26:19,378 basehttp 5284 15760 "GET /orders/ HTTP/1.1" 200 2606
+INFO 2023-10-01 23:26:20,116 basehttp 5284 15760 "GET /orders/ HTTP/1.1" 200 2606
+ERROR 2023-10-01 23:26:29,942 log 5284 15760 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 90, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-01 23:26:29,945 basehttp 5284 15760 "POST /orders/create HTTP/1.1" 500 103577
+INFO 2023-10-01 23:27:02,214 autoreload 5284 11796 D:\Django\DZ\project\myproject\dz2\models.py changed, reloading.
+INFO 2023-10-01 23:27:02,647 autoreload 9144 328 Watching for file changes with StatReloader
+INFO 2023-10-01 23:28:25,004 autoreload 9144 328 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:28:25,424 autoreload 11204 11812 Watching for file changes with StatReloader
+INFO 2023-10-01 23:28:31,575 basehttp 11204 3544 "GET /orders/ HTTP/1.1" 200 2606
+ERROR 2023-10-01 23:28:33,213 log 11204 3544 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 35, in init_bases
+    order = Orders(customer=User.objects.get(pk=1), total_price=200, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+dz2.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2023-10-01 23:28:33,213 basehttp 11204 3544 "GET /init_bases/ HTTP/1.1" 500 80285
+INFO 2023-10-01 23:31:26,595 autoreload 11204 11812 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:31:27,018 autoreload 20668 2340 Watching for file changes with StatReloader
+INFO 2023-10-01 23:32:57,591 autoreload 20668 2340 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:32:58,020 autoreload 21472 17680 Watching for file changes with StatReloader
+INFO 2023-10-01 23:33:40,095 autoreload 21472 17680 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:33:40,508 autoreload 10096 19432 Watching for file changes with StatReloader
+INFO 2023-10-01 23:33:45,315 basehttp 10096 9108 "GET /orders/ HTTP/1.1" 200 2606
+INFO 2023-10-01 23:33:46,911 basehttp 10096 9108 "GET /orders/ HTTP/1.1" 200 2606
+ERROR 2023-10-01 23:33:47,870 log 10096 9108 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 37, in init_bases
+    order.goods.add(goods_name="TV")
+TypeError: create_forward_many_to_many_manager.<locals>.ManyRelatedManager.add() got an unexpected keyword argument 'goods_name'
+ERROR 2023-10-01 23:33:47,872 basehttp 10096 9108 "GET /init_bases/ HTTP/1.1" 500 72335
+INFO 2023-10-01 23:35:31,784 autoreload 10096 19432 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:35:32,197 autoreload 21240 6828 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:35:37,017 log 21240 17760 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 37, in init_bases
+    order.goods.add(goods_name="TV")
+TypeError: create_forward_many_to_many_manager.<locals>.ManyRelatedManager.add() got an unexpected keyword argument 'goods_name'
+ERROR 2023-10-01 23:35:37,017 basehttp 21240 17760 "GET /init_bases/ HTTP/1.1" 500 72321
+INFO 2023-10-01 23:37:23,388 autoreload 21240 6828 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:37:23,862 autoreload 17644 18452 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:37:28,169 log 17644 18336 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 38, in init_bases
+    order.goods.add(g.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+ERROR 2023-10-01 23:37:28,169 basehttp 17644 18336 "GET /init_bases/ HTTP/1.1" 500 71322
+INFO 2023-10-01 23:39:02,744 autoreload 17644 18452 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:39:03,166 autoreload 1220 14544 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:39:07,114 log 1220 16404 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 38, in init_bases
+    print(g, g.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+ERROR 2023-10-01 23:39:07,123 basehttp 1220 16404 "GET /init_bases/ HTTP/1.1" 500 71317
+INFO 2023-10-01 23:39:23,064 autoreload 1220 14544 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:39:23,488 autoreload 480 11912 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:39:27,246 log 480 3240 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 39, in init_bases
+    order.goods.add(g.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+ERROR 2023-10-01 23:39:27,246 basehttp 480 3240 "GET /init_bases/ HTTP/1.1" 500 71330
+INFO 2023-10-01 23:41:35,160 autoreload 480 11912 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:41:35,586 autoreload 11620 10696 Watching for file changes with StatReloader
+INFO 2023-10-01 23:41:41,198 basehttp 11620 9288 "GET /orders/ HTTP/1.1" 200 3141
+ERROR 2023-10-01 23:41:44,603 log 11620 9288 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 20, in init_bases
+    User.objects.all().clear()
+AttributeError: 'QuerySet' object has no attribute 'clear'
+ERROR 2023-10-01 23:41:44,604 basehttp 11620 9288 "GET /init_bases/ HTTP/1.1" 500 69511
+INFO 2023-10-01 23:42:27,295 autoreload 11620 10696 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:42:27,703 autoreload 12752 11720 Watching for file changes with StatReloader
+INFO 2023-10-01 23:42:36,864 basehttp 12752 13572 "GET /orders/ HTTP/1.1" 200 3141
+ERROR 2023-10-01 23:42:44,077 log 12752 13572 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 93, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-01 23:42:44,082 basehttp 12752 13572 "POST /orders/create HTTP/1.1" 500 103577
+INFO 2023-10-01 23:42:51,726 basehttp 12752 13572 "GET /goods/ HTTP/1.1" 200 5029
+ERROR 2023-10-01 23:43:05,210 log 12752 13572 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Form'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in create_good
+    good.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1033, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Form bound=False, valid=Unknown, fields=()>.
+ERROR 2023-10-01 23:43:05,215 basehttp 12752 13572 "POST /goods/create HTTP/1.1" 500 151791
+INFO 2023-10-01 23:46:51,018 autoreload 12752 11720 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:46:51,424 autoreload 16688 19548 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:46:56,502 log 16688 7344 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in create_good
+    g = Goods.objects.bulk_create(good)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 781, in bulk_create
+    objs = list(objs)
+TypeError: 'Goods' object is not iterable
+ERROR 2023-10-01 23:46:56,502 basehttp 16688 7344 "POST /goods/create HTTP/1.1" 500 81895
+INFO 2023-10-01 23:47:19,549 autoreload 16688 19548 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:47:20,050 autoreload 5784 9096 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:47:24,256 log 5784 15564 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in create_good
+    g = Goods.objects.create(good)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 23:47:24,256 basehttp 5784 15564 "POST /goods/create HTTP/1.1" 500 76266
+INFO 2023-10-01 23:48:04,015 basehttp 5784 15564 "GET /users/ HTTP/1.1" 200 4083
+ERROR 2023-10-01 23:48:17,748 log 5784 15564 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 84, in create_user
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 23:48:17,750 basehttp 5784 15564 "POST /users/create HTTP/1.1" 500 76097
+INFO 2023-10-01 23:49:11,185 autoreload 5784 9096 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:49:11,617 autoreload 1096 19616 Watching for file changes with StatReloader
+INFO 2023-10-01 23:49:42,419 autoreload 1096 19616 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:49:42,888 autoreload 18904 10464 Watching for file changes with StatReloader
+INFO 2023-10-01 23:49:47,089 autoreload 18904 10464 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:49:47,517 autoreload 9304 18576 Watching for file changes with StatReloader
+INFO 2023-10-01 23:49:58,871 autoreload 9304 18576 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:49:59,369 autoreload 14160 10492 Watching for file changes with StatReloader
+INFO 2023-10-01 23:50:03,733 autoreload 14160 10492 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:50:04,154 autoreload 9992 16588 Watching for file changes with StatReloader
+INFO 2023-10-01 23:50:10,406 autoreload 9992 16588 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:50:10,818 autoreload 5108 21064 Watching for file changes with StatReloader
+INFO 2023-10-01 23:50:16,086 autoreload 5108 21064 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:50:16,519 autoreload 20412 9236 Watching for file changes with StatReloader
+INFO 2023-10-01 23:50:21,741 autoreload 20412 9236 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:50:22,182 autoreload 17488 20960 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:50:28,617 log 17488 16684 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 84, in create_user
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 23:50:28,617 basehttp 17488 16684 "POST /users/create HTTP/1.1" 500 76182
+INFO 2023-10-01 23:50:36,489 basehttp 17488 16684 "GET /users/ HTTP/1.1" 200 4083
+ERROR 2023-10-01 23:50:40,886 log 17488 16684 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 84, in create_user
+    usr = User.objects.create(user)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+ERROR 2023-10-01 23:50:40,888 basehttp 17488 16684 "POST /users/create HTTP/1.1" 500 76176
+INFO 2023-10-01 23:52:42,161 autoreload 17488 20960 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:52:42,585 autoreload 1564 19968 Watching for file changes with StatReloader
+INFO 2023-10-01 23:53:38,332 autoreload 1564 19968 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:53:38,746 autoreload 8096 2708 Watching for file changes with StatReloader
+ERROR 2023-10-01 23:53:44,117 log 8096 4768 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 86, in create_user
+    return render(request, "users.html", context = {"users": user, "title":"√лавна€ страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'User' object is not iterable
+ERROR 2023-10-01 23:53:44,117 basehttp 8096 4768 "POST /users/create HTTP/1.1" 500 152312
+INFO 2023-10-01 23:54:05,821 autoreload 8096 2708 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:54:06,244 autoreload 11640 16372 Watching for file changes with StatReloader
+INFO 2023-10-01 23:54:08,252 basehttp 11640 8268 "POST /users/create HTTP/1.1" 200 1253
+INFO 2023-10-01 23:54:10,119 basehttp 11640 8268 "GET /users/ HTTP/1.1" 200 5337
+INFO 2023-10-01 23:54:29,427 basehttp 11640 8268 "POST /users/create HTTP/1.1" 200 1253
+INFO 2023-10-01 23:54:31,135 basehttp 11640 8268 "GET /users/ HTTP/1.1" 200 5964
+INFO 2023-10-01 23:56:30,086 basehttp 11640 15480 "GET /goods/ HTTP/1.1" 200 5029
+ERROR 2023-10-01 23:56:38,632 log 11640 15480 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1741, in to_python
+    decimal_value = decimal.Decimal(value)
+TypeError: conversion from Form to Decimal is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 90, in create_good
+    good.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1760, in get_db_prep_save
+    self.to_python(value), self.max_digits, self.decimal_places
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1743, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['УФ value must be a decimal number.']
+ERROR 2023-10-01 23:56:38,638 basehttp 11640 15480 "POST /goods/create HTTP/1.1" 500 137871
+ERROR 2023-10-01 23:56:58,393 log 11640 15480 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1741, in to_python
+    decimal_value = decimal.Decimal(value)
+TypeError: conversion from Form to Decimal is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 90, in create_good
+    good.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1760, in get_db_prep_save
+    self.to_python(value), self.max_digits, self.decimal_places
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1743, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['УФ value must be a decimal number.']
+ERROR 2023-10-01 23:56:58,397 basehttp 11640 15480 "POST /goods/create HTTP/1.1" 500 137867
+ERROR 2023-10-01 23:57:04,534 log 11640 15480 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1741, in to_python
+    decimal_value = decimal.Decimal(value)
+TypeError: conversion from Form to Decimal is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 90, in create_good
+    good.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1760, in get_db_prep_save
+    self.to_python(value), self.max_digits, self.decimal_places
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1743, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['УФ value must be a decimal number.']
+ERROR 2023-10-01 23:57:04,538 basehttp 11640 15480 "POST /goods/create HTTP/1.1" 500 137864
+INFO 2023-10-01 23:58:32,461 autoreload 11640 16372 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:58:32,885 autoreload 17488 8732 Watching for file changes with StatReloader
+INFO 2023-10-01 23:59:03,946 autoreload 17488 8732 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:59:04,386 autoreload 16380 17708 Watching for file changes with StatReloader
+INFO 2023-10-01 23:59:39,549 autoreload 16380 17708 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:59:39,995 autoreload 18068 1324 Watching for file changes with StatReloader
+INFO 2023-10-01 23:59:56,764 autoreload 18068 1324 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-01 23:59:57,197 autoreload 3232 20316 Watching for file changes with StatReloader
+INFO 2023-10-02 00:00:11,812 autoreload 3232 20316 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:00:12,245 autoreload 7876 312 Watching for file changes with StatReloader
+INFO 2023-10-02 00:00:44,388 autoreload 7876 312 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:00:44,823 autoreload 11736 9300 Watching for file changes with StatReloader
+INFO 2023-10-02 00:00:50,839 basehttp 11736 20672 "GET /users/ HTTP/1.1" 200 5972
+INFO 2023-10-02 00:00:56,053 basehttp 11736 20672 "POST /users/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:00:57,926 basehttp 11736 20672 "GET /users/ HTTP/1.1" 200 6636
+ERROR 2023-10-02 00:01:06,582 log 11736 20672 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    order.goods.add(g.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+ERROR 2023-10-02 00:01:06,584 basehttp 11736 20672 "GET /init_bases/ HTTP/1.1" 500 71329
+INFO 2023-10-02 00:05:28,343 autoreload 11736 9300 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:05:28,784 autoreload 4212 16864 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:05:34,610 log 4212 19808 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    order.goods.add(g.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+ERROR 2023-10-02 00:05:34,610 basehttp 4212 19808 "GET /init_bases/ HTTP/1.1" 500 71329
+INFO 2023-10-02 00:05:40,636 basehttp 4212 19808 "GET /orders/ HTTP/1.1" 200 3141
+ERROR 2023-10-02 00:05:47,549 log 4212 19808 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 111, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-02 00:05:47,553 basehttp 4212 19808 "POST /orders/create HTTP/1.1" 500 103678
+INFO 2023-10-02 00:08:20,764 autoreload 4212 16864 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:08:21,168 autoreload 18744 4628 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:08:25,757 log 18744 14052 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 111, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-02 00:08:25,771 basehttp 18744 14052 "POST /orders/create HTTP/1.1" 500 103678
+ERROR 2023-10-02 00:08:45,037 log 18744 14052 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 111, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-02 00:08:45,040 basehttp 18744 14052 "POST /orders/create HTTP/1.1" 500 103678
+ERROR 2023-10-02 00:08:49,933 log 18744 14052 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 111, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-02 00:08:49,935 basehttp 18744 14052 "POST /orders/create HTTP/1.1" 500 103676
+INFO 2023-10-02 00:10:19,618 autoreload 18744 4628 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:10:23,630 autoreload 10680 4592 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:10:25,802 log 10680 10684 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 112, in create_order
+    goods_id = Goods.objects.filter(Goods.goods_name == goods_name).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-02 00:10:25,806 basehttp 10680 10684 "POST /orders/create HTTP/1.1" 500 103566
+INFO 2023-10-02 00:11:51,183 autoreload 10680 4592 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:11:51,602 autoreload 16564 21220 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:12:09,214 log 16564 12400 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 112, in create_order
+    user_id = User.objects.filter(User.username==username).first()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+ERROR 2023-10-02 00:12:09,218 basehttp 16564 12400 "POST /orders/create HTTP/1.1" 500 103457
+INFO 2023-10-02 00:12:52,567 autoreload 16564 21220 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:12:52,984 autoreload 6220 11008 Watching for file changes with StatReloader
+INFO 2023-10-02 00:14:47,645 autoreload 6220 11008 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:14:48,069 autoreload 16064 10404 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:14:50,610 log 16064 5012 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 115, in create_order
+    orders = Orders(customer=user_id.pk, goods=goods_id.pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "149": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:14:50,610 basehttp 16064 5012 "POST /orders/create HTTP/1.1" 500 81665
+INFO 2023-10-02 00:16:47,528 autoreload 16064 10404 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:16:47,959 autoreload 16680 908 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:16:51,887 log 16680 20064 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 115, in create_order
+    orders = Orders(customer=user_id.pk, goods=goods_id.pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "149": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:16:51,887 basehttp 16680 20064 "POST /orders/create HTTP/1.1" 500 81690
+INFO 2023-10-02 00:17:47,836 autoreload 16680 908 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:17:48,263 autoreload 19484 3520 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:17:52,403 log 19484 2484 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 115, in create_order
+    orders = Orders(customer=user_id.pk, goods=goods_id.pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "149": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:17:52,403 basehttp 19484 2484 "POST /orders/create HTTP/1.1" 500 81715
+INFO 2023-10-02 00:20:38,098 basehttp 19484 2484 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 00:20:43,330 basehttp 19484 2484 "GET /goods/ HTTP/1.1" 200 5029
+ERROR 2023-10-02 00:21:02,769 log 19484 2484 Internal Server Error: /goods/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1741, in to_python
+    decimal_value = decimal.Decimal(value)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 102, in create_good
+    good.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1760, in get_db_prep_save
+    self.to_python(value), self.max_digits, self.decimal_places
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1743, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['УФ value must be a decimal number.']
+ERROR 2023-10-02 00:21:02,774 basehttp 19484 2484 "POST /goods/create HTTP/1.1" 500 137587
+INFO 2023-10-02 00:21:16,375 basehttp 19484 2484 "POST /goods/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:21:18,551 basehttp 19484 2484 "GET /goods/ HTTP/1.1" 200 5633
+INFO 2023-10-02 00:21:22,996 basehttp 19484 2484 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 00:21:35,001 basehttp 19484 2484 "POST /users/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:21:36,587 basehttp 19484 2484 "GET /users/ HTTP/1.1" 200 4758
+INFO 2023-10-02 00:21:39,178 basehttp 19484 2484 "GET /orders/ HTTP/1.1" 200 3261
+ERROR 2023-10-02 00:21:46,274 log 19484 2484 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 115, in create_order
+    orders = Orders(customer=user_id.pk, goods=goods_id.pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "149": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:21:46,276 basehttp 19484 2484 "POST /orders/create HTTP/1.1" 500 81719
+INFO 2023-10-02 00:22:44,200 autoreload 19484 3520 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:22:44,620 autoreload 20128 6176 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:22:48,717 log 20128 11788 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 115, in create_order
+    orders = Orders(customer=User.objects.filter(username=username).first().pk, goods=Goods.objects.filter(goods_name = goods_name).first().pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "149": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:22:48,717 basehttp 20128 11788 "POST /orders/create HTTP/1.1" 500 81461
+ERROR 2023-10-02 00:23:37,845 log 20128 11788 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    order.goods.add(g.id)
+AttributeError: 'QuerySet' object has no attribute 'id'
+ERROR 2023-10-02 00:23:37,846 basehttp 20128 11788 "GET /init_bases/ HTTP/1.1" 500 71330
+INFO 2023-10-02 00:24:23,543 autoreload 20128 6176 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:24:23,965 autoreload 12356 10844 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:24:26,666 log 12356 18084 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 40, in init_bases
+    order.goods.add(g.pk)
+AttributeError: 'QuerySet' object has no attribute 'pk'
+ERROR 2023-10-02 00:24:26,666 basehttp 12356 18084 "GET /init_bases/ HTTP/1.1" 500 71467
+INFO 2023-10-02 00:25:52,715 autoreload 12356 10844 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:25:53,147 autoreload 2692 19192 Watching for file changes with StatReloader
+INFO 2023-10-02 00:25:55,115 basehttp 2692 13628 "GET /init_bases/ HTTP/1.1" 200 1253
+INFO 2023-10-02 00:25:59,040 basehttp 2692 13628 "GET /orders/ HTTP/1.1" 200 5281
+ERROR 2023-10-02 00:26:14,060 log 2692 13628 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 115, in create_order
+    orders = Orders(customer=User.objects.filter(username=username).first().pk, goods=Goods.objects.filter(goods_name = goods_name).first().pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "159": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:26:14,063 basehttp 2692 13628 "POST /orders/create HTTP/1.1" 500 81464
+INFO 2023-10-02 00:28:48,960 autoreload 2692 19192 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:28:49,391 autoreload 20056 15772 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:28:53,183 log 20056 6132 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 119, in create_order
+    orders = Orders(customer=User.objects.filter(username=username).first().pk, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "159": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:28:53,183 basehttp 20056 6132 "POST /orders/create HTTP/1.1" 500 81708
+INFO 2023-10-02 00:30:08,802 autoreload 20056 15772 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:30:09,206 autoreload 6580 14464 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:30:13,022 log 6580 15964 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 119, in create_order
+    orders = Orders(customer=user_id, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "159": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:30:13,022 basehttp 6580 15964 "POST /orders/create HTTP/1.1" 500 81783
+INFO 2023-10-02 00:30:55,884 autoreload 6580 14464 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:30:56,308 autoreload 6488 14012 Watching for file changes with StatReloader
+INFO 2023-10-02 00:31:03,086 basehttp 6488 12412 "GET /orders/ HTTP/1.1" 200 5281
+INFO 2023-10-02 00:31:05,245 basehttp 6488 12412 "GET /goods/ HTTP/1.1" 200 5029
+INFO 2023-10-02 00:31:09,614 basehttp 6488 12412 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 00:31:14,140 basehttp 6488 12412 "GET /orders/ HTTP/1.1" 200 5281
+INFO 2023-10-02 00:33:33,758 autoreload 6488 14012 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:33:34,208 autoreload 12880 7948 Watching for file changes with StatReloader
+INFO 2023-10-02 00:35:14,056 autoreload 12880 7948 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:35:14,489 autoreload 14860 13476 Watching for file changes with StatReloader
+INFO 2023-10-02 00:35:14,801 basehttp 14860 3912 "GET /orders/ HTTP/1.1" 200 5281
+ERROR 2023-10-02 00:35:24,171 log 14860 3912 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 106, in create_order
+    orders = Orders(customer=User.objects.get(user_id), total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2023-10-02 00:35:24,173 basehttp 14860 3912 "POST /orders/create HTTP/1.1" 500 107680
+INFO 2023-10-02 00:36:56,312 autoreload 14860 13476 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:36:56,732 autoreload 1644 21060 Watching for file changes with StatReloader
+ERROR 2023-10-02 00:37:01,399 log 1644 1668 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 106, in create_order
+    orders = Orders(customer=user_id, total_price=total_price, date_ordered=datetime.datetime)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "160": "Orders.customer" must be a "User" instance.
+ERROR 2023-10-02 00:37:01,399 basehttp 1644 1668 "POST /orders/create HTTP/1.1" 500 81572
+INFO 2023-10-02 00:38:41,944 autoreload 1644 21060 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:38:42,375 autoreload 7624 3964 Watching for file changes with StatReloader
+INFO 2023-10-02 00:38:47,988 basehttp 7624 16824 "POST /orders/create HTTP/1.1" 200 1253
+ERROR 2023-10-02 00:38:50,325 log 7624 16824 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: dz2_orders.total_price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 107, in create_order
+    orders.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: dz2_orders.total_price
+ERROR 2023-10-02 00:38:50,331 basehttp 7624 16824 "GET /orders/create HTTP/1.1" 500 148427
+ERROR 2023-10-02 00:39:04,486 log 7624 16824 Internal Server Error: /orders/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: dz2_orders.total_price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 107, in create_order
+    orders.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: dz2_orders.total_price
+ERROR 2023-10-02 00:39:04,489 basehttp 7624 16824 "GET /orders/create HTTP/1.1" 500 148564
+INFO 2023-10-02 00:39:07,881 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 5818
+INFO 2023-10-02 00:39:10,602 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 5818
+INFO 2023-10-02 00:39:16,206 basehttp 7624 16824 "GET /goods/ HTTP/1.1" 200 5029
+INFO 2023-10-02 00:39:19,732 basehttp 7624 16824 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 00:39:23,095 basehttp 7624 16824 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 00:39:26,701 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 5818
+INFO 2023-10-02 00:39:37,420 basehttp 7624 16824 "POST /orders/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:39:39,592 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 6354
+INFO 2023-10-02 00:41:29,885 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 6803
+INFO 2023-10-02 00:41:55,024 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 6383
+INFO 2023-10-02 00:42:18,684 basehttp 7624 16824 "GET /orders/ HTTP/1.1" 200 6481
+INFO 2023-10-02 00:44:13,219 autoreload 7624 3964 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:44:13,647 autoreload 11864 1172 Watching for file changes with StatReloader
+INFO 2023-10-02 00:44:15,919 basehttp 11864 17352 "GET /orders/ HTTP/1.1" 200 6481
+INFO 2023-10-02 00:44:17,854 basehttp 11864 17352 "GET /init_bases/ HTTP/1.1" 200 1253
+INFO 2023-10-02 00:44:19,765 basehttp 11864 17352 "GET /orders/ HTTP/1.1" 200 5372
+INFO 2023-10-02 00:45:14,983 basehttp 11864 17352 "GET /orders/ HTTP/1.1" 200 5302
+INFO 2023-10-02 00:45:45,406 autoreload 11864 1172 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:45:45,827 autoreload 2456 13520 Watching for file changes with StatReloader
+INFO 2023-10-02 00:45:49,211 basehttp 2456 11904 "GET /orders/ HTTP/1.1" 200 5302
+INFO 2023-10-02 00:45:58,878 basehttp 2456 11904 "POST /orders/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:46:00,798 basehttp 2456 11904 "GET /orders/ HTTP/1.1" 200 5841
+INFO 2023-10-02 00:46:12,662 basehttp 2456 11904 "GET /init_bases/ HTTP/1.1" 200 1253
+INFO 2023-10-02 00:46:14,974 basehttp 2456 11904 "GET /orders/ HTTP/1.1" 200 5302
+INFO 2023-10-02 00:46:29,235 basehttp 2456 11904 "POST /orders/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:46:30,867 basehttp 2456 11904 "GET /orders/ HTTP/1.1" 200 5841
+INFO 2023-10-02 00:49:45,014 autoreload 2456 13520 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:49:45,521 autoreload 6244 13892 Watching for file changes with StatReloader
+INFO 2023-10-02 00:49:48,407 basehttp 6244 3144 "GET /orders/ HTTP/1.1" 200 5841
+INFO 2023-10-02 00:49:56,359 basehttp 6244 3144 "POST /orders/create HTTP/1.1" 200 1253
+INFO 2023-10-02 00:49:58,115 basehttp 6244 3144 "GET /orders/ HTTP/1.1" 200 6379
+INFO 2023-10-02 00:50:07,358 basehttp 6244 3144 "GET /goods/ HTTP/1.1" 200 5029
+INFO 2023-10-02 00:50:12,015 basehttp 6244 3144 "GET /users/ HTTP/1.1" 200 4091
+WARNING 2023-10-02 00:50:13,561 log 6244 3144 Not Found: /users/users/delete/165
+WARNING 2023-10-02 00:50:13,561 basehttp 6244 3144 "GET /users/users/delete/165 HTTP/1.1" 404 3562
+INFO 2023-10-02 00:55:34,265 autoreload 6244 13892 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 00:55:34,703 autoreload 15932 2304 Watching for file changes with StatReloader
+INFO 2023-10-02 00:56:53,099 autoreload 15932 2304 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-02 00:56:53,551 autoreload 7796 9952 Watching for file changes with StatReloader
+INFO 2023-10-02 00:56:56,367 basehttp 7796 13968 "GET /users/ HTTP/1.1" 200 4091
+WARNING 2023-10-02 00:56:58,125 log 7796 13968 Not Found: /users/users/delete/165
+WARNING 2023-10-02 00:56:58,125 basehttp 7796 13968 "GET /users/users/delete/165 HTTP/1.1" 404 4101
+INFO 2023-10-02 00:58:25,472 basehttp 7796 13968 "GET /users/ HTTP/1.1" 200 4088
+WARNING 2023-10-02 00:58:26,351 log 7796 13968 Not Found: /users/users/delete165
+WARNING 2023-10-02 00:58:26,351 basehttp 7796 13968 "GET /users/users/delete165 HTTP/1.1" 404 4098
+INFO 2023-10-02 00:59:45,343 autoreload 7796 9952 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-02 00:59:45,739 autoreload 4176 1136 Watching for file changes with StatReloader
+WARNING 2023-10-02 00:59:49,864 log 4176 8028 Not Found: /users/users/delete165
+WARNING 2023-10-02 00:59:49,864 basehttp 4176 8028 "GET /users/users/delete165 HTTP/1.1" 404 4101
+WARNING 2023-10-02 00:59:52,947 log 4176 8028 Not Found: /users/users/delete165
+WARNING 2023-10-02 00:59:52,963 basehttp 4176 8028 "GET /users/users/delete165 HTTP/1.1" 404 4101
+WARNING 2023-10-02 00:59:55,321 log 4176 8028 Not Found: /users/users/edit/165
+WARNING 2023-10-02 00:59:55,321 basehttp 4176 8028 "GET /users/users/edit/165 HTTP/1.1" 404 4098
+WARNING 2023-10-02 01:00:00,427 log 4176 8028 Not Found: /users/users/delete165
+WARNING 2023-10-02 01:00:00,428 basehttp 4176 8028 "GET /users/users/delete165 HTTP/1.1" 404 4101
+INFO 2023-10-02 01:00:06,259 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:07,121 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:07,912 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:08,402 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:08,612 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:11,602 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:15,498 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:16,774 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4091
+INFO 2023-10-02 01:00:40,439 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4092
+INFO 2023-10-02 01:00:41,786 basehttp 4176 8028 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:00:44,308 basehttp 4176 8028 "GET /orders/ HTTP/1.1" 200 6380
+INFO 2023-10-02 01:00:47,519 basehttp 4176 8028 "GET /goods/ HTTP/1.1" 200 5030
+INFO 2023-10-02 01:00:50,369 basehttp 4176 8028 "GET /users/ HTTP/1.1" 200 4092
+INFO 2023-10-02 01:00:51,910 basehttp 4176 8028 "GET /goods/ HTTP/1.1" 200 5030
+WARNING 2023-10-02 01:00:53,112 log 4176 8028 Not Found: /goods/goods/delete/198
+WARNING 2023-10-02 01:00:53,113 basehttp 4176 8028 "GET /goods/goods/delete/198 HTTP/1.1" 404 4104
+INFO 2023-10-02 01:02:02,814 autoreload 4176 1136 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-02 01:02:03,262 autoreload 12176 14900 Watching for file changes with StatReloader
+INFO 2023-10-02 01:03:03,105 autoreload 12176 14900 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-02 01:03:03,530 autoreload 2176 5000 Watching for file changes with StatReloader
+INFO 2023-10-02 01:03:07,161 basehttp 2176 5992 "GET /goods/ HTTP/1.1" 200 5030
+INFO 2023-10-02 01:03:09,586 basehttp 2176 5992 "GET /users/ HTTP/1.1" 200 4095
+WARNING 2023-10-02 01:03:11,305 log 2176 5992 Not Found: /users/delete/165
+WARNING 2023-10-02 01:03:11,305 basehttp 2176 5992 "GET /users/delete/165 HTTP/1.1" 404 4086
+INFO 2023-10-02 01:07:13,484 autoreload 2176 5000 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-02 01:07:13,942 autoreload 13824 21256 Watching for file changes with StatReloader
+INFO 2023-10-02 01:07:15,257 basehttp 13824 2708 "GET /users/delete/165 HTTP/1.1" 301 0
+ERROR 2023-10-02 01:07:15,290 log 13824 9960 Internal Server Error: /users/delete/165/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_user() got an unexpected keyword argument 'users_id'
+ERROR 2023-10-02 01:07:15,291 basehttp 13824 9960 "GET /users/delete/165/ HTTP/1.1" 500 66031
+INFO 2023-10-02 01:07:28,503 basehttp 13824 9960 "GET /users/ HTTP/1.1" 200 4098
+INFO 2023-10-02 01:07:29,722 basehttp 13824 9960 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:07:32,091 basehttp 13824 9960 "GET /goods/ HTTP/1.1" 200 5030
+INFO 2023-10-02 01:07:34,699 basehttp 13824 9960 "GET /users/ HTTP/1.1" 200 4098
+ERROR 2023-10-02 01:07:36,581 log 13824 9960 Internal Server Error: /users/delete/165/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_user() got an unexpected keyword argument 'users_id'
+ERROR 2023-10-02 01:07:36,583 basehttp 13824 9960 "GET /users/delete/165/ HTTP/1.1" 500 65894
+ERROR 2023-10-02 01:08:19,639 log 13824 9960 Internal Server Error: /users/delete/165/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_user() got an unexpected keyword argument 'users_id'
+ERROR 2023-10-02 01:08:19,640 basehttp 13824 9960 "GET /users/delete/165/ HTTP/1.1" 500 66031
+INFO 2023-10-02 01:09:26,842 autoreload 13824 21256 D:\Django\DZ\project\myproject\dz2\urls.py changed, reloading.
+INFO 2023-10-02 01:09:27,306 autoreload 12604 9788 Watching for file changes with StatReloader
+INFO 2023-10-02 01:09:29,391 basehttp 12604 3316 "GET /users/ HTTP/1.1" 200 4095
+ERROR 2023-10-02 01:09:30,485 log 12604 3316 Internal Server Error: /users/delete/165/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 116, in delete_user
+    user = User.objects.get(user_id)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2023-10-02 01:09:30,488 basehttp 12604 3316 "GET /users/delete/165/ HTTP/1.1" 500 106158
+INFO 2023-10-02 01:10:32,271 autoreload 12604 9788 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 01:10:32,708 autoreload 16704 5000 Watching for file changes with StatReloader
+ERROR 2023-10-02 01:10:38,729 log 16704 9468 Internal Server Error: /users/delete/165/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 116, in delete_user
+    user = User.objects.get(user_id)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2023-10-02 01:10:38,733 basehttp 16704 9468 "GET /users/delete/165/ HTTP/1.1" 500 106299
+INFO 2023-10-02 01:10:41,993 basehttp 16704 9468 "GET /users/ HTTP/1.1" 200 4095
+ERROR 2023-10-02 01:10:43,606 log 16704 9468 Internal Server Error: /users/delete/165/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 116, in delete_user
+    user = User.objects.get(user_id)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2023-10-02 01:10:43,609 basehttp 16704 9468 "GET /users/delete/165/ HTTP/1.1" 500 106162
+INFO 2023-10-02 01:11:43,986 autoreload 16704 5000 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 01:11:44,443 autoreload 2448 14620 Watching for file changes with StatReloader
+INFO 2023-10-02 01:11:48,392 basehttp 2448 8336 "GET /users/delete/165/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:11:52,265 basehttp 2448 8336 "GET /users/ HTTP/1.1" 200 3433
+INFO 2023-10-02 01:11:53,652 basehttp 2448 8336 "GET /goods/ HTTP/1.1" 200 5030
+WARNING 2023-10-02 01:11:54,913 log 2448 8336 Not Found: /goods/goods/delete/199
+WARNING 2023-10-02 01:11:54,913 basehttp 2448 8336 "GET /goods/goods/delete/199 HTTP/1.1" 404 4170
+WARNING 2023-10-02 01:15:08,425 log 2448 8336 Not Found: /goods/goods/delete/199
+WARNING 2023-10-02 01:15:08,425 basehttp 2448 8336 "GET /goods/goods/delete/199 HTTP/1.1" 404 4170
+WARNING 2023-10-02 01:15:38,736 log 2448 8336 Not Found: /goods/goods/delete/199
+WARNING 2023-10-02 01:15:38,736 basehttp 2448 8336 "GET /goods/goods/delete/199 HTTP/1.1" 404 4170
+INFO 2023-10-02 01:15:42,223 basehttp 2448 8336 "GET /goods/ HTTP/1.1" 200 5038
+INFO 2023-10-02 01:15:44,106 basehttp 2448 8336 "GET /goods/ HTTP/1.1" 200 5038
+INFO 2023-10-02 01:15:48,276 basehttp 2448 8336 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:15:49,032 basehttp 2448 8336 "GET /goods/ HTTP/1.1" 200 5038
+INFO 2023-10-02 01:15:51,258 basehttp 2448 8336 "GET /goods/delete/198/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:15:52,714 basehttp 2448 8336 "GET /goods/ HTTP/1.1" 200 4328
+INFO 2023-10-02 01:15:54,300 basehttp 2448 8336 "GET /goods/delete/199/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:15:55,503 basehttp 2448 8336 "GET /goods/ HTTP/1.1" 200 3595
+INFO 2023-10-02 01:15:57,657 basehttp 2448 8336 "GET /users/ HTTP/1.1" 200 3433
+INFO 2023-10-02 01:15:58,911 basehttp 2448 8336 "GET /users/delete/166 HTTP/1.1" 301 0
+INFO 2023-10-02 01:15:58,927 basehttp 2448 15024 "GET /users/delete/166/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:16:00,262 basehttp 2448 15024 "GET /users/ HTTP/1.1" 200 2773
+INFO 2023-10-02 01:16:01,144 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 2933
+WARNING 2023-10-02 01:16:02,647 log 2448 15024 Not Found: /orders/orders/delete/39
+WARNING 2023-10-02 01:16:02,648 basehttp 2448 15024 "GET /orders/orders/delete/39 HTTP/1.1" 404 4173
+WARNING 2023-10-02 01:16:19,950 log 2448 15024 Not Found: /orders/orders/delete/39
+WARNING 2023-10-02 01:16:19,950 basehttp 2448 15024 "GET /orders/orders/delete/39 HTTP/1.1" 404 4173
+WARNING 2023-10-02 01:16:22,131 log 2448 15024 Not Found: /orders/orders/delete/39
+WARNING 2023-10-02 01:16:22,147 basehttp 2448 15024 "GET /orders/orders/delete/39 HTTP/1.1" 404 4173
+INFO 2023-10-02 01:16:29,524 basehttp 2448 15024 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:16:30,443 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 2935
+INFO 2023-10-02 01:16:31,962 basehttp 2448 15024 "GET /orders/delete/39/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:16:33,993 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 2393
+INFO 2023-10-02 01:17:28,356 basehttp 2448 15024 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:17:30,105 basehttp 2448 15024 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:17:32,051 basehttp 2448 15024 "GET /users/ HTTP/1.1" 200 2658
+INFO 2023-10-02 01:17:33,004 basehttp 2448 15024 "GET /goods/ HTTP/1.1" 200 3391
+INFO 2023-10-02 01:17:33,881 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 2393
+INFO 2023-10-02 01:17:35,951 basehttp 2448 15024 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:17:38,356 basehttp 2448 15024 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 01:17:39,263 basehttp 2448 15024 "GET /users/ HTTP/1.1" 200 3753
+INFO 2023-10-02 01:17:41,056 basehttp 2448 15024 "GET /goods/ HTTP/1.1" 200 4634
+INFO 2023-10-02 01:17:42,199 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 4808
+INFO 2023-10-02 01:17:52,846 basehttp 2448 15024 "GET /orders/delete/42/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:17:54,708 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 4368
+INFO 2023-10-02 01:17:55,802 basehttp 2448 15024 "GET /orders/delete/43/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:17:57,680 basehttp 2448 15024 "GET /orders/ HTTP/1.1" 200 3928
+INFO 2023-10-02 01:17:59,658 basehttp 2448 15024 "GET /goods/ HTTP/1.1" 200 4634
+INFO 2023-10-02 01:18:01,302 basehttp 2448 15024 "GET /goods/delete/203/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:18:02,682 basehttp 2448 15024 "GET /goods/ HTTP/1.1" 200 4002
+INFO 2023-10-02 01:18:04,053 basehttp 2448 15024 "GET /users/ HTTP/1.1" 200 3753
+INFO 2023-10-02 01:18:05,139 basehttp 2448 15024 "GET /users/delete/169/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:18:07,007 basehttp 2448 15024 "GET /users/ HTTP/1.1" 200 3207
+ERROR 2023-10-02 01:18:11,238 log 2448 15024 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/users/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2023-10-02 01:18:11,241 basehttp 2448 15024 "POST /users/create HTTP/1.1" 500 75667
+ERROR 2023-10-02 01:18:36,845 log 2448 16144 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/users/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2023-10-02 01:18:36,847 basehttp 2448 16144 "POST /users/create HTTP/1.1" 500 75672
+ERROR 2023-10-02 01:19:47,199 log 2448 4152 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/users/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2023-10-02 01:19:47,199 basehttp 2448 4152 "POST /users/create HTTP/1.1" 500 75672
+ERROR 2023-10-02 01:19:54,329 log 2448 6384 Internal Server Error: /users/create
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/users/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2023-10-02 01:19:54,331 basehttp 2448 6384 "POST /users/create HTTP/1.1" 500 75672
+INFO 2023-10-02 01:19:56,596 basehttp 2448 12460 "GET /goods/ HTTP/1.1" 200 4003
+INFO 2023-10-02 01:20:11,553 basehttp 2448 12460 "POST /goods/create/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:20:13,418 basehttp 2448 12460 "GET /goods/ HTTP/1.1" 200 4502
+INFO 2023-10-02 01:20:17,024 basehttp 2448 12460 "GET /users/ HTTP/1.1" 200 3208
+INFO 2023-10-02 01:20:21,915 basehttp 2448 12460 "POST /users/create/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:20:23,266 basehttp 2448 12460 "GET /users/ HTTP/1.1" 200 3762
+INFO 2023-10-02 01:20:25,129 basehttp 2448 12460 "GET /orders/ HTTP/1.1" 200 3050
+INFO 2023-10-02 01:20:33,436 basehttp 2448 12460 "POST /orders/create/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:20:34,777 basehttp 2448 12460 "GET /orders/ HTTP/1.1" 200 3489
+INFO 2023-10-02 01:20:41,874 basehttp 2448 12460 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 01:20:43,963 basehttp 2448 12460 "GET /orders/ HTTP/1.1" 200 4809

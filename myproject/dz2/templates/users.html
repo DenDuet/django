@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+    {% for user in users %}
+      <p class="col-12 col-md-6">
+        ID пользователя: {{ user.id }}<br />
+        Имя пользователя: {{ user.username }}<br />
+        Email пользователя: {{ user.email }}<br />
+        Телефон пользователя: {{ user.phone }}<br />
+        Адрес пользователя: {{ user.address }}<br />
+        Дата создания: {{ user.reg_date }}<br />
+      </p>
+      <div class="delete">
+        <a href="/users/delete/{{ user.id }}/">Удалить пользователя</a>
+      </div>
+
+      <br />
+      <br />
+    {% endfor %}
+  </div>
+  <form action="/users/create/" method="post">
+    username{% csrf_token %}
+    <div class="input">
+      <div class="blockinput">
+        <input type="text" name="username" placeholder="Имя" />
+      </div>
+
+      <div class="blockinput">
+        <input type="email" name="email" placeholder="e-mail" />
+      </div>
+
+      <div class="blockinput">
+        <input type="text" name="phone" placeholder="Телефон" />
+      </div>
+
+      <div class="blockinput">
+        <input type="text" name="address" placeholder="Адрес" />
+      </div>
+    </div>
+    <div>
+      <input class="in_submit" type="submit" value="Добавить пользователя" />
+    </div>
+  </form>
+  <br /> <br /> <br />
+  <br />
+{% endblock %}
