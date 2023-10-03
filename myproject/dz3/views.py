@@ -61,22 +61,22 @@ def init_bases(request):
             order.goods.add(Goods.objects.filter(goods_name=goods[j].goods_name).first())  
         order.save()   
    
-    return render(request, "base1.html", context = {"body": "index page", "title":"Главная страница"})   
+    return render(request, "dz3/base.html", context = {"body": "index page", "title":"Главная страница"})   
     
 
 def index(request):
     logger.info('Index page accessed')
-    return render(request, "base1.html", context = {"body": "index page", "title":"Главная страница"})
+    return render(request, "dz3/base.html", context = {"body": "index page", "title":"Главная страница"})
 
 
 
 def read_users(request):
     user = User.objects.all()
-    return render(request, "users.html", context = {"users": user, "title":"Главная страница"})    
+    return render(request, "dz3/users.html", context = {"users": user, "title":"Главная страница"})    
 
 def read_goods(request): 
     goods = Goods.objects.all()
-    return render(request, "goods.html", context = {"goods": goods, "title":"Главная страница"})     
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})     
 
 def read_orders(request):
     vars = ["за последние 7 дней (неделю)", "за последние 30 дней (месяц)", "за последние 365 дней (год)"]
@@ -86,7 +86,7 @@ def read_orders(request):
     for usr in user:
         orders = usr.orders_set.all()
 
-    return render(request, "orders1.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})     
+    return render(request, "dz3/orders1.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})     
 
 def orders_show(request):
     vars = ["за последние 7 дней (неделю)", "за последние 30 дней (месяц)", "за последние 365 дней (год)"]
@@ -108,5 +108,5 @@ def orders_show(request):
     else:
         start_date = current_date - datetime.timedelta(days=356)        
         orders = user.orders_set.filter(date_ordered__range=(start_date, current_date)).order_by('date_ordered__year')        
-    return render(request, "orders2.html", context = {"orders": orders, "user": user ,"goods": goods, "title":"Главная страница","period": choice})     
+    return render(request, "dz3/orders2.html", context = {"orders": orders, "user": user ,"goods": goods, "title":"Главная страница","period": choice})     
 

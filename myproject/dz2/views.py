@@ -63,17 +63,17 @@ def init_bases(request):
 
 def index(request):
     logger.info('Index page accessed')
-    return render(request, "base.html", context = {"body": "index page", "title":"Главная страница"})
+    return render(request, "dz2/base.html", context = {"body": "index page", "title":"Главная страница"})
 
 
 
 def read_users(request):
     user = User.objects.all()
-    return render(request, "users.html", context = {"users": user, "title":"Главная страница"})    
+    return render(request, "dz2/users.html", context = {"users": user, "title":"Главная страница"})    
 
 def read_goods(request): 
     goods = Goods.objects.all()
-    return render(request, "goods.html", context = {"goods": goods, "title":"Главная страница"})     
+    return render(request, "dz2/goods.html", context = {"goods": goods, "title":"Главная страница"})     
 
 def read_orders(request):
     # orders = Orders.objects.all()
@@ -86,7 +86,7 @@ def read_orders(request):
     # orders = Orders.objects.all()
     # for order in orders:
     #     print(f"user = {order.customer.username}, order = {order}")
-    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})     
+    return render(request, "dz2/orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})     
 
 
 
@@ -97,7 +97,7 @@ def create_user(request):
     address = request.POST.get("address")      
     user = User(username=username, email=email, phone=phone, address=address, reg_date=datetime.datetime) 
     user.save()  
-    return render(request, "base.html", context = {"users": user, "title":"Главная страница"})  
+    return render(request, "dz2/base.html", context = {"users": user, "title":"Главная страница"})  
 
 def create_good(request):
     goods_name = request.POST.get("goods_name")    
@@ -106,7 +106,7 @@ def create_good(request):
     quantity = request.POST.get("quantity")     
     good = Goods(goods_name=goods_name, description=description, price=price, quantity=quantity, add_date=datetime.datetime)    
     good.save()
-    return render(request, "base.html", context = {"goods": good, "title":"Главная страница"})     
+    return render(request, "dz2/base.html", context = {"goods": good, "title":"Главная страница"})     
 
 def create_order(request):
     username = request.POST.get("username")    
@@ -117,7 +117,7 @@ def create_order(request):
     orders.save()
     goods_id = Goods.objects.filter(goods_name = goods_name).first()
     orders.goods.add(goods_id)    
-    return render(request, "base.html", {"request":request, "message": "Заказ добавлен"}) 
+    return render(request, "dz2/base.html", {"request":request, "message": "Заказ добавлен"}) 
 
 
 
@@ -126,18 +126,18 @@ def delete_user(request, user_id: int):
     # if user==None:  
     #     return JsonResponse(status_code=404, content={ "message": "Пользователь не найден"})
     user.delete()  
-    return render(request, "base.html", {"request":request, "message": "Заказ добавлен"})
+    return render(request, "dz2/base.html", {"request":request, "message": "Заказ добавлен"})
 
 def delete_good(request, goods_id: int):
     good = Goods.objects.get(id=goods_id)
     # if good==None:  
     #     return JSONResponse(status_code=404, content={ "message": "Товар не найден"})
     good.delete()  # удаляем объект
-    return render(request, "base.html", {"request":request, "message": "Заказ добавлен"})
+    return render(request, "dz2/base.html", {"request":request, "message": "Заказ добавлен"})
 
 def delete_order(request, orders_id: int):
     order = Orders.objects.get(id=orders_id)
     # if order==None:  
     #     return JSONResponse(status_code=404, content={ "message": "Заказ не найден"})
     order.delete()  # удаляем объект
-    return render(request, "base.html", {"request":request, "message": "Заказ добавлен"})
+    return render(request, "dz2/base.html", {"request":request, "message": "Заказ добавлен"})
