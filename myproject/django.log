@@ -5684,3 +5684,191 @@ INFO 2023-10-03 22:46:57,300 basehttp 8504 13392 "GET / HTTP/1.1" 200 1254
 INFO 2023-10-03 22:47:23,910 autoreload 8504 12600 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
 INFO 2023-10-03 22:47:24,346 autoreload 18044 7824 Watching for file changes with StatReloader
 INFO 2023-10-03 22:47:24,492 basehttp 18044 18416 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-03 23:53:12,838 autoreload 13928 14840 Watching for file changes with StatReloader
+INFO 2023-10-03 23:53:16,870 basehttp 13928 11288 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-03 23:53:20,203 log 13928 11288 Not Found: /orders/
+WARNING 2023-10-03 23:53:20,203 basehttp 13928 11288 "GET /orders/ HTTP/1.1" 404 2641
+INFO 2023-10-03 23:53:43,640 basehttp 13928 11288 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-03 23:53:46,612 basehttp 13928 11288 "GET /dz3/ HTTP/1.1" 200 1257
+WARNING 2023-10-03 23:53:48,847 log 13928 11288 Not Found: /dz3/dz3/users/
+WARNING 2023-10-03 23:53:48,848 basehttp 13928 11288 "GET /dz3/dz3/users/ HTTP/1.1" 404 3643
+INFO 2023-10-03 23:54:00,135 basehttp 13928 11288 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-03 23:54:02,296 log 13928 11288 Not Found: /users/
+WARNING 2023-10-03 23:54:02,297 basehttp 13928 11288 "GET /users/ HTTP/1.1" 404 2638
+WARNING 2023-10-03 23:54:12,917 log 13928 11288 Not Found: /orders/
+WARNING 2023-10-03 23:54:12,918 basehttp 13928 11288 "GET /orders/ HTTP/1.1" 404 2641
+INFO 2023-10-03 23:54:21,743 basehttp 13928 11288 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-03 23:54:22,864 basehttp 13928 11288 "GET /dz2/ HTTP/1.1" 200 1254
+WARNING 2023-10-03 23:54:23,998 log 13928 11288 Not Found: /orders/
+WARNING 2023-10-03 23:54:23,999 basehttp 13928 11288 "GET /orders/ HTTP/1.1" 404 2641
+INFO 2023-10-03 23:54:33,607 basehttp 13928 11288 "GET / HTTP/1.1" 200 1056
+WARNING 2023-10-03 23:54:36,361 log 13928 11288 Not Found: /dz4/
+WARNING 2023-10-03 23:54:36,361 basehttp 13928 11288 "GET /dz4/ HTTP/1.1" 404 2632
+INFO 2023-10-03 23:54:40,393 basehttp 13928 11288 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-03 23:54:42,734 log 13928 11288 Not Found: /orders/
+WARNING 2023-10-03 23:54:42,735 basehttp 13928 11288 "GET /orders/ HTTP/1.1" 404 2641
+WARNING 2023-10-03 23:54:46,425 log 13928 11288 Not Found: /goods/
+WARNING 2023-10-03 23:54:46,426 basehttp 13928 11288 "GET /goods/ HTTP/1.1" 404 2638
+WARNING 2023-10-03 23:54:49,114 log 13928 11288 Not Found: /users/
+WARNING 2023-10-03 23:54:49,115 basehttp 13928 11288 "GET /users/ HTTP/1.1" 404 2638
+INFO 2023-10-03 23:54:52,395 basehttp 13928 11288 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-03 23:54:54,045 basehttp 13928 11288 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-03 23:55:02,841 log 13928 11288 Not Found: /orders/
+WARNING 2023-10-03 23:55:02,842 basehttp 13928 11288 "GET /orders/ HTTP/1.1" 404 2641
+INFO 2023-10-03 23:55:09,523 basehttp 13928 11288 "GET /dz3/orders/ HTTP/1.1" 200 2304
+WARNING 2023-10-03 23:55:15,968 log 13928 11288 Not Found: /orders/show/
+WARNING 2023-10-03 23:55:15,969 basehttp 13928 11288 "POST /orders/show/ HTTP/1.1" 404 2657
+INFO 2023-10-03 23:55:32,901 autoreload 13928 14840 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-03 23:55:33,327 autoreload 9136 10944 Watching for file changes with StatReloader
+INFO 2023-10-03 23:55:35,358 basehttp 9136 1924 "POST /orders/show/ HTTP/1.1" 200 1506
+INFO 2023-10-03 23:55:44,167 basehttp 9136 1924 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 23:55:47,211 basehttp 9136 1924 "GET /orders/ HTTP/1.1" 200 2304
+INFO 2023-10-03 23:56:02,963 basehttp 9136 1924 "GET /orders/ HTTP/1.1" 200 2304
+INFO 2023-10-03 23:56:04,705 basehttp 9136 1924 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 23:56:07,833 basehttp 9136 1924 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 23:56:09,044 basehttp 9136 1924 "GET /orders/ HTTP/1.1" 200 2304
+INFO 2023-10-03 23:56:22,452 basehttp 9136 1924 "GET /orders/ HTTP/1.1" 200 2304
+INFO 2023-10-03 23:56:24,300 basehttp 9136 1924 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 23:56:25,820 basehttp 9136 1924 "GET /orders/ HTTP/1.1" 200 2304
+INFO 2023-10-03 23:57:07,113 basehttp 9136 1924 "GET /orders/ HTTP/1.1" 200 2304
+INFO 2023-10-03 23:57:07,284 autoreload 9136 10944 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-03 23:57:07,722 autoreload 20828 21008 Watching for file changes with StatReloader
+INFO 2023-10-03 23:57:08,695 basehttp 20828 18276 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-03 23:57:10,048 log 20828 18276 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 89, in read_orders
+    return render(request, "dz3/orders1.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-03 23:57:10,053 basehttp 20828 18276 "GET /orders/ HTTP/1.1" 500 156810
+INFO 2023-10-03 23:57:26,573 autoreload 20828 21008 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-03 23:57:26,996 autoreload 6996 13812 Watching for file changes with StatReloader
+ERROR 2023-10-03 23:57:28,088 log 6996 5144 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 89, in read_orders
+    return render(request, "dz3/orders1.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-03 23:57:28,092 basehttp 6996 5144 "GET /orders/ HTTP/1.1" 500 156370
+INFO 2023-10-03 23:57:41,819 basehttp 6996 5144 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-03 23:57:42,873 log 6996 5144 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 79, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-03 23:57:42,876 basehttp 6996 5144 "GET /goods/ HTTP/1.1" 500 136628
+INFO 2023-10-03 23:58:33,081 basehttp 6996 5144 "GET /goods/ HTTP/1.1" 200 4631
+INFO 2023-10-03 23:58:35,126 basehttp 6996 5144 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 23:58:39,450 basehttp 6996 5144 "POST /orders/show/ HTTP/1.1" 200 1704
+INFO 2023-10-03 23:58:41,450 basehttp 6996 5144 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 23:58:45,146 basehttp 6996 5144 "POST /orders/show/ HTTP/1.1" 200 4853
+INFO 2023-10-03 23:59:02,376 basehttp 6996 5144 "GET / HTTP/1.1" 200 1254
