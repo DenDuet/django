@@ -3808,3 +3808,1754 @@ INFO 2023-10-02 01:20:33,436 basehttp 2448 12460 "POST /orders/create/ HTTP/1.1"
 INFO 2023-10-02 01:20:34,777 basehttp 2448 12460 "GET /orders/ HTTP/1.1" 200 3489
 INFO 2023-10-02 01:20:41,874 basehttp 2448 12460 "GET /init_bases/ HTTP/1.1" 200 1254
 INFO 2023-10-02 01:20:43,963 basehttp 2448 12460 "GET /orders/ HTTP/1.1" 200 4809
+INFO 2023-10-02 17:32:27,744 autoreload 8964 472 Watching for file changes with StatReloader
+ERROR 2023-10-02 17:32:36,845 log 8964 9660 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 81, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'User' object is not iterable
+ERROR 2023-10-02 17:32:36,849 basehttp 8964 9660 "GET /orders/ HTTP/1.1" 500 160164
+WARNING 2023-10-02 17:32:37,029 log 8964 9660 Not Found: /favicon.ico
+WARNING 2023-10-02 17:32:37,030 basehttp 8964 9660 "GET /favicon.ico HTTP/1.1" 404 4137
+INFO 2023-10-02 17:32:47,567 basehttp 8964 9660 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 17:32:51,252 log 8964 9660 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 81, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'User' object is not iterable
+ERROR 2023-10-02 17:32:51,258 basehttp 8964 9660 "GET /orders/ HTTP/1.1" 500 160016
+INFO 2023-10-02 17:42:57,401 autoreload 8964 472 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-02 17:42:57,871 autoreload 12644 908 Watching for file changes with StatReloader
+INFO 2023-10-02 17:51:48,754 basehttp 12644 10180 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 17:51:50,027 basehttp 12644 10180 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 17:51:51,740 basehttp 12644 10180 "GET /users/ HTTP/1.1" 200 3754
+INFO 2023-10-02 17:51:54,520 basehttp 12644 10180 "GET /goods/ HTTP/1.1" 200 4635
+ERROR 2023-10-02 17:51:56,598 log 12644 10180 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'User' object is not iterable
+ERROR 2023-10-02 17:51:56,603 basehttp 12644 10180 "GET /orders/ HTTP/1.1" 500 160022
+INFO 2023-10-02 17:52:40,206 autoreload 12644 908 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 17:52:40,625 autoreload 21032 16404 Watching for file changes with StatReloader
+INFO 2023-10-02 17:56:57,744 autoreload 21032 16404 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 17:56:58,159 autoreload 5416 7724 Watching for file changes with StatReloader
+INFO 2023-10-02 17:57:02,569 basehttp 5416 2068 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 17:57:05,166 basehttp 5416 2068 "GET /orders/ HTTP/1.1" 200 3049
+INFO 2023-10-02 17:57:07,806 basehttp 5416 2068 "GET /goods/ HTTP/1.1" 200 4635
+INFO 2023-10-02 17:57:08,847 basehttp 5416 2068 "GET /orders/ HTTP/1.1" 200 3049
+INFO 2023-10-02 17:57:13,873 basehttp 5416 2068 "GET /goods/ HTTP/1.1" 200 4635
+INFO 2023-10-02 17:57:14,982 basehttp 5416 2068 "GET /users/ HTTP/1.1" 200 3754
+INFO 2023-10-02 17:57:16,682 basehttp 5416 2068 "GET /goods/ HTTP/1.1" 200 4635
+INFO 2023-10-02 17:57:17,255 basehttp 5416 2068 "GET /orders/ HTTP/1.1" 200 3049
+INFO 2023-10-02 17:57:28,082 basehttp 5416 2068 "POST /orders/create/ HTTP/1.1" 200 1254
+INFO 2023-10-02 17:57:29,971 basehttp 5416 2068 "GET /orders/ HTTP/1.1" 200 3049
+INFO 2023-10-02 17:57:53,934 basehttp 5416 2068 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 17:57:56,184 basehttp 5416 2068 "GET /orders/ HTTP/1.1" 200 3048
+INFO 2023-10-02 17:57:57,852 basehttp 5416 2068 "GET /goods/ HTTP/1.1" 200 4631
+INFO 2023-10-02 17:57:58,722 basehttp 5416 2068 "GET /users/ HTTP/1.1" 200 3751
+INFO 2023-10-02 18:02:35,598 autoreload 5416 7724 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:02:36,048 autoreload 17024 9848 Watching for file changes with StatReloader
+INFO 2023-10-02 18:02:38,958 basehttp 17024 20100 "GET /users/ HTTP/1.1" 200 3751
+INFO 2023-10-02 18:02:40,208 basehttp 17024 20100 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 18:02:42,026 basehttp 17024 20100 "GET /orders/ HTTP/1.1" 200 3048
+INFO 2023-10-02 18:04:52,144 autoreload 17024 9848 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:04:52,563 autoreload 6156 20016 Watching for file changes with StatReloader
+INFO 2023-10-02 18:04:53,324 basehttp 6156 5484 "GET /orders/ HTTP/1.1" 200 3048
+INFO 2023-10-02 18:04:56,444 basehttp 6156 5484 "GET /orders/ HTTP/1.1" 200 3048
+ERROR 2023-10-02 18:08:18,755 log 6156 5484 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 86, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 18:08:18,755 basehttp 6156 5484 "GET /orders/ HTTP/1.1" 500 165638
+ERROR 2023-10-02 18:09:14,619 log 6156 5484 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 86, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 18:09:14,636 basehttp 6156 5484 "GET /orders/ HTTP/1.1" 500 165636
+INFO 2023-10-02 18:11:23,308 autoreload 6156 20016 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:11:23,735 autoreload 12744 15716 Watching for file changes with StatReloader
+INFO 2023-10-02 18:11:37,211 autoreload 12744 15716 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:11:37,618 autoreload 2508 17360 Watching for file changes with StatReloader
+INFO 2023-10-02 18:11:51,098 basehttp 2508 8488 "GET /init_bases/ HTTP/1.1" 200 1254
+ERROR 2023-10-02 18:12:03,502 log 2508 8488 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 87, in read_orders
+    print(f"user = {order.customer.username},  order = {order.goods.goods_name}")
+AttributeError: 'ManyRelatedManager' object has no attribute 'goods_name'
+ERROR 2023-10-02 18:12:03,502 basehttp 2508 8488 "GET /orders/ HTTP/1.1" 500 70643
+INFO 2023-10-02 18:13:22,444 autoreload 2508 17360 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:13:22,876 autoreload 16816 14424 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:13:32,433 log 16816 14404 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 87, in read_orders
+    print(f"user = {order.customer.username},  order = {order.goods.goods_name}")
+AttributeError: 'ManyRelatedManager' object has no attribute 'goods_name'
+ERROR 2023-10-02 18:13:32,433 basehttp 16816 14404 "GET /orders/ HTTP/1.1" 500 70645
+INFO 2023-10-02 18:14:09,459 autoreload 16816 14424 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:14:09,903 autoreload 15364 12068 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:14:11,900 log 15364 3080 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 87, in read_orders
+    print(f"user = {order.customer.username},  order = {order.good.goods_name}")
+AttributeError: 'Orders' object has no attribute 'good'
+ERROR 2023-10-02 18:14:11,900 basehttp 15364 3080 "GET /orders/ HTTP/1.1" 500 70571
+INFO 2023-10-02 18:15:04,687 autoreload 15364 12068 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:15:05,111 autoreload 12772 12568 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:15:08,099 log 12772 7580 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 87, in read_orders
+    print(f"user = {order.customer.username},  order = {order.goods_name.goods_name}")
+AttributeError: 'Orders' object has no attribute 'goods_name'
+ERROR 2023-10-02 18:15:08,099 basehttp 12772 7580 "GET /orders/ HTTP/1.1" 500 70607
+INFO 2023-10-02 18:15:27,122 autoreload 12772 12568 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:15:27,545 autoreload 15124 14164 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:15:30,406 log 15124 20760 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 87, in read_orders
+    print(f"user = {order.customer.username},  order = {order.goods_name}")
+AttributeError: 'Orders' object has no attribute 'goods_name'
+ERROR 2023-10-02 18:15:30,406 basehttp 15124 20760 "GET /orders/ HTTP/1.1" 500 70722
+INFO 2023-10-02 18:16:35,651 autoreload 15124 14164 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:16:36,079 autoreload 14868 9568 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:16:38,204 log 14868 16164 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 88, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 18:16:38,204 basehttp 14868 16164 "GET /orders/ HTTP/1.1" 500 165848
+INFO 2023-10-02 18:17:46,166 autoreload 14868 9568 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:17:46,620 autoreload 13104 9692 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:17:51,196 log 13104 4572 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 86, in read_orders
+    orders = user.orders_set.all()
+AttributeError: 'QuerySet' object has no attribute 'orders_set'
+ERROR 2023-10-02 18:17:51,196 basehttp 13104 4572 "GET /orders/ HTTP/1.1" 500 70415
+INFO 2023-10-02 18:19:05,981 autoreload 13104 9692 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:19:06,416 autoreload 17304 3596 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:19:09,132 log 17304 13884 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 18:19:09,149 basehttp 17304 13884 "GET /orders/ HTTP/1.1" 500 168814
+INFO 2023-10-02 18:20:24,965 autoreload 17304 3596 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:20:25,415 autoreload 16656 6824 Watching for file changes with StatReloader
+INFO 2023-10-02 18:21:24,964 autoreload 16656 6824 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:21:25,372 autoreload 12928 464 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:21:31,166 log 12928 21308 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 88, in read_orders
+    print(f"user = {order.customer.username}, order = {order.goods.goods_name}")
+AttributeError: 'ManyRelatedManager' object has no attribute 'goods_name'
+ERROR 2023-10-02 18:21:31,166 basehttp 12928 21308 "GET /orders/ HTTP/1.1" 500 70939
+INFO 2023-10-02 18:22:19,181 autoreload 12928 464 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 18:22:19,630 autoreload 14328 16544 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:22:22,546 log 14328 13520 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 18:22:22,563 basehttp 14328 13520 "GET /orders/ HTTP/1.1" 500 168855
+ERROR 2023-10-02 19:27:26,167 log 14328 8312 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 19:27:26,172 basehttp 14328 8312 "GET /orders/ HTTP/1.1" 500 168833
+ERROR 2023-10-02 19:27:30,059 log 14328 8312 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz2\views.py", line 89, in read_orders
+    return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+ERROR 2023-10-02 19:27:30,064 basehttp 14328 8312 "GET /orders/ HTTP/1.1" 500 168696
+INFO 2023-10-02 19:27:53,744 basehttp 14328 8312 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 19:27:54,892 basehttp 14328 8312 "GET /orders/ HTTP/1.1" 200 4417
+INFO 2023-10-02 19:28:16,340 basehttp 14328 8312 "POST /orders/create/ HTTP/1.1" 200 1254
+INFO 2023-10-02 19:28:18,610 basehttp 14328 8312 "GET /orders/ HTTP/1.1" 200 4868
+INFO 2023-10-02 19:29:45,903 autoreload 14328 16544 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 19:29:46,352 autoreload 4748 20316 Watching for file changes with StatReloader
+INFO 2023-10-02 19:29:53,000 basehttp 4748 11592 "GET /orders/ HTTP/1.1" 200 4968
+INFO 2023-10-02 19:29:54,247 basehttp 4748 11592 "GET /orders/ HTTP/1.1" 200 4968
+INFO 2023-10-02 19:35:30,759 autoreload 4748 20316 D:\Django\DZ\project\myproject\dz2\models.py changed, reloading.
+INFO 2023-10-02 19:35:31,207 autoreload 15904 11676 Watching for file changes with StatReloader
+INFO 2023-10-02 19:35:42,413 basehttp 15904 6516 "GET /orders/ HTTP/1.1" 200 5083
+INFO 2023-10-02 19:35:54,941 basehttp 15904 6516 "GET /orders/ HTTP/1.1" 200 5083
+INFO 2023-10-02 19:36:52,678 autoreload 15904 11676 D:\Django\DZ\project\myproject\dz2\models.py changed, reloading.
+INFO 2023-10-02 19:36:53,130 autoreload 12384 19612 Watching for file changes with StatReloader
+INFO 2023-10-02 19:36:54,422 basehttp 12384 21352 "GET /orders/ HTTP/1.1" 200 4968
+INFO 2023-10-02 19:40:59,220 autoreload 12384 19612 D:\Django\DZ\project\myproject\dz2\views.py changed, reloading.
+INFO 2023-10-02 19:40:59,673 autoreload 16568 12332 Watching for file changes with StatReloader
+INFO 2023-10-02 19:45:28,304 autoreload 20588 17956 Watching for file changes with StatReloader
+INFO 2023-10-02 20:26:12,314 autoreload 20588 17956 D:\Django\DZ\project\myproject\dz3\models.py changed, reloading.
+INFO 2023-10-02 20:26:12,775 autoreload 10916 1576 Watching for file changes with StatReloader
+INFO 2023-10-02 20:49:04,927 autoreload 13068 6652 Watching for file changes with StatReloader
+INFO 2023-10-02 20:49:48,846 autoreload 1304 15152 Watching for file changes with StatReloader
+INFO 2023-10-02 20:49:53,252 basehttp 1304 13648 "GET /orders/ HTTP/1.1" 200 3082
+INFO 2023-10-02 20:50:00,211 basehttp 1304 13648 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 20:50:03,154 basehttp 1304 13648 "GET /users/ HTTP/1.1" 200 3751
+INFO 2023-10-02 20:50:38,883 basehttp 1304 13648 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 20:50:41,524 basehttp 1304 13648 "GET /users/ HTTP/1.1" 200 3751
+INFO 2023-10-02 20:50:46,051 basehttp 1304 13648 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 20:50:46,881 basehttp 1304 13648 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 20:50:55,867 basehttp 1304 13648 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 20:51:55,695 autoreload 1304 15152 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 20:51:56,138 autoreload 14220 7320 Watching for file changes with StatReloader
+WARNING 2023-10-02 20:52:00,094 log 14220 17528 Not Found: /dz3/
+WARNING 2023-10-02 20:52:00,095 basehttp 14220 17528 "GET /dz3/ HTTP/1.1" 404 4285
+WARNING 2023-10-02 20:52:47,066 log 14220 17528 Not Found: /dz3
+WARNING 2023-10-02 20:52:47,067 basehttp 14220 17528 "GET /dz3 HTTP/1.1" 404 4217
+WARNING 2023-10-02 20:53:52,762 log 14220 17528 Not Found: /dz3
+WARNING 2023-10-02 20:53:52,763 basehttp 14220 17528 "GET /dz3 HTTP/1.1" 404 4217
+INFO 2023-10-02 20:53:53,623 autoreload 14220 7320 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 20:53:54,072 autoreload 19888 13748 Watching for file changes with StatReloader
+INFO 2023-10-02 20:53:57,397 basehttp 19888 7612 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 20:54:19,096 autoreload 19888 13748 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 20:54:19,547 autoreload 13816 18424 Watching for file changes with StatReloader
+INFO 2023-10-02 20:54:33,223 autoreload 13816 18424 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-02 20:54:33,634 autoreload 9028 5848 Watching for file changes with StatReloader
+INFO 2023-10-02 20:54:33,833 basehttp 9028 18388 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 20:54:37,645 log 9028 18388 Not Found: /users/
+WARNING 2023-10-02 20:54:37,646 basehttp 9028 18388 "GET /users/ HTTP/1.1" 404 2306
+WARNING 2023-10-02 20:54:56,372 log 9028 18388 Not Found: /
+WARNING 2023-10-02 20:54:56,373 basehttp 9028 18388 "GET / HTTP/1.1" 404 2270
+INFO 2023-10-02 20:56:31,696 autoreload 9028 5848 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 20:56:32,128 autoreload 18048 13976 Watching for file changes with StatReloader
+INFO 2023-10-02 20:57:48,418 autoreload 18048 13976 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 20:57:48,860 autoreload 15588 15128 Watching for file changes with StatReloader
+INFO 2023-10-02 20:57:52,059 basehttp 15588 12132 "GET /dz3/ HTTP/1.1" 200 1269
+INFO 2023-10-02 20:58:29,477 basehttp 15588 12132 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 20:58:35,883 basehttp 15588 12132 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 20:58:41,551 log 15588 12132 Not Found: /users/
+WARNING 2023-10-02 20:58:41,552 basehttp 15588 12132 "GET /users/ HTTP/1.1" 404 2306
+INFO 2023-10-02 21:02:00,540 autoreload 15588 15128 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:02:00,954 autoreload 20736 16464 Watching for file changes with StatReloader
+ERROR 2023-10-02 21:02:01,677 log 20736 11736 Internal Server Error: /dz3/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 66, in index
+    return render(request, "dz3/index.html", context = {"body": "index page", "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz3/index.html
+ERROR 2023-10-02 21:02:01,680 basehttp 20736 11736 "GET /dz3/ HTTP/1.1" 500 83967
+ERROR 2023-10-02 21:03:11,854 log 20736 11736 Internal Server Error: /dz3/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 66, in index
+    return render(request, "dz3/index.html", context = {"body": "index page", "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz3/index.html
+ERROR 2023-10-02 21:03:11,856 basehttp 20736 11736 "GET /dz3/ HTTP/1.1" 500 83967
+INFO 2023-10-02 21:03:18,875 basehttp 20736 11736 "GET /dz2/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 21:03:22,381 log 20736 11736 Not Found: /users/
+WARNING 2023-10-02 21:03:22,382 basehttp 20736 11736 "GET /users/ HTTP/1.1" 404 2306
+INFO 2023-10-02 21:03:34,786 basehttp 20736 11736 "GET /dz2/users/ HTTP/1.1" 200 3751
+INFO 2023-10-02 21:03:39,537 basehttp 20736 11736 "GET /dz3/users/ HTTP/1.1" 200 2111
+WARNING 2023-10-02 21:03:49,417 log 20736 11736 Not Found: /
+WARNING 2023-10-02 21:03:49,417 basehttp 20736 11736 "GET / HTTP/1.1" 404 2270
+ERROR 2023-10-02 21:03:55,993 log 20736 11736 Internal Server Error: /dz3/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 66, in index
+    return render(request, "dz3/index.html", context = {"body": "index page", "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz3/index.html
+ERROR 2023-10-02 21:03:55,995 basehttp 20736 11736 "GET /dz3/ HTTP/1.1" 500 84104
+ERROR 2023-10-02 21:03:56,606 log 20736 11736 Internal Server Error: /dz3/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 66, in index
+    return render(request, "dz3/index.html", context = {"body": "index page", "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz3/index.html
+ERROR 2023-10-02 21:03:56,608 basehttp 20736 11736 "GET /dz3/ HTTP/1.1" 500 83830
+INFO 2023-10-02 21:04:18,072 autoreload 20736 16464 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:04:18,482 autoreload 3624 14136 Watching for file changes with StatReloader
+INFO 2023-10-02 21:04:55,815 autoreload 3624 14136 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:04:56,269 autoreload 8044 19004 Watching for file changes with StatReloader
+INFO 2023-10-02 21:04:56,582 basehttp 8044 484 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 21:05:02,421 log 8044 484 Not Found: /users/
+WARNING 2023-10-02 21:05:02,421 basehttp 8044 484 "GET /users/ HTTP/1.1" 404 2306
+INFO 2023-10-02 21:05:06,842 basehttp 8044 484 "GET /dz3/users/ HTTP/1.1" 200 2111
+WARNING 2023-10-02 21:05:08,680 log 8044 484 Not Found: /goods/
+WARNING 2023-10-02 21:05:08,680 basehttp 8044 484 "GET /goods/ HTTP/1.1" 404 2306
+WARNING 2023-10-02 21:05:43,337 log 8044 484 Not Found: /goods/
+WARNING 2023-10-02 21:05:43,338 basehttp 8044 484 "GET /goods/ HTTP/1.1" 404 2306
+WARNING 2023-10-02 21:05:49,347 log 8044 484 Not Found: /dz3goods/
+WARNING 2023-10-02 21:05:49,347 basehttp 8044 484 "GET /dz3goods/ HTTP/1.1" 404 2315
+INFO 2023-10-02 21:05:53,256 basehttp 8044 484 "GET /dz3/goods/ HTTP/1.1" 200 2187
+WARNING 2023-10-02 21:05:56,890 log 8044 484 Not Found: /users/
+WARNING 2023-10-02 21:05:56,890 basehttp 8044 484 "GET /users/ HTTP/1.1" 404 2306
+INFO 2023-10-02 21:06:05,636 basehttp 8044 484 "GET /dz3/users/ HTTP/1.1" 200 2111
+WARNING 2023-10-02 21:06:11,268 log 8044 484 Not Found: /
+WARNING 2023-10-02 21:06:11,269 basehttp 8044 484 "GET / HTTP/1.1" 404 2270
+WARNING 2023-10-02 21:06:39,366 log 8044 484 Not Found: /
+WARNING 2023-10-02 21:06:39,367 basehttp 8044 484 "GET / HTTP/1.1" 404 2270
+INFO 2023-10-02 21:06:45,843 basehttp 8044 484 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 21:06:46,154 basehttp 8044 484 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 21:06:51,966 log 8044 484 Not Found: /init_bases/
+WARNING 2023-10-02 21:06:51,966 basehttp 8044 484 "GET /init_bases/ HTTP/1.1" 404 2321
+INFO 2023-10-02 21:09:24,856 autoreload 8044 19004 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 21:09:25,133 autoreload 10916 1576 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 21:09:25,334 autoreload 12460 7792 Watching for file changes with StatReloader
+INFO 2023-10-02 21:09:25,582 autoreload 14500 16892 Watching for file changes with StatReloader
+WARNING 2023-10-02 21:09:43,238 log 12460 12000 Not Found: /orders/
+WARNING 2023-10-02 21:09:43,238 basehttp 12460 12000 "GET /orders/ HTTP/1.1" 404 2309
+WARNING 2023-10-02 21:09:48,951 log 12460 12000 Not Found: /
+WARNING 2023-10-02 21:09:48,952 basehttp 12460 12000 "GET / HTTP/1.1" 404 2270
+INFO 2023-10-02 21:10:07,417 basehttp 12460 12000 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 21:10:09,989 basehttp 12460 12000 "GET /dz3/ HTTP/1.1" 200 1254
+INFO 2023-10-02 21:22:33,622 basehttp 12460 7156 "GET /dz3/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 21:22:38,698 log 12460 7156 Not Found: /init_bases/
+WARNING 2023-10-02 21:22:38,699 basehttp 12460 7156 "GET /init_bases/ HTTP/1.1" 404 2321
+ERROR 2023-10-02 21:22:44,257 log 12460 7156 Internal Server Error: /dz3/init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 57, in init_bases
+    for j in range(random.randint(3)):
+TypeError: Random.randint() missing 1 required positional argument: 'b'
+ERROR 2023-10-02 21:22:44,259 basehttp 12460 7156 "GET /dz3/init_bases/ HTTP/1.1" 500 71932
+INFO 2023-10-02 21:23:27,764 autoreload 12460 7792 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:23:28,188 autoreload 1348 5980 Watching for file changes with StatReloader
+INFO 2023-10-02 21:23:28,633 autoreload 14500 16892 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:23:29,033 autoreload 9256 5448 Watching for file changes with StatReloader
+INFO 2023-10-02 21:23:29,801 basehttp 1348 4396 "GET /dz3/init_bases/ HTTP/1.1" 200 1254
+WARNING 2023-10-02 21:24:18,506 log 1348 4396 Not Found: /orders/
+WARNING 2023-10-02 21:24:18,506 basehttp 1348 4396 "GET /orders/ HTTP/1.1" 404 2309
+INFO 2023-10-02 21:24:25,263 basehttp 1348 4396 "GET /dz3/orders/ HTTP/1.1" 200 2608
+INFO 2023-10-02 21:26:03,233 autoreload 9256 5448 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 21:26:03,648 autoreload 16660 14648 Watching for file changes with StatReloader
+INFO 2023-10-02 21:26:03,775 autoreload 1348 5980 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+WARNING 2023-10-02 21:26:03,883 log 16660 21144 Not Found: /dz3/orders/
+WARNING 2023-10-02 21:26:03,884 basehttp 16660 21144 "GET /dz3/orders/ HTTP/1.1" 404 3134
+INFO 2023-10-02 21:26:04,224 autoreload 14616 12904 Watching for file changes with StatReloader
+INFO 2023-10-02 21:32:33,492 autoreload 14616 12904 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:32:33,932 autoreload 16660 14648 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:32:33,933 autoreload 8012 17872 Watching for file changes with StatReloader
+INFO 2023-10-02 21:32:34,378 autoreload 20692 15024 Watching for file changes with StatReloader
+WARNING 2023-10-02 21:32:35,754 log 8012 17568 Not Found: /dz3/orders/
+WARNING 2023-10-02 21:32:35,755 basehttp 8012 17568 "GET /dz3/orders/ HTTP/1.1" 404 3134
+WARNING 2023-10-02 21:32:39,764 log 8012 17568 Not Found: /dz3/
+WARNING 2023-10-02 21:32:39,765 basehttp 8012 17568 "GET /dz3/ HTTP/1.1" 404 3113
+WARNING 2023-10-02 21:32:40,058 log 8012 17568 Not Found: /dz3/
+WARNING 2023-10-02 21:32:40,059 basehttp 8012 17568 "GET /dz3/ HTTP/1.1" 404 3113
+WARNING 2023-10-02 21:32:44,001 log 8012 17568 Not Found: /dz3/
+WARNING 2023-10-02 21:32:44,002 basehttp 8012 17568 "GET /dz3/ HTTP/1.1" 404 3113
+INFO 2023-10-02 21:32:59,958 autoreload 8012 17872 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-02 21:33:00,302 autoreload 20692 15024 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-02 21:33:00,405 autoreload 14424 652 Watching for file changes with StatReloader
+INFO 2023-10-02 21:33:00,744 autoreload 11024 3404 Watching for file changes with StatReloader
+INFO 2023-10-02 21:33:00,756 basehttp 14424 19392 "GET /dz3/ HTTP/1.1" 200 1274
+INFO 2023-10-02 21:33:09,320 basehttp 14424 19392 "GET /dz3/orders/ HTTP/1.1" 200 2608
+WARNING 2023-10-02 21:33:10,499 log 14424 19392 Not Found: /goods/
+WARNING 2023-10-02 21:33:10,500 basehttp 14424 19392 "GET /goods/ HTTP/1.1" 404 2995
+WARNING 2023-10-02 21:33:41,846 log 14424 19392 Not Found: /goods/
+WARNING 2023-10-02 21:33:41,847 basehttp 14424 19392 "GET /goods/ HTTP/1.1" 404 2995
+WARNING 2023-10-02 21:33:46,404 log 14424 19392 Not Found: /goods/
+WARNING 2023-10-02 21:33:46,405 basehttp 14424 19392 "GET /goods/ HTTP/1.1" 404 2995
+WARNING 2023-10-02 21:33:50,187 log 14424 19392 Not Found: /
+WARNING 2023-10-02 21:33:50,187 basehttp 14424 19392 "GET / HTTP/1.1" 404 2959
+INFO 2023-10-02 21:34:21,822 autoreload 14424 652 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 21:34:22,134 autoreload 11024 3404 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 21:34:22,257 autoreload 18652 17400 Watching for file changes with StatReloader
+INFO 2023-10-02 21:34:22,580 autoreload 4876 7088 Watching for file changes with StatReloader
+INFO 2023-10-02 21:34:23,838 basehttp 18652 11068 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 21:34:25,680 basehttp 18652 11068 "GET / HTTP/1.1" 200 1254
+WARNING 2023-10-02 21:34:26,872 log 18652 11068 Not Found: /orders/
+WARNING 2023-10-02 21:34:26,873 basehttp 18652 11068 "GET /orders/ HTTP/1.1" 404 2982
+INFO 2023-10-02 21:34:39,054 autoreload 18652 17400 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 21:34:39,318 autoreload 4876 7088 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-02 21:34:39,509 autoreload 4764 6996 Watching for file changes with StatReloader
+INFO 2023-10-02 21:34:39,759 autoreload 17588 9248 Watching for file changes with StatReloader
+INFO 2023-10-02 21:34:40,155 basehttp 4764 6988 "GET /orders/ HTTP/1.1" 200 2608
+INFO 2023-10-02 21:34:41,763 basehttp 4764 6988 "GET /goods/ HTTP/1.1" 200 4615
+INFO 2023-10-02 21:34:44,722 basehttp 4764 6988 "GET /orders/ HTTP/1.1" 200 2608
+INFO 2023-10-02 21:34:45,654 basehttp 4764 6988 "GET /goods/ HTTP/1.1" 200 4615
+INFO 2023-10-02 21:34:46,512 basehttp 4764 6988 "GET /users/ HTTP/1.1" 200 3739
+INFO 2023-10-02 21:34:49,018 basehttp 4764 6988 "GET /goods/ HTTP/1.1" 200 4615
+INFO 2023-10-02 21:35:03,928 basehttp 4764 6988 "GET /orders/ HTTP/1.1" 200 2608
+WARNING 2023-10-02 21:35:11,656 log 4764 6988 Not Found: /orders/create/
+WARNING 2023-10-02 21:35:11,657 basehttp 4764 6988 "POST /orders/create/ HTTP/1.1" 404 3000
+INFO 2023-10-02 21:46:18,707 autoreload 17588 9248 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:46:18,712 autoreload 4764 6996 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:46:19,191 autoreload 17968 18320 Watching for file changes with StatReloader
+INFO 2023-10-02 21:46:19,191 autoreload 20124 13076 Watching for file changes with StatReloader
+INFO 2023-10-02 21:46:32,814 autoreload 17968 18320 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:46:32,830 autoreload 20124 13076 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:46:33,304 autoreload 15584 17272 Watching for file changes with StatReloader
+INFO 2023-10-02 21:46:33,304 autoreload 1328 16040 Watching for file changes with StatReloader
+INFO 2023-10-02 21:46:43,931 autoreload 15584 17272 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:46:43,948 autoreload 1328 16040 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:46:44,426 autoreload 21344 11888 Watching for file changes with StatReloader
+INFO 2023-10-02 21:46:44,436 autoreload 13236 776 Watching for file changes with StatReloader
+INFO 2023-10-02 21:47:25,908 autoreload 21344 11888 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:47:25,921 autoreload 13236 776 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:47:26,403 autoreload 3228 16768 Watching for file changes with StatReloader
+INFO 2023-10-02 21:47:26,403 autoreload 12328 6496 Watching for file changes with StatReloader
+INFO 2023-10-02 21:47:38,975 basehttp 12328 9656 "GET /orders/ HTTP/1.1" 200 2608
+INFO 2023-10-02 21:47:42,362 basehttp 12328 9656 "GET /orders/ HTTP/1.1" 200 2608
+INFO 2023-10-02 21:47:44,242 basehttp 12328 9656 "GET /orders/ HTTP/1.1" 200 2608
+INFO 2023-10-02 21:48:38,679 autoreload 3228 16768 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:48:38,804 autoreload 12328 6496 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:48:39,172 autoreload 11284 20688 Watching for file changes with StatReloader
+INFO 2023-10-02 21:48:39,305 autoreload 16572 9688 Watching for file changes with StatReloader
+INFO 2023-10-02 21:50:10,606 autoreload 11284 20688 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:50:10,606 autoreload 16572 9688 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:50:11,085 autoreload 20260 11260 Watching for file changes with StatReloader
+INFO 2023-10-02 21:50:11,088 autoreload 15320 16544 Watching for file changes with StatReloader
+INFO 2023-10-02 21:50:42,952 autoreload 20260 11260 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:50:42,969 autoreload 15320 16544 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:50:43,434 autoreload 20548 20932 Watching for file changes with StatReloader
+INFO 2023-10-02 21:50:43,434 autoreload 3496 5092 Watching for file changes with StatReloader
+INFO 2023-10-02 21:51:02,186 autoreload 20548 20932 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:51:02,221 autoreload 3496 5092 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:51:02,778 autoreload 13904 11592 Watching for file changes with StatReloader
+INFO 2023-10-02 21:51:02,778 autoreload 10548 6544 Watching for file changes with StatReloader
+INFO 2023-10-02 21:51:33,853 autoreload 13904 11592 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:51:33,853 autoreload 10548 6544 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:51:34,334 autoreload 15356 15448 Watching for file changes with StatReloader
+INFO 2023-10-02 21:51:34,351 autoreload 14136 10396 Watching for file changes with StatReloader
+INFO 2023-10-02 21:51:40,500 basehttp 15356 1416 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 21:51:46,780 log 15356 1416 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz3.views.orders_show didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-02 21:51:46,781 basehttp 15356 1416 "POST /orders/show/ HTTP/1.1" 500 71108
+INFO 2023-10-02 21:55:08,041 autoreload 15356 15448 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:55:08,477 autoreload 18596 10348 Watching for file changes with StatReloader
+INFO 2023-10-02 21:55:08,609 autoreload 14136 10396 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 21:55:09,045 autoreload 17180 10016 Watching for file changes with StatReloader
+INFO 2023-10-02 22:00:01,058 autoreload 17180 10016 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:00:01,416 autoreload 18596 10348 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:00:01,521 autoreload 11976 15120 Watching for file changes with StatReloader
+INFO 2023-10-02 22:00:01,903 autoreload 4012 17720 Watching for file changes with StatReloader
+ERROR 2023-10-02 22:00:05,138 log 11976 7916 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 96, in orders_show
+    user = User.objects.get(username=username).first()
+AttributeError: 'User' object has no attribute 'first'
+ERROR 2023-10-02 22:00:05,141 basehttp 11976 7916 "POST /orders/show/ HTTP/1.1" 500 70875
+INFO 2023-10-02 22:00:42,980 autoreload 11976 15120 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:00:43,261 autoreload 4012 17720 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:00:43,408 autoreload 14640 10724 Watching for file changes with StatReloader
+INFO 2023-10-02 22:00:43,722 autoreload 5992 20700 Watching for file changes with StatReloader
+INFO 2023-10-02 22:03:52,864 autoreload 14640 10724 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:03:53,173 autoreload 5992 20700 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:03:53,313 autoreload 3064 12604 Watching for file changes with StatReloader
+INFO 2023-10-02 22:03:53,626 autoreload 5340 11528 Watching for file changes with StatReloader
+INFO 2023-10-02 22:03:55,955 basehttp 3064 8652 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:03:58,355 basehttp 3064 8652 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:03:59,283 basehttp 3064 8652 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 22:04:04,664 log 3064 8652 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 99, in orders_show
+    user = User.objects.get(username=username).first()
+AttributeError: 'User' object has no attribute 'first'
+ERROR 2023-10-02 22:04:04,667 basehttp 3064 8652 "POST /orders/show/ HTTP/1.1" 500 71146
+INFO 2023-10-02 22:08:04,482 autoreload 5340 11528 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:08:04,748 autoreload 3064 12604 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:08:04,955 autoreload 11584 1096 Watching for file changes with StatReloader
+INFO 2023-10-02 22:08:05,249 autoreload 11532 16788 Watching for file changes with StatReloader
+ERROR 2023-10-02 22:08:06,097 log 11584 8712 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 101, in orders_show
+    user = User.objects.get(username=username).first()
+AttributeError: 'User' object has no attribute 'first'
+ERROR 2023-10-02 22:08:06,099 basehttp 11584 8712 "POST /orders/show/ HTTP/1.1" 500 71150
+INFO 2023-10-02 22:08:09,685 basehttp 11584 8712 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:08:12,453 basehttp 11584 8712 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:10:53,853 basehttp 11584 8712 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:10:54,347 basehttp 11584 8712 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:10:56,273 basehttp 11584 8712 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:10:58,403 basehttp 11584 8712 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:12:07,658 autoreload 11584 1096 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 22:12:07,904 autoreload 11532 16788 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 22:12:08,112 autoreload 11568 3632 Watching for file changes with StatReloader
+INFO 2023-10-02 22:12:08,370 autoreload 17524 10340 Watching for file changes with StatReloader
+INFO 2023-10-02 22:12:09,256 basehttp 11568 13944 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:12:12,705 basehttp 11568 13944 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:12:20,957 autoreload 17524 10340 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 22:12:21,391 autoreload 7992 19620 Watching for file changes with StatReloader
+INFO 2023-10-02 22:12:21,745 autoreload 11568 3632 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 22:12:22,191 autoreload 13824 13964 Watching for file changes with StatReloader
+INFO 2023-10-02 22:12:28,339 basehttp 7992 21052 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:12:29,754 basehttp 7992 21052 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:14:22,852 basehttp 7992 21052 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 22:14:28,145 log 7992 21052 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 101, in orders_show
+    user = User.objects.get(username=username).first()
+AttributeError: 'User' object has no attribute 'first'
+ERROR 2023-10-02 22:14:28,147 basehttp 7992 21052 "POST /orders/show/ HTTP/1.1" 500 71150
+INFO 2023-10-02 22:15:02,569 autoreload 7992 19620 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:15:02,707 autoreload 13824 13964 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:15:03,071 autoreload 12272 10396 Watching for file changes with StatReloader
+INFO 2023-10-02 22:15:03,213 autoreload 5724 15448 Watching for file changes with StatReloader
+ERROR 2023-10-02 22:15:07,295 log 12272 16532 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 102, in orders_show
+    orders = user.orders_set.filter(date__range=["2011-01-01", "2011-01-31"])
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date' into field. Choices are: customer, customer_id, date_ordered, goods, id, total_price
+ERROR 2023-10-02 22:15:07,299 basehttp 12272 16532 "POST /orders/show/ HTTP/1.1" 500 114199
+INFO 2023-10-02 22:16:07,142 autoreload 5724 15448 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:16:07,153 autoreload 12272 10396 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:16:07,629 autoreload 2984 13308 Watching for file changes with StatReloader
+INFO 2023-10-02 22:16:07,661 autoreload 12460 8792 Watching for file changes with StatReloader
+INFO 2023-10-02 22:16:48,095 autoreload 2984 13308 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:16:48,123 autoreload 12460 8792 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:16:48,601 autoreload 4832 15976 Watching for file changes with StatReloader
+INFO 2023-10-02 22:16:48,633 autoreload 9268 2888 Watching for file changes with StatReloader
+ERROR 2023-10-02 22:16:53,043 log 4832 6996 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 103, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:16:53,046 basehttp 4832 6996 "POST /orders/show/ HTTP/1.1" 500 87758
+INFO 2023-10-02 22:17:11,438 autoreload 3820 13492 Watching for file changes with StatReloader
+ERROR 2023-10-02 22:17:16,735 log 4832 6996 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 103, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:17:16,737 basehttp 4832 6996 "POST /orders/show/ HTTP/1.1" 500 87758
+ERROR 2023-10-02 22:17:19,119 log 4832 6996 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 103, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:17:19,120 basehttp 4832 6996 "POST /orders/show/ HTTP/1.1" 500 87758
+ERROR 2023-10-02 22:17:39,807 log 4832 6996 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 103, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:17:39,809 basehttp 4832 6996 "POST /orders/show/ HTTP/1.1" 500 87758
+INFO 2023-10-02 22:18:02,502 basehttp 4832 6996 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:18:03,556 basehttp 4832 6996 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 22:18:07,986 log 4832 6996 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 103, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:18:07,988 basehttp 4832 6996 "POST /orders/show/ HTTP/1.1" 500 87752
+INFO 2023-10-02 22:53:32,942 autoreload 4832 15976 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 22:53:32,942 autoreload 3820 13492 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-02 22:53:33,476 autoreload 4572 18688 Watching for file changes with StatReloader
+INFO 2023-10-02 22:53:33,476 autoreload 4116 20144 Watching for file changes with StatReloader
+INFO 2023-10-02 22:54:08,387 basehttp 4116 6224 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-02 22:54:09,362 basehttp 4116 6224 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:54:10,713 basehttp 4116 6224 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 22:54:12,598 basehttp 4116 6224 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:56:40,096 autoreload 4572 18688 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:56:40,514 autoreload 4116 20144 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 22:56:40,540 autoreload 3280 17604 Watching for file changes with StatReloader
+INFO 2023-10-02 22:56:40,960 autoreload 8428 16868 Watching for file changes with StatReloader
+INFO 2023-10-02 22:56:45,706 basehttp 3280 11512 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:56:47,047 basehttp 3280 11512 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:57:05,870 basehttp 3280 11512 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 22:57:20,988 basehttp 3280 11512 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 22:57:25,248 log 3280 11512 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 104, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:57:25,251 basehttp 3280 11512 "POST /orders/show/ HTTP/1.1" 500 87011
+ERROR 2023-10-02 22:58:07,422 log 3280 11512 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 104, in orders_show
+    return render(request, "orders2.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница", "vars":vars})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders2.html
+ERROR 2023-10-02 22:58:07,424 basehttp 3280 11512 "POST /orders/show/ HTTP/1.1" 500 87011
+INFO 2023-10-02 22:59:30,871 basehttp 3280 11512 "POST /orders/show/ HTTP/1.1" 200 1315
+INFO 2023-10-02 22:59:33,023 basehttp 3280 11512 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-02 22:59:37,409 basehttp 3280 11512 "POST /orders/show/ HTTP/1.1" 200 1315
+INFO 2023-10-02 22:59:40,876 basehttp 3280 11512 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-02 22:59:50,577 basehttp 3280 11512 "POST /orders/show/ HTTP/1.1" 200 1315
+INFO 2023-10-02 23:00:15,709 basehttp 3280 11512 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-02 23:00:19,965 basehttp 3280 11512 "POST /orders/show/ HTTP/1.1" 200 1315
+INFO 2023-10-02 23:01:09,126 autoreload 3280 17604 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:01:09,326 autoreload 8428 16868 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:01:09,547 autoreload 8488 20448 Watching for file changes with StatReloader
+INFO 2023-10-02 23:01:09,748 autoreload 13916 3912 Watching for file changes with StatReloader
+INFO 2023-10-02 23:01:15,896 basehttp 8488 8320 "POST /orders/show/ HTTP/1.1" 200 1315
+INFO 2023-10-02 23:02:47,671 autoreload 13916 3912 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:02:48,116 autoreload 8812 3684 Watching for file changes with StatReloader
+INFO 2023-10-02 23:02:48,318 autoreload 8488 20448 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:02:48,727 autoreload 18048 9028 Watching for file changes with StatReloader
+INFO 2023-10-02 23:02:51,727 basehttp 8812 5920 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 23:02:53,511 basehttp 8812 5920 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 23:02:57,595 log 8812 5920 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+ValueError: month must be in 1..12
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1557, in to_python
+    parsed = parse_date(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\utils\dateparse.py", line 78, in parse_date
+    return datetime.date(**kw)
+ValueError: month must be in 1..12
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 100, in orders_show
+    orders = user.orders_set.filter(date_ordered__range=["2023-02-10", "2023-21-09"])
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\lookups.py", line 276, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1561, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2023-21-09” value has the correct format (YYYY-MM-DD) but it is an invalid date.']
+ERROR 2023-10-02 23:02:57,601 basehttp 8812 5920 "POST /orders/show/ HTTP/1.1" 500 148410
+INFO 2023-10-02 23:03:26,535 autoreload 8812 3684 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:03:26,943 autoreload 4932 12764 Watching for file changes with StatReloader
+INFO 2023-10-02 23:03:26,992 autoreload 18048 9028 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:03:27,417 autoreload 14896 9520 Watching for file changes with StatReloader
+INFO 2023-10-02 23:03:28,892 basehttp 4932 12500 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 23:03:29,790 basehttp 4932 12500 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-02 23:03:34,144 basehttp 4932 12500 "POST /orders/show/ HTTP/1.1" 200 1315
+INFO 2023-10-02 23:06:39,618 autoreload 4932 12764 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:06:39,618 autoreload 14896 9520 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:06:40,098 autoreload 7108 16736 Watching for file changes with StatReloader
+INFO 2023-10-02 23:06:40,099 autoreload 18760 20204 Watching for file changes with StatReloader
+INFO 2023-10-02 23:07:10,316 basehttp 7108 12368 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 23:07:11,245 basehttp 7108 12368 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-02 23:07:16,296 basehttp 7108 12368 "POST /orders/show/ HTTP/1.1" 200 1366
+INFO 2023-10-02 23:07:58,629 basehttp 7108 12368 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 23:08:00,617 basehttp 7108 12368 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-02 23:08:48,597 autoreload 18760 20204 D:\Django\DZ\project\myproject\dz3\models.py changed, reloading.
+INFO 2023-10-02 23:08:48,984 autoreload 7108 16736 D:\Django\DZ\project\myproject\dz3\models.py changed, reloading.
+INFO 2023-10-02 23:08:49,033 autoreload 7436 6876 Watching for file changes with StatReloader
+INFO 2023-10-02 23:09:04,681 autoreload 5180 15024 Watching for file changes with StatReloader
+ERROR 2023-10-02 23:09:08,985 log 7436 13940 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 58, in init_bases
+    order.save()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1567, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“04/03/2023 08:03 AM” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2023-10-02 23:09:08,989 basehttp 7436 13940 "GET /init_bases/ HTTP/1.1" 500 144984
+INFO 2023-10-02 23:11:12,244 autoreload 5180 15024 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:11:12,265 autoreload 7436 6876 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:11:12,724 autoreload 5980 12912 Watching for file changes with StatReloader
+INFO 2023-10-02 23:11:12,735 autoreload 14864 7164 Watching for file changes with StatReloader
+INFO 2023-10-02 23:11:15,317 basehttp 5980 7352 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 23:11:16,552 log 5980 7352 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("10-10-2022 11:30", "10-10-2023 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%m/%d/%Y %I:%M %p', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 24, in str_time_prop
+    stime = time.mktime(time.strptime(start, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '10-10-2022 11:30' does not match format '%m/%d/%Y %I:%M %p'
+ERROR 2023-10-02 23:11:16,554 basehttp 5980 7352 "GET /init_bases/ HTTP/1.1" 500 88812
+INFO 2023-10-02 23:12:00,489 autoreload 5980 12912 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:12:00,912 autoreload 14180 8344 Watching for file changes with StatReloader
+INFO 2023-10-02 23:12:01,160 autoreload 14864 7164 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:12:01,572 autoreload 5336 12676 Watching for file changes with StatReloader
+INFO 2023-10-02 23:12:02,788 basehttp 14180 10108 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 23:12:04,034 log 14180 10108 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("10-10-2022 11:30 AM", "10-10-2023 4:50 PM", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%m/%d/%Y %I:%M %p', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 24, in str_time_prop
+    stime = time.mktime(time.strptime(start, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '10-10-2022 11:30 AM' does not match format '%m/%d/%Y %I:%M %p'
+ERROR 2023-10-02 23:12:04,037 basehttp 14180 10108 "GET /init_bases/ HTTP/1.1" 500 88850
+INFO 2023-10-02 23:12:08,587 basehttp 14180 10108 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-02 23:12:12,405 basehttp 14180 10108 "GET /orders/ HTTP/1.1" 200 2536
+ERROR 2023-10-02 23:12:14,366 log 14180 10108 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("10-10-2022 11:30 AM", "10-10-2023 4:50 PM", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%m/%d/%Y %I:%M %p', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 24, in str_time_prop
+    stime = time.mktime(time.strptime(start, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '10-10-2022 11:30 AM' does not match format '%m/%d/%Y %I:%M %p'
+ERROR 2023-10-02 23:12:14,368 basehttp 14180 10108 "GET /init_bases/ HTTP/1.1" 500 88857
+INFO 2023-10-02 23:14:53,942 autoreload 14180 8344 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:14:54,150 autoreload 5336 12676 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:14:54,395 autoreload 17244 18028 Watching for file changes with StatReloader
+INFO 2023-10-02 23:14:54,596 autoreload 7196 18048 Watching for file changes with StatReloader
+INFO 2023-10-02 23:15:27,023 basehttp 17244 6640 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 23:15:28,309 log 17244 6640 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("10-10-2022 11:30 AM", "10-10-2023 4:50 PM", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%d-%m-%Y %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 24, in str_time_prop
+    stime = time.mktime(time.strptime(start, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains:  AM
+ERROR 2023-10-02 23:15:28,311 basehttp 17244 6640 "GET /init_bases/ HTTP/1.1" 500 88509
+INFO 2023-10-02 23:15:49,249 autoreload 7196 18048 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:15:49,249 autoreload 17244 18028 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:15:49,787 autoreload 14444 8752 Watching for file changes with StatReloader
+INFO 2023-10-02 23:15:49,790 autoreload 300 4620 Watching for file changes with StatReloader
+INFO 2023-10-02 23:15:50,249 basehttp 300 15068 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 23:15:51,208 log 300 15068 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("10-10-2022 11:30", "10-10-2023 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%d-%m-%Y %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 25, in str_time_prop
+    etime = time.mktime(time.strptime(end, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '10-10-2023 14:50' does not match format '%d-%m-%Y %I:%M'
+ERROR 2023-10-02 23:15:51,211 basehttp 300 15068 "GET /init_bases/ HTTP/1.1" 500 88925
+INFO 2023-10-02 23:17:05,144 autoreload 14444 8752 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:17:05,228 autoreload 300 4620 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:17:05,565 autoreload 6152 652 Watching for file changes with StatReloader
+INFO 2023-10-02 23:17:05,677 autoreload 13616 13280 Watching for file changes with StatReloader
+INFO 2023-10-02 23:17:06,771 basehttp 6152 6624 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 23:17:07,774 log 6152 6624 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("2022-10-10 11:30", "2023-10-10 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%Y-%m-%d %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 25, in str_time_prop
+    etime = time.mktime(time.strptime(end, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-10-10 14:50' does not match format '%Y-%m-%d %I:%M'
+ERROR 2023-10-02 23:17:07,778 basehttp 6152 6624 "GET /init_bases/ HTTP/1.1" 500 88923
+INFO 2023-10-02 23:19:11,383 basehttp 6152 6624 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-02 23:19:12,418 log 6152 6624 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("2022-10-10 11:30", "2023-10-10 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%Y-%m-%d %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 25, in str_time_prop
+    etime = time.mktime(time.strptime(end, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-10-10 14:50' does not match format '%Y-%m-%d %I:%M'
+ERROR 2023-10-02 23:19:12,420 basehttp 6152 6624 "GET /init_bases/ HTTP/1.1" 500 88925
+INFO 2023-10-02 23:22:52,717 autoreload 13616 13280 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:22:52,742 autoreload 6152 652 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-02 23:22:53,197 autoreload 5628 13452 Watching for file changes with StatReloader
+INFO 2023-10-02 23:22:53,216 autoreload 9956 18576 Watching for file changes with StatReloader
+ERROR 2023-10-02 23:22:53,782 log 5628 10100 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("2022-10-02 11:30", "2023-10-02 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%Y-%m-%d %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 25, in str_time_prop
+    etime = time.mktime(time.strptime(end, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-10-02 14:50' does not match format '%Y-%m-%d %I:%M'
+ERROR 2023-10-02 23:22:53,784 basehttp 5628 10100 "GET /init_bases/ HTTP/1.1" 500 89062
+INFO 2023-10-03 19:32:53,837 autoreload 10720 11416 Watching for file changes with StatReloader
+ERROR 2023-10-03 19:33:00,558 log 10720 17212 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 55, in init_bases
+    dt = random_date("2022-10-02 11:30", "2023-10-02 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%Y-%m-%d %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 25, in str_time_prop
+    etime = time.mktime(time.strptime(end, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-10-02 14:50' does not match format '%Y-%m-%d %I:%M'
+ERROR 2023-10-03 19:33:00,561 basehttp 10720 17212 "GET /init_bases/ HTTP/1.1" 500 89365
+WARNING 2023-10-03 19:33:00,676 log 10720 17212 Not Found: /favicon.ico
+WARNING 2023-10-03 19:33:00,676 basehttp 10720 17212 "GET /favicon.ico HTTP/1.1" 404 3174
+INFO 2023-10-03 19:34:28,702 autoreload 10720 11416 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:34:29,153 autoreload 19496 17352 Watching for file changes with StatReloader
+INFO 2023-10-03 19:34:52,180 autoreload 19496 17352 D:\Django\DZ\project\myproject\dz3\models.py changed, reloading.
+INFO 2023-10-03 19:34:52,605 autoreload 11832 1440 Watching for file changes with StatReloader
+INFO 2023-10-03 19:35:12,215 autoreload 9720 15752 Watching for file changes with StatReloader
+INFO 2023-10-03 19:35:15,410 basehttp 9720 16808 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-03 19:35:16,793 log 9720 16808 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 44, in init_bases
+    dt = random_date("2022-10-02 11:30", "2023-10-02 14:50", random.random())
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 33, in random_date
+    return str_time_prop(start, end, '%Y-%m-%d %I:%M', prop)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 25, in str_time_prop
+    etime = time.mktime(time.strptime(end, time_format))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-10-02 14:50' does not match format '%Y-%m-%d %I:%M'
+ERROR 2023-10-03 19:35:16,796 basehttp 9720 16808 "GET /init_bases/ HTTP/1.1" 500 87854
+INFO 2023-10-03 19:37:52,853 autoreload 9720 15752 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:37:53,319 autoreload 10720 9384 Watching for file changes with StatReloader
+INFO 2023-10-03 19:37:57,506 basehttp 10720 2936 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 19:38:02,312 basehttp 10720 2936 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-03 19:38:04,106 basehttp 10720 2936 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 19:38:08,704 basehttp 10720 2936 "POST /orders/show/ HTTP/1.1" 200 1366
+INFO 2023-10-03 19:40:49,548 autoreload 10720 9384 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:40:49,997 autoreload 18540 1644 Watching for file changes with StatReloader
+INFO 2023-10-03 19:42:12,168 basehttp 18540 16792 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:52:37,048 autoreload 18540 1644 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:52:37,470 autoreload 2548 20836 Watching for file changes with StatReloader
+INFO 2023-10-03 19:52:39,950 basehttp 2548 9992 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:52:53,305 autoreload 2548 20836 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:52:53,759 autoreload 12308 7600 Watching for file changes with StatReloader
+INFO 2023-10-03 19:52:56,194 basehttp 12308 6612 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:53:43,836 basehttp 12308 6612 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 19:53:45,883 basehttp 12308 6612 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 19:53:50,431 basehttp 12308 6612 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:54:41,959 autoreload 12308 7600 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:54:42,388 autoreload 15568 13396 Watching for file changes with StatReloader
+INFO 2023-10-03 19:54:43,334 basehttp 15568 19096 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 19:54:44,151 basehttp 15568 19096 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 19:54:48,783 basehttp 15568 19096 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:55:10,428 basehttp 15568 19096 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:55:11,246 basehttp 15568 19096 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 19:55:13,797 basehttp 15568 19096 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 19:55:14,640 basehttp 15568 19096 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 19:55:18,617 basehttp 15568 19096 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 19:56:23,352 autoreload 15568 13396 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 19:56:23,797 autoreload 7652 19924 Watching for file changes with StatReloader
+INFO 2023-10-03 20:18:53,317 basehttp 7652 11696 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:18:55,087 basehttp 7652 11696 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 20:18:59,875 basehttp 7652 11696 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:20:36,539 autoreload 7652 19924 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 20:20:36,971 autoreload 8060 13412 Watching for file changes with StatReloader
+INFO 2023-10-03 20:20:42,646 basehttp 8060 16772 "POST /orders/show/ HTTP/1.1" 200 26249
+INFO 2023-10-03 20:21:30,321 basehttp 8060 16772 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-03 20:21:32,076 basehttp 8060 16772 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 20:21:36,239 basehttp 8060 16772 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:21:37,601 basehttp 8060 16772 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 20:21:41,322 basehttp 8060 16772 "POST /orders/show/ HTTP/1.1" 200 26263
+INFO 2023-10-03 20:21:55,437 basehttp 8060 16772 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 20:21:59,819 basehttp 8060 16772 "POST /orders/show/ HTTP/1.1" 200 26263
+INFO 2023-10-03 20:23:08,670 autoreload 8060 13412 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 20:23:09,108 autoreload 12996 12232 Watching for file changes with StatReloader
+INFO 2023-10-03 20:23:11,014 basehttp 12996 21348 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:23:12,528 basehttp 12996 21348 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 20:23:26,020 basehttp 12996 21348 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:30:14,946 basehttp 12996 15140 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:30:16,241 basehttp 12996 15140 "GET /orders/ HTTP/1.1" 200 2536
+INFO 2023-10-03 20:30:20,939 basehttp 12996 15140 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 20:30:31,546 autoreload 12996 12232 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 20:30:31,993 autoreload 17664 19972 Watching for file changes with StatReloader
+INFO 2023-10-03 20:30:32,661 basehttp 17664 6996 "POST /orders/show/ HTTP/1.1" 200 18463
+INFO 2023-10-03 20:32:22,469 basehttp 17664 6996 "POST /orders/show/ HTTP/1.1" 200 18707
+INFO 2023-10-03 20:43:18,181 autoreload 17664 19972 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 20:43:18,604 autoreload 14272 17696 Watching for file changes with StatReloader
+INFO 2023-10-03 21:00:30,255 autoreload 14272 17696 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:00:30,654 autoreload 18048 7668 Watching for file changes with StatReloader
+ERROR 2023-10-03 21:00:41,140 log 18048 11684 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 101, in orders_show
+    current_date = datetime.now().date()
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR 2023-10-03 21:00:41,142 basehttp 18048 11684 "POST /orders/show/ HTTP/1.1" 500 73197
+INFO 2023-10-03 21:04:45,447 autoreload 18048 7668 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:04:45,873 autoreload 11376 15072 Watching for file changes with StatReloader
+INFO 2023-10-03 21:07:31,652 autoreload 11376 15072 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:07:32,088 autoreload 19548 19444 Watching for file changes with StatReloader
+INFO 2023-10-03 21:07:54,923 autoreload 19548 19444 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:07:55,327 autoreload 14324 10788 Watching for file changes with StatReloader
+ERROR 2023-10-03 21:08:14,598 log 14324 296 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 102, in orders_show
+    current_date = datetime.date().now()
+TypeError: function missing required argument 'year' (pos 1)
+ERROR 2023-10-03 21:08:14,600 basehttp 14324 296 "POST /orders/show/ HTTP/1.1" 500 73114
+INFO 2023-10-03 21:11:17,866 autoreload 14324 10788 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:11:18,325 autoreload 11532 12168 Watching for file changes with StatReloader
+INFO 2023-10-03 21:11:20,539 basehttp 11532 5968 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 21:11:22,182 basehttp 11532 5968 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:11:26,996 basehttp 11532 5968 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 21:12:49,197 autoreload 11532 12168 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:12:49,622 autoreload 14320 5188 Watching for file changes with StatReloader
+ERROR 2023-10-03 21:12:51,229 log 14320 3852 Internal Server Error: /orders/show/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 102, in orders_show
+    current_date = datetime.now().date()
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR 2023-10-03 21:12:51,229 basehttp 14320 3852 "POST /orders/show/ HTTP/1.1" 500 71872
+INFO 2023-10-03 21:13:38,180 autoreload 14320 5188 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:13:38,638 autoreload 12240 13220 Watching for file changes with StatReloader
+INFO 2023-10-03 21:13:44,462 basehttp 12240 2280 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 21:13:46,274 basehttp 12240 2280 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:13:50,267 basehttp 12240 2280 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 21:14:33,313 autoreload 12240 13220 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:14:33,730 autoreload 3848 18664 Watching for file changes with StatReloader
+INFO 2023-10-03 21:14:35,696 basehttp 3848 324 "POST /orders/show/ HTTP/1.1" 200 2009
+INFO 2023-10-03 21:14:38,834 basehttp 3848 324 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:14:43,714 basehttp 3848 324 "POST /orders/show/ HTTP/1.1" 200 2009
+INFO 2023-10-03 21:15:17,230 autoreload 3848 18664 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:15:17,647 autoreload 17776 15452 Watching for file changes with StatReloader
+INFO 2023-10-03 21:15:19,014 basehttp 17776 16900 "POST /orders/show/ HTTP/1.1" 200 2009
+INFO 2023-10-03 21:15:20,400 basehttp 17776 16900 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:15:24,002 basehttp 17776 16900 "POST /orders/show/ HTTP/1.1" 200 3233
+INFO 2023-10-03 21:16:39,084 autoreload 17776 15452 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:16:39,542 autoreload 7088 20132 Watching for file changes with StatReloader
+INFO 2023-10-03 21:16:44,588 basehttp 7088 20164 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:16:48,454 basehttp 7088 20164 "POST /orders/show/ HTTP/1.1" 200 3233
+INFO 2023-10-03 21:17:30,285 autoreload 7088 20132 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:17:30,707 autoreload 19776 14896 Watching for file changes with StatReloader
+INFO 2023-10-03 21:17:34,078 basehttp 19776 12260 "POST /orders/show/ HTTP/1.1" 200 4560
+INFO 2023-10-03 21:17:43,366 basehttp 19776 12260 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:17:49,259 basehttp 19776 12260 "POST /orders/show/ HTTP/1.1" 200 2247
+INFO 2023-10-03 21:18:09,071 autoreload 19776 14896 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:18:09,495 autoreload 20984 19576 Watching for file changes with StatReloader
+INFO 2023-10-03 21:18:11,381 basehttp 20984 8712 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 21:18:12,923 basehttp 20984 8712 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-03 21:18:15,111 basehttp 20984 8712 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:18:21,560 basehttp 20984 8712 "POST /orders/show/ HTTP/1.1" 200 2076
+INFO 2023-10-03 21:18:25,571 basehttp 20984 8712 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:18:29,396 basehttp 20984 8712 "POST /orders/show/ HTTP/1.1" 200 2964
+INFO 2023-10-03 21:18:34,621 basehttp 20984 8712 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:18:40,595 basehttp 20984 8712 "POST /orders/show/ HTTP/1.1" 200 1397
+INFO 2023-10-03 21:18:41,960 basehttp 20984 8712 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:18:45,794 basehttp 20984 8712 "POST /orders/show/ HTTP/1.1" 200 20193
+INFO 2023-10-03 21:19:03,950 basehttp 20984 8712 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:22:34,892 autoreload 20984 19576 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:22:35,326 autoreload 7556 4872 Watching for file changes with StatReloader
+INFO 2023-10-03 21:22:36,729 basehttp 7556 13384 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:22:38,453 basehttp 7556 13384 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-03 21:22:39,775 log 7556 13384 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 57, in init_bases
+    order = Orders(customer=User.objects.get(username=usr[random.randint(0,3)].username), total_price=200, date_ordered=dt)
+IndexError: list index out of range
+ERROR 2023-10-03 21:22:39,776 basehttp 7556 13384 "GET /init_bases/ HTTP/1.1" 500 72367
+INFO 2023-10-03 21:23:26,336 autoreload 7556 4872 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:23:26,789 autoreload 20348 4588 Watching for file changes with StatReloader
+ERROR 2023-10-03 21:23:29,583 log 20348 19232 Internal Server Error: /init_bases/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 57, in init_bases
+    order = Orders(customer=User.objects.get(username=usr[random.randint(0,len(usr))].username), total_price=200, date_ordered=dt)
+IndexError: list index out of range
+ERROR 2023-10-03 21:23:29,585 basehttp 20348 19232 "GET /init_bases/ HTTP/1.1" 500 72519
+INFO 2023-10-03 21:23:48,723 autoreload 20348 4588 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:23:49,157 autoreload 19188 10120 Watching for file changes with StatReloader
+INFO 2023-10-03 21:23:50,741 basehttp 19188 17832 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-03 21:23:53,616 basehttp 19188 17832 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:23:57,723 basehttp 19188 17832 "POST /orders/show/ HTTP/1.1" 200 2520
+INFO 2023-10-03 21:24:01,996 basehttp 19188 17832 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:24:07,760 basehttp 19188 17832 "POST /orders/show/ HTTP/1.1" 200 6549
+INFO 2023-10-03 21:25:27,125 basehttp 19188 17832 "POST /orders/show/ HTTP/1.1" 200 6596
+INFO 2023-10-03 21:27:11,991 autoreload 19188 10120 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:27:12,424 autoreload 13248 4684 Watching for file changes with StatReloader
+INFO 2023-10-03 21:27:27,323 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 6597
+INFO 2023-10-03 21:27:33,522 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:27:38,865 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 1748
+INFO 2023-10-03 21:27:42,411 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:27:46,188 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 1748
+INFO 2023-10-03 21:27:49,077 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:27:53,125 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 8465
+INFO 2023-10-03 21:27:56,809 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:28:01,004 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 1748
+INFO 2023-10-03 21:28:04,636 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:28:10,334 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 1445
+INFO 2023-10-03 21:28:12,303 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:28:16,353 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 1445
+INFO 2023-10-03 21:28:17,879 basehttp 13248 9676 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:28:22,560 basehttp 13248 9676 "POST /orders/show/ HTTP/1.1" 200 6597
+INFO 2023-10-03 21:29:37,541 autoreload 13248 4684 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:29:38,043 autoreload 8764 13876 Watching for file changes with StatReloader
+INFO 2023-10-03 21:29:42,092 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 6642
+INFO 2023-10-03 21:29:57,962 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 6624
+INFO 2023-10-03 21:31:40,338 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:31:44,303 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 2740
+INFO 2023-10-03 21:35:33,869 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 2635
+INFO 2023-10-03 21:37:19,568 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 2536
+INFO 2023-10-03 21:39:53,717 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 2542
+INFO 2023-10-03 21:43:35,669 basehttp 8764 7880 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 21:43:36,656 basehttp 8764 7880 "GET /users/ HTTP/1.1" 200 3745
+INFO 2023-10-03 21:43:39,733 basehttp 8764 7880 "GET /goods/ HTTP/1.1" 200 4639
+INFO 2023-10-03 21:43:42,851 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:43:49,315 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 5177
+INFO 2023-10-03 21:44:05,625 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:44:09,859 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 1705
+INFO 2023-10-03 21:44:12,336 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:44:15,911 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 2338
+INFO 2023-10-03 21:44:53,232 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:44:57,723 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 4604
+INFO 2023-10-03 21:45:00,295 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:45:05,028 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 1705
+INFO 2023-10-03 21:45:06,598 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:45:10,794 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 1706
+INFO 2023-10-03 21:45:12,120 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:45:15,808 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 1878
+INFO 2023-10-03 21:45:18,334 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:45:22,838 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 1877
+INFO 2023-10-03 21:45:27,830 basehttp 8764 7880 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:45:32,228 basehttp 8764 7880 "POST /orders/show/ HTTP/1.1" 200 5657
+INFO 2023-10-03 21:46:22,555 autoreload 8764 13876 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-03 21:46:22,975 autoreload 13956 12308 Watching for file changes with StatReloader
+INFO 2023-10-03 21:46:24,519 basehttp 13956 20260 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:46:31,182 basehttp 13956 20260 "POST /orders/show/ HTTP/1.1" 200 1878
+INFO 2023-10-03 21:46:34,295 basehttp 13956 20260 "GET /init_bases/ HTTP/1.1" 200 1254
+INFO 2023-10-03 21:46:35,449 basehttp 13956 20260 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:46:40,969 basehttp 13956 20260 "POST /orders/show/ HTTP/1.1" 200 1705
+INFO 2023-10-03 21:46:42,462 basehttp 13956 20260 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:46:46,224 basehttp 13956 20260 "POST /orders/show/ HTTP/1.1" 200 1704
+INFO 2023-10-03 21:46:47,536 basehttp 13956 20260 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:46:51,808 basehttp 13956 20260 "POST /orders/show/ HTTP/1.1" 200 4853
+INFO 2023-10-03 21:48:05,198 autoreload 13956 12308 D:\Django\DZ\project\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-03 21:48:05,700 autoreload 7672 2376 Watching for file changes with StatReloader
+INFO 2023-10-03 21:48:12,177 autoreload 7672 2376 D:\Django\DZ\project\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-03 21:48:12,615 autoreload 18588 17572 Watching for file changes with StatReloader
+INFO 2023-10-03 21:48:16,711 basehttp 18588 9964 "POST /orders/show/ HTTP/1.1" 200 4853
+INFO 2023-10-03 21:48:17,822 basehttp 18588 9964 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-03 21:48:21,618 basehttp 18588 9964 "GET /goods/ HTTP/1.1" 200 4631
+INFO 2023-10-03 21:48:23,173 basehttp 18588 9964 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:48:27,361 basehttp 18588 9964 "POST /orders/show/ HTTP/1.1" 200 1704
+INFO 2023-10-03 21:48:28,732 basehttp 18588 9964 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:48:32,919 basehttp 18588 9964 "POST /orders/show/ HTTP/1.1" 200 2399
+INFO 2023-10-03 21:48:53,683 basehttp 18588 9964 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:48:58,123 basehttp 18588 9964 "POST /orders/show/ HTTP/1.1" 200 4853
+INFO 2023-10-03 21:49:19,899 basehttp 18588 9964 "GET /dz2/ HTTP/1.1" 200 1254
+INFO 2023-10-03 21:49:24,255 basehttp 18588 9964 "GET /orders/ HTTP/1.1" 200 2502
+INFO 2023-10-03 21:49:31,682 basehttp 18588 9964 "GET /dz2/orders/ HTTP/1.1" 200 3082

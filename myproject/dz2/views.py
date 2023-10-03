@@ -35,26 +35,29 @@ def init_bases(request):
 
     order = Orders(customer=User.objects.get(username="John"), total_price=200, date_ordered=datetime.datetime)
     order.save()
-    g=Goods.objects.filter(goods_name="TV").first()
-    print(g)
-    order.goods.add(g)    
+    # g=Goods.objects.filter(goods_name="TV").first()
+    # print(g)
+    order.goods.add(Goods.objects.filter(goods_name="TV").first())  
+    order.goods.add(Goods.objects.filter(goods_name="TV_1").first())
+    order.save()   
+    
     order = Orders(customer=User.objects.get(username="John"), total_price=250, date_ordered=datetime.datetime)
     order.save()
-    g=Goods.objects.filter(goods_name="TV_2").first()
-    order.goods.add(g)
+    order.goods.add(Goods.objects.filter(goods_name="TV_2").first())
+    order.save()
+    
     order = Orders(customer=User.objects.get(username="Bony"), total_price=210, date_ordered=datetime.datetime)
     order.save()
-    g=Goods.objects.filter(goods_name="TV").first()
-    order.goods.add(g)
-    order = Orders(customer=User.objects.get(username="Bony"), total_price=300, date_ordered=datetime.datetime)
+    order.goods.add(Goods.objects.filter(goods_name="TV_2").first())
+    order.goods.add(Goods.objects.filter(goods_name="TV_1").first())
+    order.goods.add(Goods.objects.filter(goods_name="TV").first())
     order.save()
-    g=Goods.objects.filter(goods_name="TV_3").first()
-    order.goods.add(g)
+    
     order = Orders(customer=User.objects.get(username="Claid"), total_price=215.5, date_ordered=datetime.datetime)
+    order.save() 
+    order.goods.add(Goods.objects.filter(goods_name="TV").first())
+    order.goods.add(Goods.objects.filter(goods_name="TV_1").first())
     order.save()
-    g=Goods.objects.filter(goods_name="TV").first()
-    g1=Goods.objects.filter(goods_name="TV_2").first()    
-    order.goods.add(g, g1)
     return render(request, "base.html", context = {"body": "index page", "title":"Главная страница"})   
     
 
@@ -73,10 +76,16 @@ def read_goods(request):
     return render(request, "goods.html", context = {"goods": goods, "title":"Главная страница"})     
 
 def read_orders(request):
-    orders = Orders.objects.all()
+    # orders = Orders.objects.all()
     # .join(User).join(Goods)
     goods = Goods.objects.all()
     user = User.objects.all()
+    for usr in user:
+        orders = usr.orders_set.all()
+        # print(f"user = {usr},  order = {orders}")
+    # orders = Orders.objects.all()
+    # for order in orders:
+    #     print(f"user = {order.customer.username}, order = {order}")
     return render(request, "orders.html", context = {"orders": orders, "users": user, "goods": goods, "title":"Главная страница"})     
 
 

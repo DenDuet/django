@@ -1,0 +1,33 @@
+{% extends 'base1.html' %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block content %}
+  <form action="/orders/show/" method="post">
+    {% csrf_token %}
+    <div class="input">
+      <div class="blockinput">
+        <input type="text" name="username" list="character" placeholder="Выберите имя пользователя" />
+        <datalist id="character">
+          {% for user in users %}
+            <option value="{{ user.username }}"></option>
+          {% endfor %}
+        </datalist>
+      </div>
+      <div class="blockinput">
+        <input type="text" name="choice" list="choice" placeholder="Выберите вариант" />
+        <datalist id="choice">
+          {% for var in vars %}
+            <option value="{{ var }}"></option>
+          {% endfor %}
+        </datalist>
+      </div>
+    </div>
+    <div>
+      <input class="in_submit" type="submit" value="Добавить заказ" />
+    </div>
+  </form>
+  <br /><br /><br /><br /><br />
+{% endblock %}

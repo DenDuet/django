@@ -10,14 +10,13 @@
       <p class="col-12 col-md-6">
         ID заказа: {{ order.id }}<br />
         Имя пользователя: {{ order.customer.username }}<br />
-        Наименование товара: {{ order.goods.goods.name }}<br />
+        Наименование товара: {{ order }}<br />
         Дата заказа: {{ order.date_ordered }}<br />
         Стоимость заказа: {{ order.total_price }}<br />
       </p>
       <div class="delete">
         <a href="/orders/delete/{{ order.id }}/">Удалить заказ</a>
       </div>
-
       <br />
       <br />
     {% endfor %}
