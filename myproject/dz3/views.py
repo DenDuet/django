@@ -3,6 +3,8 @@ from django.forms import Form
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from dz3.models import User, Goods, Orders
+from django.core.files.storage import FileSystemStorage
+from .forms import ImageForm
 # from django.views.decorators.csrf import csrf_protect
 
 import logging
@@ -110,3 +112,19 @@ def orders_show(request):
         orders = user.orders_set.filter(date_ordered__range=(start_date, current_date)).order_by('date_ordered__year')        
     return render(request, "dz3/orders2.html", context = {"orders": orders, "user": user ,"goods": goods, "title":"Главная страница","period": choice})     
 
+
+def upload_image(request, goods_id):
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            filename = fs.save(image.name, image)
+            file_url = fs.url(filename)
+            good = Goods.objects.get(pk=goods_id)
+            good.image = file_url
+            good.save()
+    else:
+        form = ImageForm()
+    return render(request, 'dz3/upload_image.html', {'form':
+form})

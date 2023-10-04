@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.core.management.base import BaseCommand
 
@@ -19,6 +20,7 @@ class Goods(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     quantity = models.DecimalField(max_digits=8, decimal_places=2) 
     add_date = models.DateTimeField(auto_now_add=False)   
+    image = models.ImageField(upload_to =settings.MEDIA_ROOT)
     def __str__(self):
         return f'Product: {self.goods_name}, price: {self.price}, quantity: {self.quantity}'    
 

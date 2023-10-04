@@ -5872,3 +5872,675 @@ INFO 2023-10-03 23:58:39,450 basehttp 6996 5144 "POST /orders/show/ HTTP/1.1" 20
 INFO 2023-10-03 23:58:41,450 basehttp 6996 5144 "GET /orders/ HTTP/1.1" 200 2502
 INFO 2023-10-03 23:58:45,146 basehttp 6996 5144 "POST /orders/show/ HTTP/1.1" 200 4853
 INFO 2023-10-03 23:59:02,376 basehttp 6996 5144 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 22:14:11,232 autoreload 11444 17584 Watching for file changes with StatReloader
+INFO 2023-10-04 22:14:17,533 basehttp 11444 8996 "GET / HTTP/1.1" 200 1254
+WARNING 2023-10-04 22:14:17,707 log 11444 8996 Not Found: /favicon.ico
+WARNING 2023-10-04 22:14:17,708 basehttp 11444 8996 "GET /favicon.ico HTTP/1.1" 404 3174
+INFO 2023-10-04 22:14:22,292 basehttp 11444 8996 "GET /users/ HTTP/1.1" 200 3766
+INFO 2023-10-04 22:14:26,867 basehttp 11444 8996 "GET /goods/ HTTP/1.1" 200 4635
+INFO 2023-10-04 22:19:57,367 autoreload 11444 17584 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 22:19:57,910 autoreload 2720 14588 Watching for file changes with StatReloader
+INFO 2023-10-04 22:21:02,107 autoreload 2720 14588 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 22:21:02,524 autoreload 6460 18868 Watching for file changes with StatReloader
+INFO 2023-10-04 22:22:05,349 autoreload 6460 18868 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 22:22:05,774 autoreload 15776 4272 Watching for file changes with StatReloader
+INFO 2023-10-04 22:27:58,744 autoreload 15776 4272 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 22:27:59,241 autoreload 16612 9896 Watching for file changes with StatReloader
+INFO 2023-10-04 22:29:10,740 basehttp 16612 15952 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 22:29:17,959 basehttp 16612 15952 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 22:29:19,252 basehttp 16612 15952 "GET /goods/ HTTP/1.1" 200 5239
+INFO 2023-10-04 22:30:43,158 basehttp 16612 15952 "GET /goods/ HTTP/1.1" 200 5239
+INFO 2023-10-04 22:30:47,955 basehttp 16612 15952 "GET /goods/ HTTP/1.1" 200 5303
+INFO 2023-10-04 22:31:03,315 basehttp 16612 15952 "GET /goods/ HTTP/1.1" 200 5083
+ERROR 2023-10-04 22:31:04,632 log 16612 15952 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 119, in upload_image
+    if form.is_valid():
+UnboundLocalError: local variable 'form' referenced before assignment
+ERROR 2023-10-04 22:31:04,634 basehttp 16612 15952 "GET /upload/ HTTP/1.1" 500 69468
+INFO 2023-10-04 22:34:36,785 autoreload 16612 9896 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 22:34:37,247 autoreload 2512 17776 Watching for file changes with StatReloader
+ERROR 2023-10-04 22:34:37,535 log 2512 12480 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 119, in upload_image
+    if form.is_valid():
+UnboundLocalError: local variable 'form' referenced before assignment
+ERROR 2023-10-04 22:34:37,537 basehttp 2512 12480 "GET /upload/ HTTP/1.1" 500 69609
+INFO 2023-10-04 22:35:19,855 autoreload 2512 17776 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 22:35:20,283 autoreload 8116 7432 Watching for file changes with StatReloader
+ERROR 2023-10-04 22:35:24,187 log 8116 19400 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 119, in upload_image
+    if form.is_valid():
+UnboundLocalError: local variable 'form' referenced before assignment
+ERROR 2023-10-04 22:35:24,188 basehttp 8116 19400 "GET /upload/ HTTP/1.1" 500 69605
+INFO 2023-10-04 22:39:40,562 autoreload 8116 7432 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 22:39:41,000 autoreload 13384 16620 Watching for file changes with StatReloader
+INFO 2023-10-04 22:39:44,051 basehttp 13384 20060 "GET /upload/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:39:47,196 basehttp 13384 20060 "GET /goods/ HTTP/1.1" 200 5083
+INFO 2023-10-04 22:39:48,774 basehttp 13384 20060 "GET /upload/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:40:12,522 basehttp 13384 20060 "POST /upload/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:40:15,856 basehttp 13384 20060 "GET /goods/ HTTP/1.1" 200 5083
+INFO 2023-10-04 22:40:17,323 basehttp 13384 20060 "GET /upload/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:40:21,729 basehttp 13384 20060 "POST /upload/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:47:24,139 autoreload 13384 16620 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 22:47:24,598 autoreload 14416 17028 Watching for file changes with StatReloader
+INFO 2023-10-04 22:50:26,540 autoreload 14416 17028 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 22:50:26,970 autoreload 13224 14972 Watching for file changes with StatReloader
+INFO 2023-10-04 22:50:32,582 basehttp 13224 2708 "GET /goods/ HTTP/1.1" 200 5099
+INFO 2023-10-04 22:50:34,471 basehttp 13224 2708 "GET /upload/125/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:50:39,287 basehttp 13224 2708 "POST /upload/125/ HTTP/1.1" 200 1698
+INFO 2023-10-04 22:51:10,540 basehttp 13224 2708 "GET /goods/ HTTP/1.1" 200 5099
+INFO 2023-10-04 22:56:03,645 autoreload 13224 14972 D:\Django\DZ\project\myproject\dz3\models.py changed, reloading.
+INFO 2023-10-04 22:56:04,087 autoreload 14756 17176 Watching for file changes with StatReloader
+INFO 2023-10-04 22:56:35,341 autoreload 14756 17176 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 22:56:35,790 autoreload 2888 20552 Watching for file changes with StatReloader
+INFO 2023-10-04 22:57:38,943 autoreload 2888 20552 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 22:57:39,364 autoreload 15496 2912 Watching for file changes with StatReloader
+INFO 2023-10-04 22:59:59,706 autoreload 15496 2912 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 23:00:00,135 autoreload 10868 10996 Watching for file changes with StatReloader
+INFO 2023-10-04 23:05:39,041 autoreload 20032 16620 Watching for file changes with StatReloader
+INFO 2023-10-04 23:05:39,298 basehttp 20032 14764 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 23:05:43,238 basehttp 20032 14764 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 23:05:45,812 basehttp 20032 14764 "GET /goods/ HTTP/1.1" 200 5228
+WARNING 2023-10-04 23:05:45,840 log 20032 14764 Not Found: /goods/foto4.jpg
+WARNING 2023-10-04 23:05:45,840 basehttp 20032 14764 "GET /goods/foto4.jpg HTTP/1.1" 404 3382
+INFO 2023-10-04 23:07:14,483 basehttp 20032 14764 "GET /goods/ HTTP/1.1" 200 5228
+WARNING 2023-10-04 23:07:14,512 log 20032 14764 Not Found: /goods/foto4.jpg
+WARNING 2023-10-04 23:07:14,513 basehttp 20032 14764 "GET /goods/foto4.jpg HTTP/1.1" 404 3382
+INFO 2023-10-04 23:07:18,287 basehttp 20032 14764 "GET /goods/ HTTP/1.1" 200 5228
+WARNING 2023-10-04 23:07:18,307 log 20032 14764 Not Found: /goods/foto4.jpg
+WARNING 2023-10-04 23:07:18,308 basehttp 20032 14764 "GET /goods/foto4.jpg HTTP/1.1" 404 3382
+INFO 2023-10-04 23:08:53,123 autoreload 20032 16620 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 23:08:53,576 autoreload 6668 11676 Watching for file changes with StatReloader
+INFO 2023-10-04 23:09:12,372 autoreload 6668 11676 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 23:09:12,800 autoreload 18428 9588 Watching for file changes with StatReloader
+INFO 2023-10-04 23:21:30,339 autoreload 18428 9588 D:\Django\DZ\project\myproject\dz3\urls.py changed, reloading.
+INFO 2023-10-04 23:21:30,770 autoreload 10648 1640 Watching for file changes with StatReloader
+ERROR 2023-10-04 23:21:34,655 log 10648 6880 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'thumbnail' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-04 23:21:34,663 basehttp 10648 6880 "GET /goods/ HTTP/1.1" 500 218525
+ERROR 2023-10-04 23:23:25,402 log 10648 6880 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'thumbnail' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-04 23:23:25,411 basehttp 10648 6880 "GET /goods/ HTTP/1.1" 500 218382
+ERROR 2023-10-04 23:23:40,087 log 10648 6880 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'thumbnail' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-04 23:23:40,094 basehttp 10648 6880 "GET /goods/ HTTP/1.1" 500 210743
+ERROR 2023-10-04 23:23:48,823 log 10648 6880 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'thumbnail' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-04 23:23:48,828 basehttp 10648 6880 "GET /goods/ HTTP/1.1" 500 210606
+INFO 2023-10-04 23:24:04,656 basehttp 10648 6880 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-04 23:24:05,824 log 10648 6880 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'thumbnail', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-10-04 23:24:05,829 basehttp 10648 6880 "GET /goods/ HTTP/1.1" 500 204357
+ERROR 2023-10-04 23:24:27,705 log 10648 6880 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'image' attribute has no file associated with it.
+ERROR 2023-10-04 23:24:27,711 basehttp 10648 6880 "GET /goods/ HTTP/1.1" 500 193777
+INFO 2023-10-04 23:26:19,869 autoreload 10648 1640 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 23:26:20,319 autoreload 2012 16076 Watching for file changes with StatReloader
+INFO 2023-10-04 23:34:18,965 autoreload 2012 16076 D:\Django\DZ\project\myproject\dz3\views.py changed, reloading.
+INFO 2023-10-04 23:34:19,423 autoreload 6872 10236 Watching for file changes with StatReloader
+ERROR 2023-10-04 23:34:23,357 log 6872 5456 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'image' attribute has no file associated with it.
+ERROR 2023-10-04 23:34:23,363 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 500 193777
+INFO 2023-10-04 23:34:26,134 basehttp 6872 5456 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 23:34:28,881 basehttp 6872 5456 "GET / HTTP/1.1" 200 1254
+ERROR 2023-10-04 23:34:29,908 log 6872 5456 Internal Server Error: /goods/
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\DZ\project\myproject\dz3\views.py", line 81, in read_goods
+    return render(request, "dz3/goods.html", context = {"goods": goods, "title":"Главная страница"})
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "D:\Django\DZ\project\venv\lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'image' attribute has no file associated with it.
+ERROR 2023-10-04 23:34:29,912 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 500 193640
+INFO 2023-10-04 23:35:28,757 basehttp 6872 5456 "GET / HTTP/1.1" 200 1254
+INFO 2023-10-04 23:35:29,472 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 200 5241
+WARNING 2023-10-04 23:35:29,498 log 6872 5456 Not Found: /goods/foto4.jpg
+WARNING 2023-10-04 23:35:29,499 basehttp 6872 5456 "GET /goods/foto4.jpg HTTP/1.1" 404 3555
+INFO 2023-10-04 23:38:53,876 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 200 5297
+WARNING 2023-10-04 23:38:53,898 log 6872 5456 Not Found: /goods/foto4.jpg
+WARNING 2023-10-04 23:38:53,899 basehttp 6872 5456 "GET /goods/foto4.jpg HTTP/1.1" 404 3555
+INFO 2023-10-04 23:39:00,347 basehttp 6872 5456 "GET /upload/125/ HTTP/1.1" 200 1698
+INFO 2023-10-04 23:39:04,913 basehttp 6872 5456 "POST /upload/125/ HTTP/1.1" 200 1698
+INFO 2023-10-04 23:39:07,168 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 200 5327
+INFO 2023-10-04 23:39:07,277 basehttp 6872 5456 "GET /media/foto2_AQyr5CL.jpg HTTP/1.1" 200 130835
+INFO 2023-10-04 23:39:10,522 basehttp 6872 5456 "GET /upload/126/ HTTP/1.1" 200 1698
+INFO 2023-10-04 23:39:14,418 basehttp 6872 5456 "POST /upload/126/ HTTP/1.1" 200 1698
+INFO 2023-10-04 23:39:15,724 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 200 5359
+INFO 2023-10-04 23:39:15,743 basehttp 6872 8624 "GET /media/foto2_AQyr5CL.jpg HTTP/1.1" 304 0
+INFO 2023-10-04 23:39:15,749 basehttp 6872 5456 "GET /media/foto1.jpg HTTP/1.1" 200 100657
+INFO 2023-10-04 23:39:28,667 basehttp 6872 5456 "GET /users/ HTTP/1.1" 200 3766
+INFO 2023-10-04 23:39:29,396 basehttp 6872 5456 "GET /goods/ HTTP/1.1" 200 5359
+INFO 2023-10-04 23:39:29,413 basehttp 6872 5456 "GET /media/foto2_AQyr5CL.jpg HTTP/1.1" 304 0
+INFO 2023-10-04 23:39:29,413 basehttp 6872 8624 "GET /media/foto1.jpg HTTP/1.1" 304 0

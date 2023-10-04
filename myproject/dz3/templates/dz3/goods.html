@@ -14,7 +14,12 @@
         Цена товара: {{ good.price }}<br />
         Количество товара: {{ good.quantity }}<br />
         Дата создания: {{ good.add_date }}<br />
+        <img src="{{ good.image }}" width="100px" alt="{{ good.image }}" />
       </p>
+
+      <div class="image">
+        <a href="/upload/{{ good.id }}/">Загрузить изображение</a>
+      </div>
       <div class="delete">
         <a href="/goods/delete/{{ good.id }}/">Удалить товар</a>
       </div>
