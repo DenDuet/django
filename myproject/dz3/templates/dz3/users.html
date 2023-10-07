@@ -5,40 +5,57 @@
 {% endblock %}
 
 {% block content %}
+  <br /><br />
   <div class="row">
-    {% for user in users %}
-      <p class="col-12 col-md-6">
-        ID пользователя: {{ user.id }}<br />
-        Имя пользователя: {{ user.username }}<br />
-        Email пользователя: {{ user.email }}<br />
-        Телефон пользователя: {{ user.phone }}<br />
-        Адрес пользователя: {{ user.address }}<br />
-        Дата создания: {{ user.reg_date }}<br />
-      </p>
-      <div class="delete">
-        <a href="/users/delete/{{ user.id }}/">Удалить пользователя</a>
-      </div>
-
-      <br />
-      <br />
-    {% endfor %}
+    <table>
+      <tr>
+        <th>ID пользователя:</th>
+        <th>Имя пользователя:</th>
+        <th>Email пользователя:</th>
+        <th>Телефон пользователя:</th>
+        <th>Адрес пользователя:</th>
+        <th>Дата создания:</th>
+      </tr>
+      {% for user in users %}
+        <tr>
+          <td>{{ user.id }}</td>
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.phone }}</td>
+          <td>{{ user.address }}</td>
+          <td>{{ user.reg_date }}</td>
+          <td>
+            <a href="/users/delete/{{ user.id }}/">Удалить</a>
+          </td>
+          <td>
+            <a href="/users/edit/{{ user.id }}/">Изменить</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
   </div>
+  <br /><br /><br />
   <form action="/users/create/" method="post">
-    username{% csrf_token %}
+    {% csrf_token %}
+    <h2>Добавить пользователя в базу</h2>
     <div class="input">
       <div class="blockinput">
+        <label for="username">Имя:</label>
         <input type="text" name="username" placeholder="Имя" />
       </div>
 
       <div class="blockinput">
+        <label for="email">Почта:</label>
         <input type="email" name="email" placeholder="e-mail" />
       </div>
 
       <div class="blockinput">
+        <label for="phone">Телефон:</label>
         <input type="text" name="phone" placeholder="Телефон" />
       </div>
 
       <div class="blockinput">
+        <label for="address">Адрес:</label>
         <input type="text" name="address" placeholder="Адрес" />
       </div>
     </div>

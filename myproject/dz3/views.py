@@ -1,10 +1,12 @@
-import datetime
+# import datetime
+import time
+from datetime import datetime, date, timedelta, time
 from django.forms import Form
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from dz3.models import User, Goods, Orders
 from django.core.files.storage import FileSystemStorage
-from .forms import ImageForm
+from .forms import ImageForm, UserForm
 # from django.views.decorators.csrf import csrf_protect
 
 import logging
@@ -30,7 +32,8 @@ def str_time_prop(start, end, time_format, prop):
 
     return time.strftime(time_format, time.localtime(ptime))
 
-
+# time.strftime('%Y-%m-%d %H:%M', time.localtime(time.mktime(time.strptime( , '%Y-%m-%d %H:%M')))
+            #   datetime.today().strftime('%Y-%m-%d %H:%M')
 def random_date(start, end, prop):
     return str_time_prop(start, end, '%Y-%m-%d %H:%M', prop)
     
@@ -99,16 +102,18 @@ def orders_show(request):
     print(username, choice, index)
     goods = Goods.objects.all()
     user = User.objects.get(username=username)
-    current_date = datetime.datetime.now().date()
+    current_date = datetime.today()
+    # .strftime('%Y-%m-%d %H:%M')
+    # datetime.datetime.now().date().strftime('%Y-%m-%d %a %H:%M')
 
     if index==0:
-        start_date = current_date - datetime.timedelta(days=7)        
+        start_date = current_date - timedelta(days=7)
         orders = user.orders_set.filter(date_ordered__range=(start_date, current_date)).order_by('date_ordered__day')        
     elif index==1:
-        start_date = current_date - datetime.timedelta(days=30)        
+        start_date = current_date - timedelta(days=30)
         orders = user.orders_set.filter(date_ordered__range=(start_date, current_date)).order_by('date_ordered__month')          
     else:
-        start_date = current_date - datetime.timedelta(days=356)        
+        start_date = current_date - timedelta(days=356)
         orders = user.orders_set.filter(date_ordered__range=(start_date, current_date)).order_by('date_ordered__year')        
     return render(request, "dz3/orders2.html", context = {"orders": orders, "user": user ,"goods": goods, "title":"Главная страница","period": choice})     
 
@@ -128,3 +133,74 @@ def upload_image(request, goods_id):
         form = ImageForm()
     return render(request, 'dz3/upload_image.html', {'form':
 form})
+    
+def delete_user(request, user_id: int):
+    user = User.objects.get(id=user_id)
+    # if user==None:  
+    #     return JsonResponse(status_code=404, content={ "message": "Пользователь не найден"})
+    user.delete()  
+    return render(request, "dz3/base.html", {"request":request, "message": "Товар удален"})
+
+def delete_good(request, goods_id: int):
+    good = Goods.objects.get(id=goods_id)
+    # if good==None:  
+    #     return JSONResponse(status_code=404, content={ "message": "Товар не найден"})
+    good.delete()  # удаляем объект
+    return render(request, "dz3/base.html", {"request":request, "message": "Товар удален"})
+
+def delete_order(request, orders_id: int):
+    order = Orders.objects.get(id=orders_id)
+    # if order==None:  
+    #     return JSONResponse(status_code=404, content={ "message": "Заказ не найден"})
+    order.delete()  # удаляем объект
+    return render(request, "dz3/base.html", {"request":request, "message": "Заказ удален"})    
+
+
+def create_user(request):
+    username = request.POST.get("username")    
+    email = request.POST.get("email")  
+    phone = request.POST.get("phone")      
+    address = request.POST.get("address")      
+    user = User(username=username, email=email, phone=phone, address=address, reg_date=datetime.today().strftime('%Y-%m-%d %H:%M')) 
+    user.save()  
+    return render(request, "dz3/base.html", context = {"users": user, "title":"Главная страница"})  
+
+def create_good(request):
+    goods_name = request.POST.get("goods_name")    
+    description = request.POST.get("description")  
+    price = request.POST.get("price")      
+    quantity = request.POST.get("quantity")     
+    good = Goods(goods_name=goods_name, description=description, price=price, quantity=quantity, add_date=datetime.today().strftime('%Y-%m-%d %H:%M'))    
+    good.save()
+    return render(request, "dz3/base.html", context = {"goods": good, "title":"Главная страница"})     
+
+def create_order(request):
+    username = request.POST.get("username")    
+    goods_name = request.POST.get("goods_name")  
+    total_price = request.POST.get("total_price")       
+    user_id = User.objects.filter(username=username).first()     
+    orders = Orders(customer=user_id, total_price=total_price, date_ordered=datetime.today().strftime('%Y-%m-%d %H:%M'))    
+    orders.save()
+    goods_id = Goods.objects.filter(goods_name = goods_name).first()
+    orders.goods.add(goods_id)    
+    return render(request, "dz3/base.html", {"request":request, "message": "Заказ добавлен"}) 
+
+
+def edit_user(request, user_id: int):
+    user = User.objects.get(pk=user_id)
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        user = User.objects.get(pk=user_id)
+        user.username = request.POST.get('username')
+        user.email = request.POST.get('email')
+        user.phone = request.POST.get('phone')
+        user.address = request.POST.get('address')
+        user.save()
+        logger.info(f'Успешно обновили пользователя {user}.')    
+        print(f"Заполненная форма прошла проверка данных  {user}")       
+        return render(request, 'dz3/base.html', {"request":request, 'users': user})
+
+    else:
+        form = UserForm({'users': user})
+        print("Пустая форма")
+    return render(request, 'dz3/edituser.html', {'users': user, 'form': form})

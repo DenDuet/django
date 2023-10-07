@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block content %}
+  <br /><br />
   <div class="row">
     {% for good in goods %}
       <p class="col-12 col-md-6">
@@ -14,7 +15,9 @@
         Цена товара: {{ good.price }}<br />
         Количество товара: {{ good.quantity }}<br />
         Дата создания: {{ good.add_date }}<br />
-        <img src="{{ good.image }}" width="100px" alt="{{ good.image }}" />
+      </p>
+      <p class="col-12 col-md-6">
+        <img src="{{ good.image }}" width="200px" alt="{{ good.image }}" />
       </p>
 
       <div class="image">
@@ -30,20 +33,25 @@
   </div>
   <form action="/goods/create/" method="post">
     {% csrf_token %}
+    <h2>Добавить товар в базу</h2>
     <div class="input">
       <div class="blockinput">
+        <label for="goods_name">Наименование:</label>
         <input type="text" name="goods_name" placeholder="Наименование товара" />
       </div>
 
       <div class="blockinput">
+        <label for="description">Описание:</label>
         <input type="text" name="description" placeholder="Описание товара" />
       </div>
 
       <div class="blockinput">
+        <label for="price">Цена:</label>
         <input type="decimal" name="price" placeholder="Цена товара" />
       </div>
 
       <div class="blockinput">
+        <label for="quantity">Количество:</label>
         <input type="decimal" name="quantity" placeholder="Количество товара" />
       </div>
     </div>
