@@ -22,5 +22,5 @@ urlpatterns = [
     # path('', include('dz1.urls')),
     # path('dz2/', include('dz2.urls')),        
     path('', include('dz3.urls')),    
-    path('__debug__/', include("debug_toolbar.urls")),
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]
