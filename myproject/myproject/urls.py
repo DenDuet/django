@@ -24,3 +24,5 @@ urlpatterns = [
     path('', include('dz3.urls')),    
     # path('__debug__/', include("debug_toolbar.urls")),
 ]
+
+# echo 'set -a; source ~/myproject/.env; set +a' >> ~/.virtualenvs/virtualenv/bin/postactivate

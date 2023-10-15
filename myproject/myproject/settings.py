@@ -36,8 +36,8 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1", 
-    'prdv.pythonanywhere.com',   
+    # "127.0.0.1", 
+    'gbdz.pythonanywhere.com',   
 ]
 
 INTERNAL_IPS = [
@@ -54,13 +54,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'dz1',
-    'dz2',
+    # 'dz2',
     'dz3',    
     # 'debug_toolbar',
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -143,10 +143,10 @@ LOGGING = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Prdv$default',
-        'USER': 'Prdv',
+        'NAME': 'gbdz$default',
+        'USER': 'gbdz',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'Prdv.mysql.pythonanywhere-services.com',
+        'HOST': 'gbdz.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
@@ -199,4 +199,4 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# ALTER DATABASE prdv$default CHARACTER SET utf8 COLLATE utf8_general_ci;
+# ALTER DATABASE gbdz$default CHARACTER SET utf8 COLLATE utf8_general_ci;
